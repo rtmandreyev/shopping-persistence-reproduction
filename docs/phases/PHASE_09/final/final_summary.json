@@ -1,0 +1,738 @@
+{
+ "disclosure": "Mercury (P-M) disclosure: production acquisition was stopped at sentinel time point 3 by the original pre-registered drift gate (P9-005). That gate was then shown, from pre-production smoke data and the frozen sentinel composition, to be statistically miscalibrated (estimated false-stop probability 0.37-0.49 under smoke-consistent models). After the stop, it was replaced (P9-006) by a stratified, 1% family-wise rule derived from the same pre-production information only. The first 1,708 responses were retained and are included in every Mercury estimate reported here, and acquisition resumed; P-M passed time point 4 under the amended rule. The amended rule needs a single BOTH-cell sentinel to move about 0.27 to stop, so its sensitivity to drift in that cell is weak; this remains a limitation.",
+ "figA": {
+  "P-J13": {
+   "ahe_history": {
+    "pp": 10.823569848794815,
+    "se_pp": 0.14131927807371053
+   },
+   "delta1_history": {
+    "pp": 13.317650202791242,
+    "se_pp": 0.10365303136152305
+   },
+   "delta4_history": {
+    "pp": 30.574810725255357,
+    "se_pp": 0.2931750454650993
+   },
+   "delta_need_latent": {
+    "pp": 18.639942950669777,
+    "se_pp": 0.2931750454650993
+   }
+  },
+  "P-J14": {
+   "ahe_history": {
+    "pp": 9.323207229087759,
+    "se_pp": 0.14564808291984546
+   },
+   "delta1_history": {
+    "pp": 11.561025830140045,
+    "se_pp": 0.10356090350458438
+   },
+   "delta4_history": {
+    "pp": 28.645134160651892,
+    "se_pp": 0.2929144685355893
+   },
+   "delta_need_latent": {
+    "pp": 11.571516142530154,
+    "se_pp": 0.2929144685355893
+   }
+  },
+  "P-M": {
+   "ahe_history": {
+    "pp": 13.936607149714469,
+    "se_pp": 0.5185648648072838
+   },
+   "delta1_history": {
+    "pp": 28.547009285626316,
+    "se_pp": 0.19606181647560766
+   },
+   "delta4_history": {
+    "pp": 65.54345748920379,
+    "se_pp": 0.5545465598466183
+   },
+   "delta_need_latent": {
+    "pp": 46.416927199990724,
+    "se_pp": 0.5545465598466183
+   }
+  }
+ },
+ "figB_naive_flag_logit_normal": {
+  "A1:P-J13": 0.0,
+  "A1:P-J14": 0.0,
+  "A1:P-M": 0.0,
+  "A2:P-J13": 0.885,
+  "A2:P-J14": 0.0,
+  "A2:P-M": 1.0,
+  "A3:P-J13": 0.0,
+  "A3:P-J14": 0.0,
+  "A3:P-M": 1.0,
+  "A4:P-J13": 0.01,
+  "A4:P-J14": 0.0,
+  "A4:P-M": 1.0,
+  "A5:P-J13": 0.995,
+  "A5:P-J14": 0.0,
+  "A5:P-M": 1.0,
+  "A6:P-J13": 1.0,
+  "A6:P-J14": 0.995,
+  "A6:P-M": 1.0,
+  "A7:P-J13": 1.0,
+  "A7:P-J14": 0.0,
+  "A7:P-M": 1.0,
+  "B4:P-J13": 1.0,
+  "B4:P-J14": 1.0,
+  "B4:P-M": 1.0,
+  "B8:P-J13": 1.0,
+  "B8:P-J14": 1.0,
+  "B8:P-M": 1.0
+ },
+ "figC": {
+  "p9007": [
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 2.099871963119834,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B1"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 4.30653028268695,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B2"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 6.595401636139686,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B3"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 8.955333851793743,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B4"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 2.2997908216752414,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B5"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 4.678142246779892,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B6"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 7.11249865460555,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-J13",
+    "truth": "B7"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 9.668859992635133,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-J13",
+    "truth": "B8"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 1.8427186073704522,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B1"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 3.7721404209087863,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B2"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 5.76524697723811,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B3"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 7.815189117812816,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-J14",
+    "truth": "B4"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 2.042170847041137,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B5"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 4.151989894321961,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B6"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 6.335407106189937,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-J14",
+    "truth": "B7"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 8.58942464367016,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-J14",
+    "truth": "B8"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 8.53255988643809,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B1"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 15.44591612171759,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B2"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 19.94195244716441,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B3"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 26.585896441829853,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B4"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 5.195496050843522,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B5"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 9.35373866612818,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B6"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 12.495955401252322,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B7"
+   },
+   {
+    "arm": "logit_normal",
+    "delta1_pp": 15.346787959425775,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B8"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 2.10661776017122,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B1"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 4.307134953002569,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B2"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 6.583350859014125,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B3"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 8.946949653471219,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B4"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 2.286715928195732,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B5"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 4.659288783121906,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B6"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 7.10654946399585,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B7"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 9.601938077229637,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J13",
+    "truth": "B8"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 1.8148108739424356,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B1"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 3.7129352604205703,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B2"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 5.667273302896213,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B3"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 7.6953472791108615,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B4"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 2.0053562785447268,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B5"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 4.094100656889112,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B6"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 6.256592211836136,
+    "det": 0.0,
+    "dominant": "EQUIVALENT",
+    "policy": "P-J14",
+    "truth": "B7"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 8.494714730285624,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-J14",
+    "truth": "B8"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 8.274480680012282,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B1"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 15.319390280437108,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B2"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 20.700438943231454,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B3"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 26.433805347642902,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B4"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 5.4029854249459985,
+    "det": 0.0,
+    "dominant": "UNRESOLVED",
+    "policy": "P-M",
+    "truth": "B5"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 10.021046784739312,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B6"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 13.892730339833669,
+    "det": 0.0,
+    "dominant": "NEITHER",
+    "policy": "P-M",
+    "truth": "B7"
+   },
+   {
+    "arm": "mixture",
+    "delta1_pp": 17.003171315864897,
+    "evaluated": false,
+    "policy": "P-M",
+    "truth": "B8"
+   }
+  ],
+  "phase8": {
+   "logit_normal": [
+    [
+     2.5,
+     0.0
+    ],
+    [
+     5.0,
+     0.0
+    ],
+    [
+     10.0,
+     0.005
+    ],
+    [
+     20.0,
+     0.285
+    ],
+    [
+     30.0,
+     0.645
+    ]
+   ],
+   "mixture": [
+    [
+     2.5,
+     0.0
+    ],
+    [
+     5.0,
+     0.0
+    ],
+    [
+     10.0,
+     0.0
+    ],
+    [
+     15.0,
+     0.47
+    ],
+    [
+     20.0,
+     0.21
+    ],
+    [
+     30.0,
+     0.245
+    ]
+   ]
+  }
+ },
+ "inputs": {
+  "main_results_sha256": "963e65e9172cd884361c39d49ec1b543dd529989d10c25b1ac6558b0854c7c69",
+  "p9007_results_sha256": "a38d979057649663bda47561568b29ada5a8fd9ecc9d1ed847d43ae0208fa5ac",
+  "phase8_rq2_results_file_sha256": "4480b8af347cfaaad9406d312ec620897e386c1eeee9eb41274f5df8fbe5ce78"
+ },
+ "status": "FINAL (Phase 9 accepted; see P9-008)",
+ "tableA": [
+  {
+   "ahe_history": [
+    10.82,
+    0.14,
+    "POSITIVE"
+   ],
+   "base_rate_mae": 0.031,
+   "delta1_history": [
+    13.32,
+    0.1,
+    "POSITIVE"
+   ],
+   "delta4_history": [
+    30.57,
+    0.29,
+    "POSITIVE"
+   ],
+   "delta_need_both": [
+    21.53,
+    0.07,
+    "POSITIVE"
+   ],
+   "delta_need_latent": [
+    18.64,
+    0.29,
+    "POSITIVE"
+   ],
+   "policy": "Jev 1.13",
+   "sigma_rep": 0.0112,
+   "validity": [
+    "INTERPRETABLE"
+   ]
+  },
+  {
+   "ahe_history": [
+    9.32,
+    0.15,
+    "POSITIVE"
+   ],
+   "base_rate_mae": 0.036,
+   "delta1_history": [
+    11.56,
+    0.1,
+    "POSITIVE"
+   ],
+   "delta4_history": [
+    28.65,
+    0.29,
+    "POSITIVE"
+   ],
+   "delta_need_both": [
+    11.2,
+    0.07,
+    "POSITIVE"
+   ],
+   "delta_need_latent": [
+    11.57,
+    0.29,
+    "POSITIVE"
+   ],
+   "policy": "Jev 1.14",
+   "sigma_rep": 0.0112,
+   "validity": [
+    "INTERPRETABLE"
+   ]
+  },
+  {
+   "ahe_history": [
+    13.94,
+    0.52,
+    "POSITIVE"
+   ],
+   "base_rate_mae": 0.197,
+   "delta1_history": [
+    28.55,
+    0.2,
+    "POSITIVE"
+   ],
+   "delta4_history": [
+    65.54,
+    0.55,
+    "POSITIVE"
+   ],
+   "delta_need_both": [
+    52.51,
+    0.14,
+    "POSITIVE"
+   ],
+   "delta_need_latent": [
+    46.42,
+    0.55,
+    "POSITIVE"
+   ],
+   "policy": "Mercury",
+   "sigma_rep": 0.0212,
+   "validity": [
+    "INTERPRETABLE"
+   ]
+  }
+ ],
+ "tableB": [
+  {
+   "class": "no own-history (A1\u2013A7)",
+   "delta1_pp_range": [
+    0.0,
+    9.6
+   ],
+   "evaluated": "14/14",
+   "max_hf_any_kappa": 0.0,
+   "naive_flag_range": [
+    0.0,
+    1.0
+   ],
+   "policy": "Jev 1.13",
+   "verdicts_k025": {
+    "EQUIVALENT": 0.986,
+    "UNRESOLVED": 0.014
+   }
+  },
+  {
+   "class": "own history (B1\u2013B8)",
+   "delta1_pp_range": [
+    2.1,
+    9.7
+   ],
+   "evaluated": "16/16",
+   "max_hf_any_kappa": 0.0,
+   "naive_flag_range": [
+    0.94,
+    1.0
+   ],
+   "policy": "Jev 1.13",
+   "verdicts_k025": {
+    "EQUIVALENT": 0.82,
+    "LATENT_FAVOURED": 0.004,
+    "UNRESOLVED": 0.176
+   }
+  },
+  {
+   "class": "no own-history (A1\u2013A7)",
+   "delta1_pp_range": [
+    0.0,
+    8.6
+   ],
+   "evaluated": "14/14",
+   "max_hf_any_kappa": 0.0,
+   "naive_flag_range": [
+    0.0,
+    0.99
+   ],
+   "policy": "Jev 1.14",
+   "verdicts_k025": {
+    "EQUIVALENT": 0.99,
+    "UNRESOLVED": 0.01
+   }
+  },
+  {
+   "class": "own history (B1\u2013B8)",
+   "delta1_pp_range": [
+    1.8,
+    8.6
+   ],
+   "evaluated": "16/16",
+   "max_hf_any_kappa": 0.0,
+   "naive_flag_range": [
+    0.59,
+    1.0
+   ],
+   "policy": "Jev 1.14",
+   "verdicts_k025": {
+    "EQUIVALENT": 0.727,
+    "UNRESOLVED": 0.273
+   }
+  },
+  {
+   "class": "no own-history (A1\u2013A7)",
+   "delta1_pp_range": [
+    0.0,
+    23.6
+   ],
+   "evaluated": "7/14",
+   "max_hf_any_kappa": 0.0,
+   "naive_flag_range": [
+    0.0,
+    1.0
+   ],
+   "policy": "Mercury",
+   "verdicts_k025": {
+    "EQUIVALENT": 0.571,
+    "LATENT_FAVOURED": 0.169,
+    "UNRESOLVED": 0.26
+   }
+  },
+  {
+   "class": "own history (B1\u2013B8)",
+   "delta1_pp_range": [
+    5.4,
+    26.6
+   ],
+   "evaluated": "9/16",
+   "max_hf_any_kappa": 0.0,
+   "naive_flag_range": [
+    1.0,
+    1.0
+   ],
+   "policy": "Mercury",
+   "verdicts_k025": {
+    "NEITHER": 0.792,
+    "UNRESOLVED": 0.208
+   }
+  }
+ ]
+}

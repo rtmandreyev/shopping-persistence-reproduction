@@ -1,0 +1,481 @@
+{
+  "logit_normal": {
+    "A1": {
+      "assessable_panels": 200,
+      "gate": {
+        "pass": true,
+        "points": {
+          "T0|A1": {
+            "G1_truth_inclusion": {
+              "0.15": 0.975,
+              "0.25": 0.975,
+              "0.35": 0.975
+            },
+            "G2_family_adequate": 0.975,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "G5_a1_history_favoured": 0.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true,
+              "G5": true
+            },
+            "pass": true,
+            "recovery_mean": null,
+            "recovery_sd": null
+          }
+        }
+      },
+      "infeasible_truths": [],
+      "pass": true
+    },
+    "A1_PRIME": {
+      "assessable_panels": 1600,
+      "gate": {
+        "pass": true,
+        "points": {
+          "T1|rho=0.5,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.7957769570330058,
+            "recovery_sd": 0.9108263896756033
+          },
+          "T1|rho=0.5,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 0.97,
+              "0.25": 0.97,
+              "0.35": 0.97
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 2.273769892204934,
+            "recovery_sd": 0.8655333646876393
+          },
+          "T1|rho=0.8,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.99,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.3345127682947805,
+            "recovery_sd": 0.2305488605688745
+          },
+          "T1|rho=0.8,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 1.0,
+              "0.25": 1.0,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.385571350014251,
+            "recovery_sd": 0.5233418614437436
+          },
+          "T1|rho=0.9,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.975,
+              "0.25": 0.975,
+              "0.35": 0.99
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.20839555939619792,
+            "recovery_sd": 0.1370817390755252
+          },
+          "T1|rho=0.9,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 1.0,
+              "0.25": 1.0,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.058461988120119,
+            "recovery_sd": 0.317710148213368
+          },
+          "T1|rho=0.95,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.945,
+              "0.25": 0.95,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.4353253249673429,
+            "recovery_sd": 0.17024604210950317
+          },
+          "T1|rho=0.95,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.3230699421205052,
+            "recovery_sd": 0.38631436947021797
+          }
+        }
+      },
+      "infeasible_truths": [],
+      "pass": true
+    },
+    "A2": {
+      "assessable_panels": 200,
+      "gate": {
+        "pass": true,
+        "points": {
+          "T3|lam=0.5,D1=5.0": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.3313302826561766,
+            "recovery_sd": 0.41330890608977
+          }
+        }
+      },
+      "infeasible_truths": [
+        "lam=0.5,D1=15.0",
+        "lam=0.5,D1=30.0",
+        "lam=0.8,D1=5.0",
+        "lam=0.8,D1=15.0",
+        "lam=0.8,D1=30.0"
+      ],
+      "pass": true
+    }
+  },
+  "mixture": {
+    "A1": {
+      "assessable_panels": 200,
+      "gate": {
+        "pass": true,
+        "points": {
+          "T0|A1": {
+            "G1_truth_inclusion": {
+              "0.15": 0.965,
+              "0.25": 0.965,
+              "0.35": 0.965
+            },
+            "G2_family_adequate": 0.965,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "G5_a1_history_favoured": 0.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true,
+              "G5": true
+            },
+            "pass": true,
+            "recovery_mean": null,
+            "recovery_sd": null
+          }
+        }
+      },
+      "infeasible_truths": [],
+      "pass": true
+    },
+    "A1_PRIME": {
+      "assessable_panels": 1600,
+      "gate": {
+        "pass": true,
+        "points": {
+          "T1|rho=0.5,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.6404837896756996,
+            "recovery_sd": 0.765696833554693
+          },
+          "T1|rho=0.5,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 0.96,
+              "0.25": 0.96,
+              "0.35": 0.96
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 2.224308181189004,
+            "recovery_sd": 0.8977898919230562
+          },
+          "T1|rho=0.8,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 1.0,
+              "0.25": 1.0,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.37887026778174443,
+            "recovery_sd": 0.2440451447047813
+          },
+          "T1|rho=0.8,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 1.0,
+              "0.25": 1.0,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.5085180151817896,
+            "recovery_sd": 0.4873504137523831
+          },
+          "T1|rho=0.9,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.99,
+              "0.25": 0.99,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.20987148463985136,
+            "recovery_sd": 0.1466524232043229
+          },
+          "T1|rho=0.9,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 1.0,
+              "0.25": 1.0,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.0914665776854307,
+            "recovery_sd": 0.2701367143628569
+          },
+          "T1|rho=0.95,HIGH": {
+            "G1_truth_inclusion": {
+              "0.15": 0.96,
+              "0.25": 0.97,
+              "0.35": 1.0
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 0.4492523483848875,
+            "recovery_sd": 0.13364557499831564
+          },
+          "T1|rho=0.95,LOW": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.22813206428687,
+            "recovery_sd": 0.44191379995910385
+          }
+        }
+      },
+      "infeasible_truths": [],
+      "pass": true
+    },
+    "A2": {
+      "assessable_panels": 400,
+      "gate": {
+        "pass": true,
+        "points": {
+          "T3|lam=0.5,D1=5.0": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.2913737175892437,
+            "recovery_sd": 0.4114731734387237
+          },
+          "T3|lam=0.8,D1=5.0": {
+            "G1_truth_inclusion": {
+              "0.15": 0.995,
+              "0.25": 0.995,
+              "0.35": 0.995
+            },
+            "G2_family_adequate": 1.0,
+            "G3_true_inadequate": 0.0,
+            "G4_nr_inclusion": 1.0,
+            "checks": {
+              "G1": true,
+              "G2": true,
+              "G3": true,
+              "G4": true
+            },
+            "pass": true,
+            "recovery_mean": 1.3532053783986993,
+            "recovery_sd": 0.4481545992943531
+          }
+        }
+      },
+      "infeasible_truths": [
+        "lam=0.5,D1=15.0",
+        "lam=0.5,D1=30.0",
+        "lam=0.8,D1=15.0",
+        "lam=0.8,D1=30.0"
+      ],
+      "pass": true
+    }
+  },
+  "pass": true
+}

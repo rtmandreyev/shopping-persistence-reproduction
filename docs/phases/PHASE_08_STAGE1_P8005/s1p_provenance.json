@@ -1,0 +1,66 @@
+{
+  "archived_stage1_sha256": {
+    "design_snapshot.json": "e59d101b8900cfcb47a42d0bb7c2fdee52d8ce6160e4664a3eabfa0cfc171718",
+    "design_snapshot.sha256": "0444ef598cc4ee994fdacb9a5cf20e1e6ce4e295d7d82a959752d4c8bdcc38aa",
+    "s1_checkpoint_manifest.json": "f3235466d53cc2f22ce1fcf1296b7834806f0962566dffced2ca52dd83b9c75c",
+    "s1_provenance.json": "294fb5cb7501946cf75ac84e956c9ad2bf5b85ae068510a950449abdbc2dd5bb",
+    "s1_resolution.json": "5ffa52d9b6eb15e438aea1d015c0720c37782f142e88f86766c05ae73dd098ca",
+    "s1_span.json": "8b0b0e559261f0d6b58262a5f6f1b5681a83615b72a262d1bb3366fcb644b56b",
+    "s1_span_diagnostics.json": "4f720e389a5877cd1ecc91712d5a77b32ef564eee8f18bb7ff1d9b2366e41505"
+  },
+  "artifact_sha256": {
+    "s1p_checkpoint_manifest.json": "0c2cee455d533221d9177f374a2a662b964642de6b3ea8428a0ce17cfed37e5c",
+    "s1p_emulator.json": "d2e8b3cfb88677849563a53229cc41f9e1a414a78ac6e4debbb3021e4b48aeb5",
+    "s1p_maps.json": "218d8f49a219b4c9d0f180318090ff981ef07bc5a6537ebc561d022e0e8edf28",
+    "s1p_resolution.json": "3d74b94e3891f5da64d22a91c68c1538c7c2f26819941b6bd3a4808de976b7a1",
+    "s1p_truths.json": "c4696f577248f09fb1b27d9a9cf8903120bf6c34349926924b61d70bb40a273d"
+  },
+  "cpu_core_hours_completed_jobs": 107.45846550388887,
+  "design_snapshot_sha256": "08a6a67279cfc7d9351d3fc62c7dc5a2da7eae6d4fb40679fd23d910ffd1ef94",
+  "gates": {
+    "S1-RESOLUTION": "A1 feasible in both arms; bracket AVAILABLE",
+    "S1A": "descriptive (never a gate)",
+    "S1B": "FAIL (A2 CRN emulator gate, both arms, after refinement) -> STOP",
+    "S1C": "NOT RUN (S1B STOP)",
+    "S1D": "NOT RUN (S1B STOP)",
+    "TRUTH": "no gate truth outside the search lattice"
+  },
+  "last_checkpoint_epoch": 1792411382.6064677,
+  "launch": {
+    "caffeinate_pid": 11193,
+    "command": "caffeinate -dims uv run python scripts/run_abm.py --s1p-execute --workers 6",
+    "run_label": "S1-P8005",
+    "snapshot_sha256": "08a6a67279cfc7d9351d3fc62c7dc5a2da7eae6d4fb40679fd23d910ffd1ef94",
+    "source_commit": "727c693ce5c71dc95259fc69c775a9b769415d76",
+    "started_epoch": 1792342883.651764,
+    "started_utc": "2026-10-18T17:01:23Z",
+    "workers": 6
+  },
+  "machine": {
+    "chip": "Apple M2 Pro",
+    "efficiency_cores": 4,
+    "keep_awake": "caffeinate -dims",
+    "memory_gb": 16,
+    "performance_cores": 6,
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "power": "AC"
+  },
+  "producer": "scripts/phase8_s1p8005_artifacts.py",
+  "projected_core_hours": {
+    "basis": "Run C engineering cost probe (stage-0 seeds, outputs discarded); CPU-seconds",
+    "ceiling": 200.0,
+    "expected_wall_hours": [
+      27.9,
+      30.3
+    ],
+    "max_probe": 181.6,
+    "mean_probe": 167.5,
+    "workers": 6
+  },
+  "run_label": "S1-P8005",
+  "seed_stage_key": 11,
+  "source_commit": "727c693ce5c71dc95259fc69c775a9b769415d76",
+  "termination": "the run was terminated after the S1B outcome was determined; the remaining H2 jobs could not change it. Checkpoints are intact and resumable.",
+  "wall_hours_to_last_checkpoint": 19.027487417724398,
+  "workers": 6
+}

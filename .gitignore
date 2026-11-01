@@ -1,0 +1,14 @@
+# Build outputs and local environments
+build/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+# Licensed raw data and anything derived from it: never commit
+data/raw/dunnhumby_The-Complete-Journey/
+data/processed/
+data/warehouse/
+outputs/decision_logs/
+outputs/diagnostics/

@@ -1,0 +1,17 @@
+{
+ "logit_normal:lam=0.0,D1=20.0": {
+  "match": true,
+  "phase8_recorded": 0.285,
+  "phase9_wrapper": 0.285
+ },
+ "logit_normal:lam=0.0,D1=30.0": {
+  "match": true,
+  "phase8_recorded": 0.645,
+  "phase9_wrapper": 0.645
+ },
+ "mixture:lam=0.0,D1=15.0": {
+  "match": true,
+  "phase8_recorded": 0.47,
+  "phase9_wrapper": 0.47
+ }
+}

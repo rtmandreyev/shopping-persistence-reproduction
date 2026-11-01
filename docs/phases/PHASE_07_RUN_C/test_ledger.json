@@ -1,0 +1,39 @@
+{
+  "consumed_utc": "2026-10-15T21:09:27+00:00",
+  "data_sha256": {
+    "data/processed/econometrics_household_week.parquet": "4f30324a71f5648bf70a86a95040ae552194fb776f655755362c200ba1d4330b",
+    "data/processed/predictive_household_week_features.parquet": "723cbfa9687cd222bb7c212efaf20c39852fe346b19566d433bbf2a46e0e1ce9"
+  },
+  "design_snapshot_sha256": "e3f443fc147c57f50ea28ea255123895b5c6ac67ae07c78dcd5e89d136b33b8d",
+  "models_evaluated_once": [
+    "B0|base_rate",
+    "B1|tier0",
+    "B1|tier1",
+    "B1|tier2",
+    "B2|tier2"
+  ],
+  "selected_before_test": {
+    "B0|base_rate": {},
+    "B1|tier0": {
+      "C": 1.0
+    },
+    "B1|tier1": {
+      "C": 1.0
+    },
+    "B1|tier2": {
+      "C": 0.001
+    },
+    "B2|tier2": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 200
+    }
+  },
+  "source_commit": "618fed0ef92161fdff9c49133b35b075aa1b1e8d",
+  "started_utc": "2026-10-15T21:09:26+00:00",
+  "status": "TEST_CONSUMED",
+  "test_weeks": [
+    85,
+    101
+  ]
+}

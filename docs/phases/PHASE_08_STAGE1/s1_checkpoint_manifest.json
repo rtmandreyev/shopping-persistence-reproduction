@@ -1,0 +1,2927 @@
+{
+  "checkpoint_schema": "phase8-checkpoint-v1",
+  "config_hash": "e59d101b8900cfcb47a42d0bb7c2fdee52d8ce6160e4664a3eabfa0cfc171718",
+  "jobs": 289,
+  "manifest": [
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "38c20b99855cc28031355e13",
+      "output_sha256": "7f039ed70ad170ea056bdf8c3ae64ebb780a3e49e449c253edfc5ab0ce111120",
+      "point": "span:0,0",
+      "reps": 50,
+      "runtime_seconds": 149.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "f3b27b7e96cdca635f832079",
+      "output_sha256": "520aa3da93cae55afb7becde527caa5389f64b05465fc9dbd5819c1042335e99",
+      "point": "span:0,1",
+      "reps": 50,
+      "runtime_seconds": 136.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a52c01c137a3c5db21a32e0f",
+      "output_sha256": "5e5c443ca3ea0fde4157645e6074c939f9d709d098c40673a678a7a8f5fc0d47",
+      "point": "span:0,2",
+      "reps": 50,
+      "runtime_seconds": 128.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "214b325f5747e63101368071",
+      "output_sha256": "659cf5b004ceb31418a803b4b0238cef93279576d4f26e6be7de3bcca7a4cd6c",
+      "point": "span:0,3",
+      "reps": 50,
+      "runtime_seconds": 135.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "7c305d450c7bb286481866e8",
+      "output_sha256": "0a01bf7ec6617093e0060575918749e29b0c7a2b551777dee32a8be6ae13e54f",
+      "point": "span:0,4",
+      "reps": 50,
+      "runtime_seconds": 152.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d78d74f2e521133b696c963a",
+      "output_sha256": "2d62478d41d3ea4993f4dd9afe45197c149aafe31f4256db93dd8c7c252cf86e",
+      "point": "span:0,5",
+      "reps": 50,
+      "runtime_seconds": 134.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c4c87fec1ad8fc4cca010a6c",
+      "output_sha256": "eae719bf4a211aeafcab9031031f2d5d221a67571eb098c4c71c862fe788efc4",
+      "point": "span:0,6",
+      "reps": 50,
+      "runtime_seconds": 149.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "93eeff5bdeec779b603f0981",
+      "output_sha256": "3af530d6ac4c77b2c54cb5eb4e2889552a892612e29a30925f4d9375cbad0c93",
+      "point": "span:0,7",
+      "reps": 50,
+      "runtime_seconds": 142.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "cc72931a5e7ba8b57c8dffcb",
+      "output_sha256": "0d91379c56c44ac6612b8d6a392e5a44ba20329b6b5af723e6871c99a0b0a632",
+      "point": "span:0,8",
+      "reps": 50,
+      "runtime_seconds": 136.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "212d114302274537dbc55554",
+      "output_sha256": "d2579da709e97be139858d419b0ab6943c7594c8f7ed749e5893519599425433",
+      "point": "span:0,9",
+      "reps": 50,
+      "runtime_seconds": 141.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ceb5a338160de389196d62e8",
+      "output_sha256": "c2de1d3a47595f070cf36d5dd64f3daf1fc2edc444dcfab7a277a0e5817d35c2",
+      "point": "span:0,10",
+      "reps": 50,
+      "runtime_seconds": 145.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d2533225e5273dda5c3730c7",
+      "output_sha256": "1492c970a7178612bd9f5d697512b0eda8e01c3553181cad029676916f248c20",
+      "point": "span:0,11",
+      "reps": 50,
+      "runtime_seconds": 143.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "160ec6c90864264e1f525049",
+      "output_sha256": "f21e11ace4b033ef575f38eeeb4bad8f93802795996c16e2262c65276f1e3622",
+      "point": "span:1,0",
+      "reps": 50,
+      "runtime_seconds": 145.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "e8c2a25af2ce46f979f95955",
+      "output_sha256": "9af2d52aa93efa9d7e83ba022a86c7c8242adc6d5a2616c144ff463a5def975d",
+      "point": "span:1,1",
+      "reps": 50,
+      "runtime_seconds": 140.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "515a4f62aae45addfe4f0085",
+      "output_sha256": "e4c04497afc21da3143d7c9217d6099d9fffba7684758c8aabb8cfb2ef885084",
+      "point": "span:1,2",
+      "reps": 50,
+      "runtime_seconds": 155.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "89253e772ebf14d330d19d6e",
+      "output_sha256": "a15f0c997de2abd57feba466ffa277850eb8787ff2a28ea69f6b37a859d16df4",
+      "point": "span:1,3",
+      "reps": 50,
+      "runtime_seconds": 147.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "237c3b3712a8e43419c9b34a",
+      "output_sha256": "d653aabede4311cde90b247eeb2944c400d7f1d2ac0d66feb49d91cb32b95355",
+      "point": "span:1,4",
+      "reps": 50,
+      "runtime_seconds": 143.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "97a80160ce539ede2c7c2744",
+      "output_sha256": "ee502fa50eb1d0a6eefe53034696ba117ceb4f45b71d3799dc130c83886839c4",
+      "point": "span:1,5",
+      "reps": 50,
+      "runtime_seconds": 158.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c6f04fd7f521949660699ab0",
+      "output_sha256": "1d8eed280e23589c9603a0bfd1edcf502f829c856047a656a84c4996e43185e9",
+      "point": "span:1,6",
+      "reps": 50,
+      "runtime_seconds": 145.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a888368d0436fb754d37e1b9",
+      "output_sha256": "958cef811e8d515095c706dcbea9ae7d5de033e44ee30b156ce4f27b191a5dd0",
+      "point": "span:1,7",
+      "reps": 50,
+      "runtime_seconds": 153.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c0d9cb8b522c2e8ac71debbe",
+      "output_sha256": "af0b3a54df36ce9c3c82ddcf8c6eeb19e6d8c784191a6a0cfc0dc59e9ea7a337",
+      "point": "span:1,8",
+      "reps": 50,
+      "runtime_seconds": 136.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ba90b1e2cc134d3ea886d89c",
+      "output_sha256": "386377fb06b0e41790b16bf0aa4f0697e22469453f128605db1b3b05d0b8ceb1",
+      "point": "span:1,9",
+      "reps": 50,
+      "runtime_seconds": 145.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "f03c6846fdef7e4ca6a1825e",
+      "output_sha256": "2f625b8a6239497f572ff6b942e0ce4700de15840dc4e0740bfa0325ef7d9f29",
+      "point": "span:1,10",
+      "reps": 50,
+      "runtime_seconds": 155.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c144d8ce3c8365d6f0ba84d2",
+      "output_sha256": "df13be355d291d15243a568c725b4c2801088e59c32c630769933c8c823bbdab",
+      "point": "span:1,11",
+      "reps": 50,
+      "runtime_seconds": 139.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "2c3983503d530e785cfdeda8",
+      "output_sha256": "e964bef4f19c50a8d5316f5a3426c9057a251f5bc70c8b2a773d4772d55cae10",
+      "point": "span:2,0",
+      "reps": 50,
+      "runtime_seconds": 148.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "439d5b567b9ff30f12625d6b",
+      "output_sha256": "ff978dae920ca6e65957187b4f2b8c60c609f880cebb28746d461a1938712c57",
+      "point": "span:2,1",
+      "reps": 50,
+      "runtime_seconds": 141.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "4c60b4068354c2e8411fa812",
+      "output_sha256": "7794b3edd64a8e61d3bb35c1ee44c3b49513c640a4b0f31cfe134449d15eaee6",
+      "point": "span:2,2",
+      "reps": 50,
+      "runtime_seconds": 142.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "39c134011494236a2edd83b0",
+      "output_sha256": "a7f41a841a237c2b76b07a92e141c25ec84daaf99d1ce13893fcf0d06e92c777",
+      "point": "span:2,3",
+      "reps": 50,
+      "runtime_seconds": 139.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "b51b4885da331a6ac77f601f",
+      "output_sha256": "e0defa398769370fdf343d7d0410e89c231bd6be2575ba452674eb52f5b748cb",
+      "point": "span:2,4",
+      "reps": 50,
+      "runtime_seconds": 141.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ce64eaae63a610a6536df56a",
+      "output_sha256": "c62bc63a1e817ea91e4050bc3a6df53a4110711dfef95c626d25d32be3d9a50f",
+      "point": "span:2,5",
+      "reps": 50,
+      "runtime_seconds": 145.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1b441ef93a21a80bf108f356",
+      "output_sha256": "196b126e18f0a9845f0ba066d1bbf720772d5379c5485d9834bc51f65119e47f",
+      "point": "span:2,6",
+      "reps": 50,
+      "runtime_seconds": 158.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "812210b765c1020dbc27559a",
+      "output_sha256": "b8ca3b4645172c8b85bc5ea158cd969317a95dd0df2c1b5a2c9f87f18b859fa4",
+      "point": "span:2,7",
+      "reps": 50,
+      "runtime_seconds": 145.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c6e8daae9496ea39e9d9e564",
+      "output_sha256": "9bbbac74d010b5358579ab4a94585cda3c578873613c01f6175f6fd9c64b7c88",
+      "point": "span:2,8",
+      "reps": 50,
+      "runtime_seconds": 151.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "19c420e0a5f8174d2348d534",
+      "output_sha256": "1f60c61445a44dbea0d7cee1742268916ab104b719ffcaf17faa206a86554477",
+      "point": "span:2,9",
+      "reps": 50,
+      "runtime_seconds": 137.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c2e56713072964810d0ade18",
+      "output_sha256": "08dd0c891e92731cd4167fa86df929863b4aa8328b8a3ee93afa7dec448901c4",
+      "point": "span:2,10",
+      "reps": 50,
+      "runtime_seconds": 154.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "2a063f9224ac8c84757437ec",
+      "output_sha256": "42a994466af185d9f5c1967ea7b91e64f5e31e22cbad5990e964bd9a794cc575",
+      "point": "span:2,11",
+      "reps": 50,
+      "runtime_seconds": 146.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "6bd8a843e623f4505222b86b",
+      "output_sha256": "c68ea6d17659a0424e20544032cba7ee1982d754f035637f0951bb3e070b5ac8",
+      "point": "span:3,0",
+      "reps": 50,
+      "runtime_seconds": 129.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a48b2954b9d4bd0ab5eba28a",
+      "output_sha256": "cf7126ef770801702369f96f20056d5d0fb8ec6534a3a3911d343414edff3dd5",
+      "point": "span:3,1",
+      "reps": 50,
+      "runtime_seconds": 131.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1cf8d9a994d75d12715e7c07",
+      "output_sha256": "9c2cfc4d418928c409b86734b7c63f9e92dc8bf8f8e17d13f48b8e14ef28d527",
+      "point": "span:3,2",
+      "reps": 50,
+      "runtime_seconds": 146.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1d226b78e25e09012828726f",
+      "output_sha256": "8c586c6a656c248cec3f6b7c02afe8a9b1f29f2854d898d87dd47d66b05a7bdd",
+      "point": "span:3,3",
+      "reps": 50,
+      "runtime_seconds": 136.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "8b40b0f87f3aab00294f1dcb",
+      "output_sha256": "847885a0921f0f6d2505a93b8b14c821f1f2d3f2713f47eea0a16af9fa3684d9",
+      "point": "span:3,4",
+      "reps": 50,
+      "runtime_seconds": 150.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "57a8d61f17cf74122f0a3a1b",
+      "output_sha256": "6165839dd187fa9be2ad9eb15a3d2127ae88d5890991c89d9d130bf626928926",
+      "point": "span:3,5",
+      "reps": 50,
+      "runtime_seconds": 148.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "335bf861f2fd9a89e20b64b0",
+      "output_sha256": "c20a7a77d571d7311e09f6f254c8c741a90e12fb626457629fa2531ae46db73b",
+      "point": "span:3,6",
+      "reps": 50,
+      "runtime_seconds": 139.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1fcb492d1edfe7e2bd9f85d7",
+      "output_sha256": "299f6986235cedae862885ba9f74a82748d112e1f69b558ef3fa9ce01d55655a",
+      "point": "span:3,7",
+      "reps": 50,
+      "runtime_seconds": 140.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c490f905d6d7f24296f46119",
+      "output_sha256": "c53321de921cbf2aa07b58d229205c3faaa796918d34e50f5071fb18a768ae27",
+      "point": "span:3,8",
+      "reps": 50,
+      "runtime_seconds": 144.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "478ac3f51ce23a5dd8a96e63",
+      "output_sha256": "4b8c15c09e5177f885c0cde3f602394549e7aac4e77aa6cbc49d9e3f897a677b",
+      "point": "span:3,9",
+      "reps": 50,
+      "runtime_seconds": 154.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "2297d8c3a666fd8573eea548",
+      "output_sha256": "62f7b3fb8c0bdf209227e2bcd6397f924ff4bd1713bfc8b25ae877bdb9ef1af7",
+      "point": "span:3,10",
+      "reps": 50,
+      "runtime_seconds": 150.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a12bd8686bd5bdef1ec402ea",
+      "output_sha256": "5cfed37b5e08a893716a9b29af749f7c0e6704798fdbfb8ac132045c5081b025",
+      "point": "span:3,11",
+      "reps": 50,
+      "runtime_seconds": 157.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ce62ee7b21b111fabda15a62",
+      "output_sha256": "157f0eed98fdaa6b165aa63353dce9074956e49ebc3eefc3a37ca4b9f76f30a4",
+      "point": "span:4,0",
+      "reps": 50,
+      "runtime_seconds": 141.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "5c26b3d445b93a1bef6c6d1f",
+      "output_sha256": "d71ec874fa796d092c87377270fcfb9ec9089caeec42b3ecd7492ec1479218af",
+      "point": "span:4,1",
+      "reps": 50,
+      "runtime_seconds": 145.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "9839463bfe91dd1311f4f25b",
+      "output_sha256": "cdff3ab8daba839f71189031e300e4da9bb835fc774e0bdf86e11af25663fc99",
+      "point": "span:4,2",
+      "reps": 50,
+      "runtime_seconds": 139.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "3195295be061f32661389f09",
+      "output_sha256": "6c0969a2e0833215909da2857c498ad284e84863b1920dcd2e4b56a54ea1e01e",
+      "point": "span:4,3",
+      "reps": 50,
+      "runtime_seconds": 144.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "7a908d6d8dc8ec6b73584bbb",
+      "output_sha256": "5e6459e2c6ecb60409a357a5fa3293becd493aada43828daf9dd3961a3792b4b",
+      "point": "span:4,4",
+      "reps": 50,
+      "runtime_seconds": 145.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "8979fa1619082de42c8601bd",
+      "output_sha256": "79abdfb9c043e92ab09c7b3cc9c2db83e96821812425a2bda3c225f9c48fd72d",
+      "point": "span:4,5",
+      "reps": 50,
+      "runtime_seconds": 140.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "00fef14457a6e57d96f09689",
+      "output_sha256": "347413b520b866f5d944fd73cd7eda993f3b272607c5793b4b37d26b37e19b78",
+      "point": "span:4,6",
+      "reps": 50,
+      "runtime_seconds": 168.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1eb0bbaea1f010aac9fecba7",
+      "output_sha256": "b66e9c4c6b3b9feeb9992e06f15266b6363e515516898d46fb972ba938007c76",
+      "point": "span:4,7",
+      "reps": 50,
+      "runtime_seconds": 141.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "053448f16c71ea5b0b89f15b",
+      "output_sha256": "1e811e44580444f44447371b5605626ef3f7695678f9dbfea16930993e378e2a",
+      "point": "span:4,8",
+      "reps": 50,
+      "runtime_seconds": 147.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "89825e2b0c970fed050faf12",
+      "output_sha256": "a8aaca3e5c6a941259b16dfad3f3effa5381d1c45e0248b6be76a69e711c53c8",
+      "point": "span:4,9",
+      "reps": 50,
+      "runtime_seconds": 149.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "7c32e2b243b2b2189de000df",
+      "output_sha256": "9fb7001a8989be336f00d43029538d5bdc36313d6ef571f1d2f8915cb48c3479",
+      "point": "span:4,10",
+      "reps": 50,
+      "runtime_seconds": 141.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "301844dd2aaab8fa07bb9cc3",
+      "output_sha256": "eb58bbd7829246e5ea0458d91e5713432aff7a97ac5cf30931ddacd6870f39cc",
+      "point": "span:4,11",
+      "reps": 50,
+      "runtime_seconds": 142.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a4e90007fd2f225cbbd07a27",
+      "output_sha256": "a34c027b3f596490f2e10f46502ad9f2a2da32ae011ed9eca7a92938b972ec75",
+      "point": "span:5,0",
+      "reps": 50,
+      "runtime_seconds": 140.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "63808cc50002142459e99af2",
+      "output_sha256": "4922bd2fa5c3464931eba8b14c576b9e7ef3b14aefdc0caf7412fc3c9bbc7c10",
+      "point": "span:5,1",
+      "reps": 50,
+      "runtime_seconds": 148.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d3bb2d310ee3294570431669",
+      "output_sha256": "1733ad5d359d759c0b8b2d2ef728d39aa95cc134f50c8e77e87bbe17d34851ac",
+      "point": "span:5,2",
+      "reps": 50,
+      "runtime_seconds": 157.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c2bfbd4578b295a54688be8b",
+      "output_sha256": "3b3e1cd2ecb2c13d74fd24bdc8ad462b3a18f587b7c4718091ea0c6e3fa9f162",
+      "point": "span:5,3",
+      "reps": 50,
+      "runtime_seconds": 153.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d0d11053cd64f531a243ea05",
+      "output_sha256": "576c8023544b088c0f185030e248a424bf2819253e67b79f0186e0f749c5369c",
+      "point": "span:5,4",
+      "reps": 50,
+      "runtime_seconds": 142.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "037d19c744fc1dea90dc54aa",
+      "output_sha256": "4fb809ac334042aef18752c62d076f3b059053422e5d645f7a024983dafa04f7",
+      "point": "span:5,5",
+      "reps": 50,
+      "runtime_seconds": 144.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "af8982c71995d7fa3cec0e6a",
+      "output_sha256": "b0b8b3f0b607e1a9ff646c86c8f71d5e9c5f7bbd730014f7ac56fad39967da98",
+      "point": "span:5,6",
+      "reps": 50,
+      "runtime_seconds": 137.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1387cbc31e121322d8edbc26",
+      "output_sha256": "b1d4745829d54fd4672327f3c624570ab7b715d6c321a069c20ec53247a896dc",
+      "point": "span:5,7",
+      "reps": 50,
+      "runtime_seconds": 137.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "23d12ea09e3c72401f328da4",
+      "output_sha256": "be6a5080b842c2f5f3bc0c3c4eb3cc7daa31c9e338291b8a64349a92cd696a0b",
+      "point": "span:5,8",
+      "reps": 50,
+      "runtime_seconds": 153.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "240869c37c870016044047b4",
+      "output_sha256": "737e23bb82c4b24ae9799d38f29bc56eadaa88939725b1d5ec8e10624856f35a",
+      "point": "span:5,9",
+      "reps": 50,
+      "runtime_seconds": 137.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "095771c74ccbbbb61428052e",
+      "output_sha256": "19db1d60ca5721c6932fd1f024f26ed82bc6470f21b5cb78fef7f85041decba6",
+      "point": "span:5,10",
+      "reps": 50,
+      "runtime_seconds": 139.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "2310102a4ef6a573ffd244cd",
+      "output_sha256": "f4c0020c04f06eefa6e9c2d6bc7f298cc459c1c6ccd5b6a9811fab918eb62bd4",
+      "point": "span:5,11",
+      "reps": 50,
+      "runtime_seconds": 135.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "caa31a1c0a035817d1861afd",
+      "output_sha256": "71b8d6d7e4b1412490405b6c38ab18e62e45f8c3fb96941317616dfeff037822",
+      "point": "span:6,0",
+      "reps": 50,
+      "runtime_seconds": 133.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "6138ebb2f9197d371a854308",
+      "output_sha256": "56ae705491ca6e59a1ae92eebf40e7e081edb3653ec4f56d482ca4638bbb210c",
+      "point": "span:6,1",
+      "reps": 50,
+      "runtime_seconds": 134.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a7e28b88a928698801e9a865",
+      "output_sha256": "515ac1be25948cb8b2d6aaa85441071e3a2cb8f22f2c0749c0ca4a6ee4b872cc",
+      "point": "span:6,2",
+      "reps": 50,
+      "runtime_seconds": 132.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "bd5f428d8a9afa6386f3f8f7",
+      "output_sha256": "2829bebba3c951ec25b9859b170a156bd2464924168fbaa1891132a7cdbde371",
+      "point": "span:6,3",
+      "reps": 50,
+      "runtime_seconds": 149.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "19d94aaf9bc3d9f85885292a",
+      "output_sha256": "980ca8d101590e88a2d4b2b48f41e958a0970a30b9dfab4280c6022f633c35ae",
+      "point": "span:6,4",
+      "reps": 50,
+      "runtime_seconds": 141.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "6a55089c5cc50efed9488b53",
+      "output_sha256": "b5ba9abf7adef10926b392b259e1b94ccd915b974a69c0eadec730e0b6f9de53",
+      "point": "span:6,5",
+      "reps": 50,
+      "runtime_seconds": 131.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "963325ad61167fbe7d24f175",
+      "output_sha256": "cb981b78447e2ae70146efc6af13831631f6dc706c84a85ee4500e15fb6007df",
+      "point": "span:6,6",
+      "reps": 50,
+      "runtime_seconds": 131.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "37233d0f22b6f79c32c21664",
+      "output_sha256": "41e55b0aff4250375c4bb2a2a79f705ee207b88a1a59a152dc69a8e1efb21469",
+      "point": "span:6,7",
+      "reps": 50,
+      "runtime_seconds": 141.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "60f2cc0d8d463668add05556",
+      "output_sha256": "2be083fa9cffced99728b91eda769802cedae7d4d2637de68deae369103cb1c0",
+      "point": "span:6,8",
+      "reps": 50,
+      "runtime_seconds": 127.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "8900f99f7255f0046ab93d1a",
+      "output_sha256": "c6143497ff83302d13e3eb90cd06bbd565e0e9be6472be661ae9fdd75906d69e",
+      "point": "span:6,9",
+      "reps": 50,
+      "runtime_seconds": 142.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "a7cb0498ee9f698f06ccbf85",
+      "output_sha256": "0fb17af21beabf6fbda785efe4eff650137514bca78a037ae289997705087a46",
+      "point": "span:6,10",
+      "reps": 50,
+      "runtime_seconds": 141.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "bebb6898572f575c4c664a92",
+      "output_sha256": "576ae401253ca35aa2be82938f99a14e3f1a1ef33db88dd531bb691ab513cf6d",
+      "point": "span:6,11",
+      "reps": 50,
+      "runtime_seconds": 140.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "43dc0e07ed6e66bd2e5f330b",
+      "output_sha256": "e57637c906be41e146bbd52a0d4333909a101ea626adf364d8a1c619886abec1",
+      "point": "span:7,0",
+      "reps": 50,
+      "runtime_seconds": 133.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "dc77d269970f678bcfd29d14",
+      "output_sha256": "e05df1784dc2c72dd86de20d5757eb0f39ed92fa8071155e42f8b7025a9c8e03",
+      "point": "span:7,1",
+      "reps": 50,
+      "runtime_seconds": 129.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "0f73f9fb74436019459df085",
+      "output_sha256": "8349720452fea75a4affc66d76705c45672d4ca7d4659350760e4ff1a36458c4",
+      "point": "span:7,2",
+      "reps": 50,
+      "runtime_seconds": 132.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "14d028e3f4f2ac50241ae323",
+      "output_sha256": "f8ceb6772901a9121484332424219b5f6c707946611a6ffac8275b77a014d609",
+      "point": "span:7,3",
+      "reps": 50,
+      "runtime_seconds": 144.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "cde17d91947286f58e9b44c3",
+      "output_sha256": "43d439d35e65426d60697211a5b34bcaf31d8abb5d5f09a3a57451caf3035f50",
+      "point": "span:7,4",
+      "reps": 50,
+      "runtime_seconds": 142.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "12d7797baac7d7703edda26d",
+      "output_sha256": "67ac821e2f4622481903e853657ddee81226131e78da30238f049369988189b5",
+      "point": "span:7,5",
+      "reps": 50,
+      "runtime_seconds": 136.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d21d9773ea53ccd6ef11f18b",
+      "output_sha256": "0008b0fa192c041a1e15d05d02100daff46e125040cdaed990fc827d8c72b19a",
+      "point": "span:7,6",
+      "reps": 50,
+      "runtime_seconds": 139.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "9c91fe39b13e071145963a30",
+      "output_sha256": "0fedc632a609e43e20571be0aa41ef192e9146c8f5a8d2d21708044cd84bf876",
+      "point": "span:7,7",
+      "reps": 50,
+      "runtime_seconds": 131.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "0a482df33e1f5aff0043f8c1",
+      "output_sha256": "6f6c56252c8fd0c28ce93a820a652b04af4f76e44c0b2f047626a9b9aedb7dc2",
+      "point": "span:7,8",
+      "reps": 50,
+      "runtime_seconds": 130.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "6c6e8c829680c2c6648109ff",
+      "output_sha256": "d0eaa951534d4c9d81e5eb5528788048475c8934ad791017aea8c5c90cdb06bf",
+      "point": "span:7,9",
+      "reps": 50,
+      "runtime_seconds": 137.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "e9622b359593092fac0ff12d",
+      "output_sha256": "1e4477ed1c12716b587b6aac285a4c1e7fe6c4de91b0cb265b8b88f04532655a",
+      "point": "span:7,10",
+      "reps": 50,
+      "runtime_seconds": 136.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "54587f1bfb72ee03a70e2d94",
+      "output_sha256": "e0aaccf86ed0035e8bd0dbbdb8af659c131bea6bf534f6c3dcdf7f220426bf33",
+      "point": "span:7,11",
+      "reps": 50,
+      "runtime_seconds": 135.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "25bb8a3e032dc09b38991598",
+      "output_sha256": "24522e0ba808400594d17003133c9821edb85fd208f6c34df6597d63c8649775",
+      "point": "span:8,0",
+      "reps": 50,
+      "runtime_seconds": 135.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1f6186ed7d0c9a3abcc089be",
+      "output_sha256": "5a356c938a689e8bde8c76d09173bf8e093e67f8af5cc389cfc60790f04b479d",
+      "point": "span:8,1",
+      "reps": 50,
+      "runtime_seconds": 149.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "1037fe67903f9988c117c6b9",
+      "output_sha256": "9941233339b96b901cb2c9d682450ca554fcb9d478845f4cbb6ffaf82826ef6e",
+      "point": "span:8,2",
+      "reps": 50,
+      "runtime_seconds": 134.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ef635fc7892a55c3cfc36e52",
+      "output_sha256": "8bffede6e737a12bd148b7e20fc5db63fc6a16dc689827fed8fce60d279530e0",
+      "point": "span:8,3",
+      "reps": 50,
+      "runtime_seconds": 132.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "595e2bebc09dcfb289c39e90",
+      "output_sha256": "bdc36042c499104e8e56cce535c34a27cd7268ceef3c77d699631b82c45d350c",
+      "point": "span:8,4",
+      "reps": 50,
+      "runtime_seconds": 126.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "7bd73240a46a7ba0a28891bb",
+      "output_sha256": "e4aa1dc3f707e485f99bd7879777658b0cc85059ec74c0551081fc33b3624773",
+      "point": "span:8,5",
+      "reps": 50,
+      "runtime_seconds": 136.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "e19383566c3b7ca71c8e2274",
+      "output_sha256": "a685004026184280dedea53d80887d8e3b98ca1a6be6c1b706b4815f2d8d9390",
+      "point": "span:8,6",
+      "reps": 50,
+      "runtime_seconds": 136.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d07fe4749a763ee2ee256a59",
+      "output_sha256": "23ce07268fb20bb9ecbfadaf85d42f5ac1ab36e7ff4c8094d16dcb610a3902c1",
+      "point": "span:8,7",
+      "reps": 50,
+      "runtime_seconds": 136.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "68062bdc9e052fd7a53cdd48",
+      "output_sha256": "259f5b4853a121161415fd3d341046bd7abdef1a33525df3b8b671edee0643f6",
+      "point": "span:8,8",
+      "reps": 50,
+      "runtime_seconds": 132.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c0b3f8a7cdda5a6ef4ae605a",
+      "output_sha256": "f332823b78fa2d636e2ae6e020cf347a31f447a1bd143c530fd16d41085eb7f0",
+      "point": "span:8,9",
+      "reps": 50,
+      "runtime_seconds": 131.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "8c5e307a485d7def90421ec5",
+      "output_sha256": "8221bcc14cef78cc7a1f5bd6e6c802f587ab1bab88ad79bfc72749b754287b2f",
+      "point": "span:8,10",
+      "reps": 50,
+      "runtime_seconds": 123.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "8dedac9d7c3dab176f2aca1b",
+      "output_sha256": "3bb1dfe9d418e5734bfea81a034ddb08ca1b72ed6d6d6db52c1a76debcbc46a1",
+      "point": "span:8,11",
+      "reps": 50,
+      "runtime_seconds": 141.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ecc65ac59652aecbe1be5bdf",
+      "output_sha256": "7b80cb138cbe282a3bc450cb7280b6910cb4add10d2f97a524f51569dfd98bbb",
+      "point": "span:9,0",
+      "reps": 50,
+      "runtime_seconds": 129.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "5ab46f50fd67f48a7c96d20a",
+      "output_sha256": "1a1b9d7bf0e63ea3d1f783edff14ba66e059d9236d345a1b51a5f6c41bd07be1",
+      "point": "span:9,1",
+      "reps": 50,
+      "runtime_seconds": 136.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "5ab4f714ce4a20e335bbd086",
+      "output_sha256": "657e0558e93e01d1ed76f7c59dd60e43d5b09393817dab2197c8d26193896e6d",
+      "point": "span:9,2",
+      "reps": 50,
+      "runtime_seconds": 136.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "f9ccbfca3c3d42e4a624c3f5",
+      "output_sha256": "b6da05e6b9b6234622e58d3a9d1974b9c1a520c14d6ec4629f2933fee35a131c",
+      "point": "span:9,3",
+      "reps": 50,
+      "runtime_seconds": 132.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "5b7101daf61a6691796c8317",
+      "output_sha256": "aca9b6b5591d8bf68b4bfa601249ec3c908f87d2e82da317d42145ce4dcbb809",
+      "point": "span:9,4",
+      "reps": 50,
+      "runtime_seconds": 162.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "d0559835ee1cf7897d189522",
+      "output_sha256": "f6c1e3f9ca2003124ea82b29391ec94f8d3116a765d2a353b24a1f5e983f1797",
+      "point": "span:9,5",
+      "reps": 50,
+      "runtime_seconds": 129.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "f2a93a20218ee1eb6671cf81",
+      "output_sha256": "5ce71da78adf0b23eef138dcf852f041638f046f9ee491a94f8ba07fb8056040",
+      "point": "span:9,6",
+      "reps": 50,
+      "runtime_seconds": 152.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "dc835b1f50f5d2d2877cd83a",
+      "output_sha256": "8ced3ea9295754581cfae424bdee5b10b26ab0dc7642dc158ac73c7134f65d48",
+      "point": "span:9,7",
+      "reps": 50,
+      "runtime_seconds": 147.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "892dfba9e78b372a8c894858",
+      "output_sha256": "aeb4c129501b5b7d0c99e172c0ce862e8b1d96f0252985d5130c60ac3e79693b",
+      "point": "span:9,8",
+      "reps": 50,
+      "runtime_seconds": 138.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "40c915ee2b1b3ab652d39f94",
+      "output_sha256": "135df59c8d076360dbff7650b6daf1c1dbcebd2ea8d6ed218d5c787c1d3e2dc3",
+      "point": "span:9,9",
+      "reps": 50,
+      "runtime_seconds": 138.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "36c56efe4041af179890f69d",
+      "output_sha256": "4c1b531c744a9e1776cbc90c7e504814700812235f3b9bbe3b102ca5d4d9e51f",
+      "point": "span:9,10",
+      "reps": 50,
+      "runtime_seconds": 128.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "0312cc8a396a723230ce45c3",
+      "output_sha256": "119f0aed1cab7847ed37a34cbfc5e8f6ab27512f3aa633acf3b7a79cfb790d4e",
+      "point": "span:9,11",
+      "reps": 50,
+      "runtime_seconds": 143.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "fdce2a21131b441b6ed87d16",
+      "output_sha256": "dbfff98b5414cdd2a877f07dd5712309944ea60e0456f2f7fa05ed120118b1ea",
+      "point": "span:10,0",
+      "reps": 50,
+      "runtime_seconds": 129.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "be223fb9c6d4a13e30bc2e63",
+      "output_sha256": "541e3f264a6f862d1f39677d3046532dce40b35db8aa71dde63863ffa060db3e",
+      "point": "span:10,1",
+      "reps": 50,
+      "runtime_seconds": 141.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "f5c64af9d72d0a114f77c63f",
+      "output_sha256": "92fef5559bd568967b3c0efd32b40a159c2e319c51ba31d6c61042965e34abee",
+      "point": "span:10,2",
+      "reps": 50,
+      "runtime_seconds": 138.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "ff1056091c8ca6b1a2d08233",
+      "output_sha256": "c7c39d230d2203023eecf783bf8a455e78df9996cf8fa02202ef19271770f9af",
+      "point": "span:10,3",
+      "reps": 50,
+      "runtime_seconds": 141.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "40388c5c5e7c600322723a6f",
+      "output_sha256": "8745d912190ee11bcfd32c17a2795dc8b2b5023fb4a9a95629fcca57224fd9f3",
+      "point": "span:10,4",
+      "reps": 50,
+      "runtime_seconds": 137.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "2d44f5934ef230d1ea088d1e",
+      "output_sha256": "bc12907012864846070c9c4ec753c88fe8a6605707992f5cd26b8a3f314050e2",
+      "point": "span:10,5",
+      "reps": 50,
+      "runtime_seconds": 132.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "41e43b69e4d0cba9f0d31864",
+      "output_sha256": "1dcc20a86fee9f00b8432e6773538426114d2e98754d62c53100d847b8e19568",
+      "point": "span:10,6",
+      "reps": 50,
+      "runtime_seconds": 129.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "2351d38b646cc82413307131",
+      "output_sha256": "45fa11ee2502e8d015a3852d12bcdc8b21cbfd99ba8c28ffad1bcca5ad8cd172",
+      "point": "span:10,7",
+      "reps": 50,
+      "runtime_seconds": 140.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "47c80253e6143b2bb0c499e4",
+      "output_sha256": "e5db4e47feb16513a98bbaacb3a03fe44ad99fe9156134603ddd9ab8e9c1746c",
+      "point": "span:10,8",
+      "reps": 50,
+      "runtime_seconds": 141.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "7e801f8b8a61bc4ee7932b6f",
+      "output_sha256": "9aea7dc45189224f49cb4dac275e58a32b8124d8de1ed6bc98735d6411aa2ed2",
+      "point": "span:10,9",
+      "reps": 50,
+      "runtime_seconds": 127.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "c2f1ab72939b450563367776",
+      "output_sha256": "92c3380183817577b06e795184f0a1b55acb73176b5c8496455d8dc6b6a26ef1",
+      "point": "span:10,10",
+      "reps": 50,
+      "runtime_seconds": 131.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "3677046d2214d59bf62f2468",
+      "output_sha256": "2c87d489d7344d82b5c55780c40db9f0a70e2e6c86fdf1d3ef2d19f90ab60a8c",
+      "point": "span:10,11",
+      "reps": 50,
+      "runtime_seconds": 133.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "76189cc33378f6d21077cd3b",
+      "output_sha256": "f0183660ae64a99edd9587e8a9bfcd5dc8cb8fd96954eed4e486a728dd541a32",
+      "point": "span:11,0",
+      "reps": 50,
+      "runtime_seconds": 131.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "6a279508b1fb4f8cd244fb1b",
+      "output_sha256": "03a084f061db5022edebe6b9f53f26ac3436341ee71de9bc5699c9ea643ff493",
+      "point": "span:11,1",
+      "reps": 50,
+      "runtime_seconds": 142.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "bd583e62da396d4f9e51c635",
+      "output_sha256": "d4e000e8f1bd9f4203a29495bda426ce8f3ceb154746bd7ee9da4027281592f5",
+      "point": "span:11,2",
+      "reps": 50,
+      "runtime_seconds": 133.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "9bed97f659578286efad1cdd",
+      "output_sha256": "c4e732dfa2fa2ec2da952c944651a7e1391a993eade7b8a994a3b3f5b0291ec5",
+      "point": "span:11,3",
+      "reps": 50,
+      "runtime_seconds": 138.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "b6e99681cef92e5ce9917a06",
+      "output_sha256": "e38f21a98eaee6cd72c6b7e15a59926830432b4574494c6f2a54df25fa99969f",
+      "point": "span:11,4",
+      "reps": 50,
+      "runtime_seconds": 120.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "5b10a3556d369da727d688be",
+      "output_sha256": "a32850f8469ac174c6ea6f82fb8f87baf6d5b3b5ba24ffdb76cbf4849b5b9807",
+      "point": "span:11,5",
+      "reps": 50,
+      "runtime_seconds": 132.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "15f1bfde04dc29e2c027fa49",
+      "output_sha256": "0a5da27261c2f54c471874b8d9abd2d3dfa4e27215a3b915a79e240459f29c20",
+      "point": "span:11,6",
+      "reps": 50,
+      "runtime_seconds": 135.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "5f1d08fcd92af4663353ae19",
+      "output_sha256": "7aaf12c17e8ab26a923178e977273bf3689ad0e0b0504534a4b516b0f65991c2",
+      "point": "span:11,7",
+      "reps": 50,
+      "runtime_seconds": 129.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "31e7ac3d81951bc001597432",
+      "output_sha256": "3fd74ab882c3e7e4b2ea08a404e6482a5c1bc40f70aeb835c32a63d0405948d2",
+      "point": "span:11,8",
+      "reps": 50,
+      "runtime_seconds": 135.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "3f56136503e8266f6327d507",
+      "output_sha256": "9e4d9a4b1ba6a07c702a51e3e2c9196eddcf0daee755911e09407e34007c72a7",
+      "point": "span:11,9",
+      "reps": 50,
+      "runtime_seconds": 130.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "91dd9af1c198119884628fd7",
+      "output_sha256": "2e8b84f604a5194aff13114c3c7febcddca226dfbd5a2ae908191b372364a19e",
+      "point": "span:11,10",
+      "reps": 50,
+      "runtime_seconds": 135.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1_PRIME",
+      "job_id": "381a324918b17bb1966d1362",
+      "output_sha256": "282f579897a398b6bc4eeecc9459e5d84ae5567f77f12ba55ca8dbcc3a823e26",
+      "point": "span:11,11",
+      "reps": 50,
+      "runtime_seconds": 125.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "764dc1571527ab5500b57a66",
+      "output_sha256": "9cf53d60ff9a153c95c6eaab7c24e95a3e5fac42cca77c053f562371b2c8f0ad",
+      "point": "span:0,0",
+      "reps": 50,
+      "runtime_seconds": 112.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "2aa3ef733a15a03362945fea",
+      "output_sha256": "540451324ce26f31f7f60287aaa1f591781ee9adfc6768ea8056ddf889db427f",
+      "point": "span:0,1",
+      "reps": 50,
+      "runtime_seconds": 110.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "fbdd0ad90813d5a0e4dc7cd1",
+      "output_sha256": "7ab477e5bf6dd56aa99025d099a4aa2fb63e563ca95d34acdfae7cf45c58d805",
+      "point": "span:0,2",
+      "reps": 50,
+      "runtime_seconds": 123.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "1d65af3366d8118fb7516d3e",
+      "output_sha256": "9827682d889e04e249b3a002f378f117edaf924eed67c8375961a71174fa0ae0",
+      "point": "span:0,3",
+      "reps": 50,
+      "runtime_seconds": 114.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "d3aadf1e455d957057412b25",
+      "output_sha256": "886d1ac519387fb8b2c2b2b8d7549d22af406935131ff5396b10186da916eb17",
+      "point": "span:0,4",
+      "reps": 50,
+      "runtime_seconds": 115.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "ecdd34eace51b16e7c4cbf36",
+      "output_sha256": "0dc81fa299db24869de7c274cd5cf58b612c2dd71869f484245448b81996ca5f",
+      "point": "span:0,5",
+      "reps": 50,
+      "runtime_seconds": 115.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "0405485d61489753df9c6cf7",
+      "output_sha256": "abf7e7fdb3e58f6e362e2b8ca7a29496178c742fe72c477b4757abc1f677973d",
+      "point": "span:0,6",
+      "reps": 50,
+      "runtime_seconds": 117.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "dcab418228ccfda42fa73d30",
+      "output_sha256": "bb1ac2d4c25ca6d38c34c4b481d545706dd6d8ed0d49bd9d0180333eee1b5ac7",
+      "point": "span:0,7",
+      "reps": 50,
+      "runtime_seconds": 115.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "77c0579989fbf1a567d28cd3",
+      "output_sha256": "72f052c25bcd46ebe0013daa7b85a69e05b4a51fb21fead12c60e29a6dc3a16a",
+      "point": "span:0,8",
+      "reps": 50,
+      "runtime_seconds": 113.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "5197238f16d907eb1bff87f0",
+      "output_sha256": "fc2cb84bbb37829a394941732136b6f56355dd246bb76282874373f813c57bb8",
+      "point": "span:0,9",
+      "reps": 50,
+      "runtime_seconds": 120.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "ab9386183610fd7f1d40f115",
+      "output_sha256": "867876e3977650d46125bd98c0c530b95c5e8c17ce41171fc6c6a5a22acd1546",
+      "point": "span:0,10",
+      "reps": 50,
+      "runtime_seconds": 107.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "2997efd0f369dbfaccbf9cf0",
+      "output_sha256": "ecb39d6c5237ad9da3a672f01ad55a6378d1cbaeec3793165be5a402ade56cfc",
+      "point": "span:0,11",
+      "reps": 50,
+      "runtime_seconds": 106.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "b308211459e788d197d4ba92",
+      "output_sha256": "104b6bc52eb8f3efa99a67357b52399cb29dfbac5db1f1902f56d2415b3bbfae",
+      "point": "span:1,0",
+      "reps": 50,
+      "runtime_seconds": 114.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "9d52dfb621ccfbf4371001f3",
+      "output_sha256": "24d4844166f475b890a17bd945988ec2857340a955dc3d57ec5a0189d6fc604b",
+      "point": "span:1,1",
+      "reps": 50,
+      "runtime_seconds": 121.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "cfa455227ae83f06c06e03f2",
+      "output_sha256": "c8c72e74af8122a015309d13e59c6fc6fb92ff1bf697c4ab3fda80db2685a2a4",
+      "point": "span:1,2",
+      "reps": 50,
+      "runtime_seconds": 120.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "6b00d03bf57c4446ab35e45a",
+      "output_sha256": "254d73f50bb7f328614caf4836c8beb79d40077830b63f3fc7a2d9a2e806336c",
+      "point": "span:1,3",
+      "reps": 50,
+      "runtime_seconds": 111.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "bffbb9286be0e44f4b9523fa",
+      "output_sha256": "b5deb31f9af5f01a82f706b5315eadf4b6d599b5c614c33c4eb848ba9fb7f3a1",
+      "point": "span:1,4",
+      "reps": 50,
+      "runtime_seconds": 116.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "55e10d0b3bf0fddda6a763dd",
+      "output_sha256": "a90fab32a3b8e14e1d94dd725446da1145d6336bfbfbe9744b61e71ee569717c",
+      "point": "span:1,5",
+      "reps": 50,
+      "runtime_seconds": 113.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "b4e5900049f44b2bb385cad6",
+      "output_sha256": "258f8f4f85a70d8093c911468e86090c5d47a6088f0be70639f6b4dedbd1f9ac",
+      "point": "span:1,6",
+      "reps": 50,
+      "runtime_seconds": 123.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "93e5375ea0b759d9c50f46b0",
+      "output_sha256": "68412bb1b546b817747e39ae405700684df9d62e2109ff909156d1c385db1a30",
+      "point": "span:1,7",
+      "reps": 50,
+      "runtime_seconds": 123.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "ba07d9b96c983551c5f64471",
+      "output_sha256": "234a05783360c155cb2a226df0364543cc06e8586237cef0b69387b807318777",
+      "point": "span:1,8",
+      "reps": 50,
+      "runtime_seconds": 120.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "aa761ec70390683299613870",
+      "output_sha256": "7ba4b863bcf4db8a7a5d4141111496b5bc6e16faa13c27b0b4cf574d0a6eb693",
+      "point": "span:1,9",
+      "reps": 50,
+      "runtime_seconds": 120.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "579d66b3a32955c3fba5dd04",
+      "output_sha256": "fc804579eb9d38dec76f6f301c66df28c07857a32178f4f6854a2b044254b4bc",
+      "point": "span:1,10",
+      "reps": 50,
+      "runtime_seconds": 114.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "26f262eb3d630fb9382122e6",
+      "output_sha256": "d55b97dfb6b01ad39d31e096752d7fd7b9e9953b3e4a6061dfa65084e940ba60",
+      "point": "span:1,11",
+      "reps": 50,
+      "runtime_seconds": 107.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "5993dcb5d8f0117804a10d41",
+      "output_sha256": "a784cba3d654b1a669cc722bf6b41def8fb86ba3b9798c7fa2cacba4eb866b0e",
+      "point": "span:2,0",
+      "reps": 50,
+      "runtime_seconds": 120.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "79fb873b1f052780a710c2d7",
+      "output_sha256": "dd6fe34531a1383aa7dac377f6fc476032a4efaafb7cbb4fece010d599c62caa",
+      "point": "span:2,1",
+      "reps": 50,
+      "runtime_seconds": 123.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "75b68c74f71edecd43f7fb00",
+      "output_sha256": "75af9b124e488db2b3a00627ea0cf8eaff99dbe32372b7e50f059c6ed3642676",
+      "point": "span:2,2",
+      "reps": 50,
+      "runtime_seconds": 120.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "3574d9ab37204db853a6851d",
+      "output_sha256": "7cb077548a841bd8ee6fe7d206f37f0e70536a1961f336e384783240a6544a56",
+      "point": "span:2,3",
+      "reps": 50,
+      "runtime_seconds": 116.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "c00ecdbbc200e4c608b9e936",
+      "output_sha256": "2fc7e8e0d1aee934478a7cb63155aadab1ee232f8776dc0bee1783fefe68c1a9",
+      "point": "span:2,4",
+      "reps": 50,
+      "runtime_seconds": 53.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "fcbc053986db0b68d4a26c86",
+      "output_sha256": "02e4d1995821e57f0444537abe3aa47929653c91b41e29af37857fcaae7c2477",
+      "point": "span:2,5",
+      "reps": 50,
+      "runtime_seconds": 117.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "b52807f9b064f2db33226c79",
+      "output_sha256": "8c8e7c4effb95cc42c6fddbda0743fd28555afa6b4734651228982e6ae2236aa",
+      "point": "span:2,6",
+      "reps": 50,
+      "runtime_seconds": 118.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "487c6d81e3c97631f4c744be",
+      "output_sha256": "2076350ad735fc39b639d2b5bdb7f884e3548336ad4a6e121cadd5eee8fe9bf9",
+      "point": "span:2,7",
+      "reps": 50,
+      "runtime_seconds": 119.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "51c682bb4f7301554df6caa7",
+      "output_sha256": "92f0b3e03a5fc8ac6a96bcc07654054eca2c2f6010c3b5935b6b2b6c40a30967",
+      "point": "span:2,8",
+      "reps": 50,
+      "runtime_seconds": 111.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "48bf1a12a1407f7d430121e8",
+      "output_sha256": "d73d3f2550c574266769546211c20947413afbef04d00a2511057f514100e415",
+      "point": "span:2,9",
+      "reps": 50,
+      "runtime_seconds": 124.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "747f9d8d29bc51fad2f21c83",
+      "output_sha256": "bc5915de3454dcec41c178d0b2583d9014f1b7025568a0039cb35d204f13f7b1",
+      "point": "span:2,10",
+      "reps": 50,
+      "runtime_seconds": 116.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "a080e691cd3bfe83d78d815c",
+      "output_sha256": "c9e0c46e2c94a31cfac7672a6642cec13e3761f0bf0e32884161ab41939f7ef8",
+      "point": "span:2,11",
+      "reps": 50,
+      "runtime_seconds": 124.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "98ced610be5dfbb085133175",
+      "output_sha256": "3798615ce61f732d007dfbb0c64af744a19f7e7a5811fdb85270e901cd14c004",
+      "point": "span:3,0",
+      "reps": 50,
+      "runtime_seconds": 110.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "2367da88b39d93ad52cbaae9",
+      "output_sha256": "d801cff5cec70935fe19ac923f57b26abfab972e79993972522962a05e94d334",
+      "point": "span:3,1",
+      "reps": 50,
+      "runtime_seconds": 112.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "0217b0f3c02b4fd451ed56bb",
+      "output_sha256": "5c65feb48cf9a6805db60d23d917be1c65c168e83feb211f9346024bb8049f44",
+      "point": "span:3,2",
+      "reps": 50,
+      "runtime_seconds": 115.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "0887c97b5f9eb770eae06d45",
+      "output_sha256": "67d5b283b90bcbd0604b764f7edd5a6c2128ec3e9ee6f4af98de3003cef8e5e6",
+      "point": "span:3,3",
+      "reps": 50,
+      "runtime_seconds": 115.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "2c5dc1abf3ba07c97595ef51",
+      "output_sha256": "577ef4db5df84914b63fad47ede758c5526c04dcb4b2bc51ef8fd9ed5aa8f782",
+      "point": "span:3,4",
+      "reps": 50,
+      "runtime_seconds": 64.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "1fb57ba16c97123a71a980c9",
+      "output_sha256": "f84d91f08b2e0594b61196472ceede840366797c14f684e54b8ec621529c2f82",
+      "point": "span:3,5",
+      "reps": 50,
+      "runtime_seconds": 127.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "27a0c53093d0c226cd98e2a0",
+      "output_sha256": "b07676d36ccff1e51eed7d30a9d53d8e02ecf247d5d62b77d1dc9c7e2326cce2",
+      "point": "span:3,6",
+      "reps": 50,
+      "runtime_seconds": 121.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "eec2c44a65c046630983881f",
+      "output_sha256": "7f0db8b99405faa3365dc81b77366a3f783ac720abd654366fd27c091aa0f70b",
+      "point": "span:3,7",
+      "reps": 50,
+      "runtime_seconds": 114.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "666113e4353aae1fa39b2f6c",
+      "output_sha256": "3b5f662fd43d6c54233d76e8df45b91d4bde0737fb5d8352d1c7846809b300e8",
+      "point": "span:3,8",
+      "reps": 50,
+      "runtime_seconds": 111.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "fb5d9ad464b342d9f90e09cf",
+      "output_sha256": "e1dfc4aecd5a8735943a5eaa21bb2c61befa6e43fe40d7ace1d243ca001500df",
+      "point": "span:3,9",
+      "reps": 50,
+      "runtime_seconds": 120.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "18fa6995d8721b932d5e24e1",
+      "output_sha256": "7feefced117d2b7c44ad802a4891d5b6433290240a3d6b4ce9d3e8f933889b8d",
+      "point": "span:3,10",
+      "reps": 50,
+      "runtime_seconds": 116.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "0c1b2735b568733f36315459",
+      "output_sha256": "063692924907688606fba17d2e331846a0ad4755eb8bc0e31a014d913a79c24f",
+      "point": "span:3,11",
+      "reps": 50,
+      "runtime_seconds": 115.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "7936c1c230ef41b01b1192bb",
+      "output_sha256": "d2c11fd902c05708ad148f5291d70d46427cca66343ec6ccdeff72ff0acf3d77",
+      "point": "span:4,0",
+      "reps": 50,
+      "runtime_seconds": 113.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "4c480bb8eab60d3a4dd39005",
+      "output_sha256": "df67b28b203f9e873a00c929b6a0bd4c2c11a39fcb145adbfd9e07a7ddb99bab",
+      "point": "span:4,1",
+      "reps": 50,
+      "runtime_seconds": 111.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "fb9db5df2704dab100cbbdef",
+      "output_sha256": "378e035b6ecf8e6ca8ce67ed7e392b62aeef3f8ae97cf8c6b9d43897d7d37703",
+      "point": "span:4,2",
+      "reps": 50,
+      "runtime_seconds": 122.6
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "94bcdcd6466cdacda1159f17",
+      "output_sha256": "299fc7a061430b39656573632ad42bf100299f19e4e0092ca34b7eb3b5f565ae",
+      "point": "span:4,3",
+      "reps": 50,
+      "runtime_seconds": 58.2
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "090ed6968a5f56ba86af3d39",
+      "output_sha256": "1c495d9f6807eb89a88bad060a422478e30e5e07bfaa2c4402055005010b0926",
+      "point": "span:4,4",
+      "reps": 50,
+      "runtime_seconds": 60.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "779368a6edd70f9ac182949d",
+      "output_sha256": "773efa24e31636580b4370722548670d758f19bf2e2738e165f16b00c4024cad",
+      "point": "span:4,5",
+      "reps": 50,
+      "runtime_seconds": 62.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "a62c7574ddf086bb974a1795",
+      "output_sha256": "9ab57058bbab4ffb934b15e9e18e994a8b40264e92d79ee604db365c1c8d0030",
+      "point": "span:4,6",
+      "reps": 50,
+      "runtime_seconds": 59.6
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "70324c135b4b4d24a67982ed",
+      "output_sha256": "3b227766c406522ddba1fceda004232cfd81774e808ef93d4d2bafe590e07e08",
+      "point": "span:4,7",
+      "reps": 50,
+      "runtime_seconds": 61.7
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "d4fb2c1fe82ca004e99488a8",
+      "output_sha256": "51eb8ef5bad4fb7588ab33fa8f66826c05b0d6d30bf6d7048b78d168f8d27e1f",
+      "point": "span:4,8",
+      "reps": 50,
+      "runtime_seconds": 58.0
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "85dd2f2b1d3e88a9b2ecb28f",
+      "output_sha256": "25aeba8b4f253a06b005a9f0a0763fb05fe30d4f36284ae561b1df32f0fe7203",
+      "point": "span:4,9",
+      "reps": 50,
+      "runtime_seconds": 60.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "d4947d47c9dece573022d967",
+      "output_sha256": "33af54ca301b9a3221405b4032cb799a7b3195ca70091b121ea42c99a10d3fba",
+      "point": "span:4,10",
+      "reps": 50,
+      "runtime_seconds": 133.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "a091ab2ce10e9a3ff7021ed4",
+      "output_sha256": "d1560b98bedad34ca9b7b87c1f1b8d6771e64d25c799c3cb53784081cadafe37",
+      "point": "span:4,11",
+      "reps": 50,
+      "runtime_seconds": 118.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "e9f2eee7b9b4f6265664b3de",
+      "output_sha256": "83cd1f26b7f3558ff48c45595f9056613fa109542184becca90fa2688d101dbe",
+      "point": "span:5,0",
+      "reps": 50,
+      "runtime_seconds": 106.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "796f23e4dcf5335dc8eb4bc3",
+      "output_sha256": "74f41e9b673be3affe453177625fa29d1876a8beb7338bf7c69a36dc2126690a",
+      "point": "span:5,1",
+      "reps": 50,
+      "runtime_seconds": 110.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "f27ecfbb3e152a19692166cc",
+      "output_sha256": "c317503b4f0920e283a6dbad6a1de4e116dedfc9cbc29b6d340679978f529bb0",
+      "point": "span:5,2",
+      "reps": 50,
+      "runtime_seconds": 115.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "1d84ae228959d3cb663be820",
+      "output_sha256": "17cbcb8d65ab7cba28e26cace2f4ffc170eb5729bbcc3369cd41f85be7333ce3",
+      "point": "span:5,3",
+      "reps": 50,
+      "runtime_seconds": 54.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "5ca73ff998f8ab5591f60c8f",
+      "output_sha256": "c79429985253e3828d612d779011e3ec48cd60527ca73d85d1d963ff97b55268",
+      "point": "span:5,4",
+      "reps": 50,
+      "runtime_seconds": 79.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "d6793522dd964b8bc4d659d8",
+      "output_sha256": "2003dfb91d3cbfee79df9f5d8736e6fcf635a43ea6103e51477e757c6ea99274",
+      "point": "span:5,5",
+      "reps": 50,
+      "runtime_seconds": 56.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "c03e8f2e3250ea6fba75bc58",
+      "output_sha256": "3b88af684f33780a23133446ba415fa4f2d0cc25e7e3440e0ffb5d62ca25fbfc",
+      "point": "span:5,6",
+      "reps": 50,
+      "runtime_seconds": 74.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "c4aec176b844d94ed5580af1",
+      "output_sha256": "c75c5388a1243dd4afd02792a1c00b5985d29f403b56ee9e80c207d34c49380a",
+      "point": "span:5,7",
+      "reps": 50,
+      "runtime_seconds": 56.7
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "f36195e7178c11dfb0d2f7b6",
+      "output_sha256": "5c981205d67d4f43b62da17c0f293687f70fcd5345a96d8060a3047cd0efb225",
+      "point": "span:5,8",
+      "reps": 50,
+      "runtime_seconds": 59.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "5367af8661f6dd44aa51ebc3",
+      "output_sha256": "cca5b33324af5e06c0fa7773d6b024949a403d38bdfc3d9d64018abbe45a0a0e",
+      "point": "span:5,9",
+      "reps": 50,
+      "runtime_seconds": 79.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "8341515f8bbe1d8a791567c9",
+      "output_sha256": "d5846b2b20f478471758d1a087b69aa66ce40ac72f2da3444dce94f5d50ffcaf",
+      "point": "span:5,10",
+      "reps": 50,
+      "runtime_seconds": 67.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "cc2ecf38e230883affa0add2",
+      "output_sha256": "b4e8f62432de9510c3ef6b01b509efd169975245d4f1f2d32ee151aaa5ecb3db",
+      "point": "span:5,11",
+      "reps": 50,
+      "runtime_seconds": 57.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "ad170e5dd6885a459af636a3",
+      "output_sha256": "fce86ecb38bd4c863592d7c99e97068344909d17ed81725e3bce47aa981e38f3",
+      "point": "span:6,0",
+      "reps": 50,
+      "runtime_seconds": 109.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "33017d3665d1e602913ca8ab",
+      "output_sha256": "557fc693198ac6bec05007e3d252ea854d2b376b2c1b52a120d18c0339b0c70c",
+      "point": "span:6,1",
+      "reps": 50,
+      "runtime_seconds": 108.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "bf3a856cfdb90858c6ac309a",
+      "output_sha256": "68f19e53622782828e775c87f4f96c02fdcbec92d141096dee36ad9d49815858",
+      "point": "span:6,2",
+      "reps": 50,
+      "runtime_seconds": 114.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "fcc12ba83eb3aa5942ed5052",
+      "output_sha256": "bce59aa8525be65b137df63530b30d00b4a01732d51d86e607522d4eed902074",
+      "point": "span:6,3",
+      "reps": 50,
+      "runtime_seconds": 63.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "0fb807f9953226e608e3731f",
+      "output_sha256": "f6525251f55a20b9ecbb8ef3eb7ed81b92f3616932df78ccf45ffc69a25796a1",
+      "point": "span:6,4",
+      "reps": 50,
+      "runtime_seconds": 56.2
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "fb294cf1573f702ce3cb2a7a",
+      "output_sha256": "8658fbeab3bbea7cce5f1ad8967265a6d2a933edd92cc3755b3fa092ba6b1055",
+      "point": "span:6,5",
+      "reps": 50,
+      "runtime_seconds": 64.0
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "9d663f2c234b4b36be69bff8",
+      "output_sha256": "7047058008af2522ca280009bd00e09a02ba446027611579324c93f299fd23bc",
+      "point": "span:6,6",
+      "reps": 50,
+      "runtime_seconds": 60.6
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "7a5e7b74d4f062cbe6738549",
+      "output_sha256": "2b44790633119cbd2a114110df409b86c2b339a44ad6226528bc3fe4a3a4f31b",
+      "point": "span:6,7",
+      "reps": 50,
+      "runtime_seconds": 53.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "7d507a9e258fb50aaa3b4a84",
+      "output_sha256": "fd9f232a7038857638ccb829e20d34f23392de90254f391bb125a2feed5eb574",
+      "point": "span:6,8",
+      "reps": 50,
+      "runtime_seconds": 59.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "331365b210676bd0e9240dcd",
+      "output_sha256": "4a6c7b1022310f73e42a016cd1914dae06d2c16adee0fc803ecc9b9c8e76becc",
+      "point": "span:6,9",
+      "reps": 50,
+      "runtime_seconds": 75.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "e2c9cc7d998a5e4c89b5088f",
+      "output_sha256": "a82d047b608af07300e957f6c42ff6a07a091582d453f69e8850231628f989f9",
+      "point": "span:6,10",
+      "reps": 50,
+      "runtime_seconds": 71.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "c88e9e7d4cb1d8ca8cbefa78",
+      "output_sha256": "45180bbce92bebf613ba7a18f7e2a5fd8f330fbff97de2452872f4516f9e7c53",
+      "point": "span:6,11",
+      "reps": 50,
+      "runtime_seconds": 66.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "705bd534d309df547b40494b",
+      "output_sha256": "9c31d53c72d49423736dfa8835bc5303e12f62f579825c6227595b6bae93dcf4",
+      "point": "span:7,0",
+      "reps": 50,
+      "runtime_seconds": 109.7
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "0802d7d39fc829d8c63692d8",
+      "output_sha256": "d7e4adc15676abf7fa28b12069dde8c33a112d159e5edabc75132ad4849b2b3c",
+      "point": "span:7,1",
+      "reps": 50,
+      "runtime_seconds": 106.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "c3ff44deaeaf885f3d9eb85a",
+      "output_sha256": "e89ec4e6995011ddcc3fc432a7d33710dbd340110067881ea767dd3e765f14e9",
+      "point": "span:7,2",
+      "reps": 50,
+      "runtime_seconds": 57.6
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "3a947f8efa8d02b2f03a85b5",
+      "output_sha256": "8d873d2fa72399b30e07fb33c178ef6b6851c51cca49e2b704b202cb888b0411",
+      "point": "span:7,3",
+      "reps": 50,
+      "runtime_seconds": 58.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "d11431aa0f202f47a52563c2",
+      "output_sha256": "b461c8d1881467d5ae3e9fd53f0a52e5fa4637fdcf99397eda9a166dcf721dea",
+      "point": "span:7,4",
+      "reps": 50,
+      "runtime_seconds": 59.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "b095bea65f9d6c2ed61d5ea0",
+      "output_sha256": "f61aa04ea06cc90dfbdc57187f610a46601d2be368d892fac4d41bd044ce33f6",
+      "point": "span:7,5",
+      "reps": 50,
+      "runtime_seconds": 61.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "7c36c8db4d3bb8034a577f61",
+      "output_sha256": "7f996632b0d98fae87c72cca663cfb8be46f7f75ac5c93c0fc948484968353b0",
+      "point": "span:7,6",
+      "reps": 50,
+      "runtime_seconds": 60.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "180b74079803996a5097c89c",
+      "output_sha256": "780d18ad305cfc278f889a56308dc392234da247e13cf41935557549858f8afe",
+      "point": "span:7,7",
+      "reps": 50,
+      "runtime_seconds": 69.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "74d5f7edca0337d339ab17f2",
+      "output_sha256": "a818de011132db9fc2f0f5da72cfd850127e03b90425ec44b16cb44d74da5f2a",
+      "point": "span:7,8",
+      "reps": 50,
+      "runtime_seconds": 52.7
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "e2e03528fc5f4661483fa0f3",
+      "output_sha256": "b5fa5709b0cb68e173dd71517e2e87b9cc35b938bbfb069f43b5281996a3c8c8",
+      "point": "span:7,9",
+      "reps": 50,
+      "runtime_seconds": 70.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "dc55d447f343ea531dfec804",
+      "output_sha256": "c8579b442d3a609b7e5b568e286e33c16ebaeb38f7a7039e7f131bdb309e2a18",
+      "point": "span:7,10",
+      "reps": 50,
+      "runtime_seconds": 75.6
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "f98c97767da1e47cad70b7ba",
+      "output_sha256": "88679954f3d427994d569f5857995200110c24885965c22974f271331adddf17",
+      "point": "span:7,11",
+      "reps": 50,
+      "runtime_seconds": 64.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "06f44565357d5b98ec3cccec",
+      "output_sha256": "9f9eee0341c684a67aadd076d4ec58242dea5988efa2897ca26d868b97fbf5fd",
+      "point": "span:8,0",
+      "reps": 50,
+      "runtime_seconds": 105.5
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "c5b0981ec02ca9cbebcb69ea",
+      "output_sha256": "2c84c04dd7bfdb71eaa5c4481cff9a32595d61bc54041ddc4de7b0069e050b2f",
+      "point": "span:8,1",
+      "reps": 50,
+      "runtime_seconds": 111.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "92e82040552f5b859f543222",
+      "output_sha256": "c47beaa06b33d31be5c495779e15bcc1ad1ec52c9314eab1cd63c5859d9d23fd",
+      "point": "span:8,2",
+      "reps": 50,
+      "runtime_seconds": 59.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "23dd05438d2de18a630f4869",
+      "output_sha256": "9de51ee9354a522c3f699591f0294c283df40d37cedca3f90473e5e13c323151",
+      "point": "span:8,3",
+      "reps": 50,
+      "runtime_seconds": 52.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "1a5d6828ef0c2bdc3f3f0623",
+      "output_sha256": "f82528c821d200376b78b5959c2dfd24a0c4501be24a9c7e3ddbca5730eaba94",
+      "point": "span:8,4",
+      "reps": 50,
+      "runtime_seconds": 55.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "30aea61cae7b2339fae77ecb",
+      "output_sha256": "aab3a0bae355ee38f0d2e29532c9fb22ff0e4536024250ea8cf87c8e88f143b4",
+      "point": "span:8,5",
+      "reps": 50,
+      "runtime_seconds": 64.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "ab77fa863103d05f0cfd89ac",
+      "output_sha256": "38530ded160c895b3d708e26f0fbc819aa04e33bce32b4eba40bc7efb40f4f35",
+      "point": "span:8,6",
+      "reps": 50,
+      "runtime_seconds": 64.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "3e73ae99fd43deb1b546afe8",
+      "output_sha256": "e50e952ee5981a7a03058035be3fba1a796f611efd175097a828aec7fe80b4af",
+      "point": "span:8,7",
+      "reps": 50,
+      "runtime_seconds": 52.6
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "7154c82663c920b732244ca9",
+      "output_sha256": "cbeb8e783c57d8630ad73e39d42fed2e5a4d99df40aff305a8976607a4df3d23",
+      "point": "span:8,8",
+      "reps": 50,
+      "runtime_seconds": 59.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "7d17c5dea53a414e543ce09a",
+      "output_sha256": "f971968295c604035f5216f55edabeef1cc60b2086a7b9355522349d70a0ccc1",
+      "point": "span:8,9",
+      "reps": 50,
+      "runtime_seconds": 64.2
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "5fd9491077ba3dba5b3fed91",
+      "output_sha256": "4366dbea38436ad728d3cd982547dbf304fa5271fa63a67315b385913050450a",
+      "point": "span:8,10",
+      "reps": 50,
+      "runtime_seconds": 69.0
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "b592efc451959cf0e0c287f7",
+      "output_sha256": "73787f4eef1500577553c0608ade17df1e08774b3f4243739bdb1d38eac797e5",
+      "point": "span:8,11",
+      "reps": 50,
+      "runtime_seconds": 66.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "5f57fb5d84bd9928a61cdfae",
+      "output_sha256": "8f9440c5c1f8ec44668d1ba11d4aafdb0313affc068e6907009eb9b995e52549",
+      "point": "span:9,0",
+      "reps": 50,
+      "runtime_seconds": 104.3
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "f10c3c1af7c9c5cb9c8744a4",
+      "output_sha256": "14ccd8653636de7d908c221d0dff186081ac28067ab86d25e5b9df0e9a137855",
+      "point": "span:9,1",
+      "reps": 50,
+      "runtime_seconds": 115.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "2c2e046261d9b7519de50851",
+      "output_sha256": "40a19f90a02672f22fd12010e4db59129ef92679dbc54f9b0f6dc9287567e487",
+      "point": "span:9,2",
+      "reps": 50,
+      "runtime_seconds": 50.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "4413e663cff7da7de837f924",
+      "output_sha256": "815b96bc87495a9ca818bddfe779402fb6dae43b2e1f2203099f7cd890ed6f3c",
+      "point": "span:9,3",
+      "reps": 50,
+      "runtime_seconds": 56.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "b518b42cb9ca48cc39ba9b30",
+      "output_sha256": "9169349c18be1058b3b8abca8caa4f76d47d867acb8c5b504acf64892a1e2030",
+      "point": "span:9,4",
+      "reps": 50,
+      "runtime_seconds": 54.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "1140c5ceef6511a83ba910dc",
+      "output_sha256": "3579164ab6474adf2dbef10a4e576e9eb2c1808caf898ae2eedc726d0f194055",
+      "point": "span:9,5",
+      "reps": 50,
+      "runtime_seconds": 56.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "17405f2aa293e0802354a292",
+      "output_sha256": "165cd3cf9d09f45fb63e0c55aef58f2ac689fffdc8e09e84f1ba8a1d7ba4e968",
+      "point": "span:9,6",
+      "reps": 50,
+      "runtime_seconds": 66.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "cc5bcd8aed582760b6996fda",
+      "output_sha256": "1e9c7db0572e2d3b629e535dd718ae139e874a9b098a126d9d1d255f8fe15942",
+      "point": "span:9,7",
+      "reps": 50,
+      "runtime_seconds": 55.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "7d1d74ab613a33cbf4a45190",
+      "output_sha256": "dece50d968c29817eb78e0148406334922e8cf3e3e654537f01cb5fea0d637aa",
+      "point": "span:9,8",
+      "reps": 50,
+      "runtime_seconds": 56.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "414b5f91fa510e431ba0e1a6",
+      "output_sha256": "45d4e0a5a40cab3c9cdc590f46d60aed9d5f09fe9a862a2eda31f63920188429",
+      "point": "span:9,9",
+      "reps": 50,
+      "runtime_seconds": 66.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "91ee03d84b74b9989b0bb1d9",
+      "output_sha256": "9050cd517c2e729d867278df45e1b154f302100346c8e8c9c6644559551fe3c5",
+      "point": "span:9,10",
+      "reps": 50,
+      "runtime_seconds": 70.2
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "abba651dacc4422c8c5eb689",
+      "output_sha256": "fca39927ea5c155f97efd37988fa914fd616fead1edac65de8707646d48488c0",
+      "point": "span:9,11",
+      "reps": 50,
+      "runtime_seconds": 82.9
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "47b730360b7903bb8d4fd88e",
+      "output_sha256": "9d001bccdbb192404abdaab0db95dfbde3d4abbfcbdd52bb7adb5de9ced4c905",
+      "point": "span:10,0",
+      "reps": 50,
+      "runtime_seconds": 116.8
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "f351c3b7cb31eca63a355efa",
+      "output_sha256": "63f941d9000ea99341a5ac64e6f8f058c04cda9c1ee6fa9fca03fca7379109e8",
+      "point": "span:10,1",
+      "reps": 50,
+      "runtime_seconds": 112.0
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "aa1660ae9f074310625fcf08",
+      "output_sha256": "f9ead6ac80cb67bd7eeaf6d877b5f642b7600ee1180451aee91a64446faff156",
+      "point": "span:10,2",
+      "reps": 50,
+      "runtime_seconds": 105.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "8d5ff2e484c3b58a3665d767",
+      "output_sha256": "646f020b594f6f044ab7ca808f69853801bbcd0e20800afbe126fe67bcc73d95",
+      "point": "span:10,3",
+      "reps": 50,
+      "runtime_seconds": 54.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "f443ae515d10dcd0307d9cc4",
+      "output_sha256": "38d770479ef435da44b6ff6c617170afe7cafe89729f14a143a6c12acda800e7",
+      "point": "span:10,4",
+      "reps": 50,
+      "runtime_seconds": 52.7
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "d675571a0fbf7a9f0c23547e",
+      "output_sha256": "46e3baa0e267a64f39055e675722a98a28a3e35fe9c3b8833999e0de1c50db75",
+      "point": "span:10,5",
+      "reps": 50,
+      "runtime_seconds": 49.4
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "0b58b31cc5b125c2a06df6bd",
+      "output_sha256": "d1047325c08e86eb2eeef6b41322ab721d7828de9c634394d389b4279fd8ad93",
+      "point": "span:10,6",
+      "reps": 50,
+      "runtime_seconds": 57.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "2b525aec90d76178ad75e2be",
+      "output_sha256": "bff6446e5226468831ed56df4aff7e59406f4cdd18b97b96519d7fa17ea9a0a5",
+      "point": "span:10,7",
+      "reps": 50,
+      "runtime_seconds": 55.8
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "db08c644361896ad83b5423b",
+      "output_sha256": "a0e5504dcf8fa107cba1b35869c037ce4e16274a0612581dfb6965f1b6d6b767",
+      "point": "span:10,8",
+      "reps": 50,
+      "runtime_seconds": 57.2
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "721e7e14aca4db9f5f46cfc5",
+      "output_sha256": "6bbc705871dc405034eb257d0d20164a45036d1978a00e27131304a6b70fff05",
+      "point": "span:10,9",
+      "reps": 50,
+      "runtime_seconds": 63.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "a40c161c0d410cd29239b2ce",
+      "output_sha256": "7e18207feaea539daa5279d5c7c8a7fd72375968d832e376a807ee57c1c5be58",
+      "point": "span:10,10",
+      "reps": 50,
+      "runtime_seconds": 76.7
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "d656be2ad50f7907df18d021",
+      "output_sha256": "766a8cd05ef9fac2d54124167c00e13608a13ea82c1a95d1f92e48ab9402738a",
+      "point": "span:10,11",
+      "reps": 50,
+      "runtime_seconds": 73.1
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "51bc55c1ceaba15d11606573",
+      "output_sha256": "5d0dd37c8e51c980a102d66adcac9e1cd929d1a439587d604bf8b7cde6bc981a",
+      "point": "span:11,0",
+      "reps": 50,
+      "runtime_seconds": 102.4
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "f370f72fe39058927c98e9cc",
+      "output_sha256": "9d17da74d34f64b2459402931742a5bbce7536881924a226e054ff4cc359b460",
+      "point": "span:11,1",
+      "reps": 50,
+      "runtime_seconds": 109.2
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A2",
+      "job_id": "9d9c3bf05caddaf38feea318",
+      "output_sha256": "b47b79693930e509e544580bc66eb20226f30ea43782e3c60609a80042bc9ad2",
+      "point": "span:11,2",
+      "reps": 50,
+      "runtime_seconds": 114.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "bd286360e7a5f612b71f23fd",
+      "output_sha256": "c5f92a703b8f81f0c5446a4625c7ba33df386cb208d65f048a9ac187afcbc658",
+      "point": "span:11,3",
+      "reps": 50,
+      "runtime_seconds": 45.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "a9f00adca300cf7ae99327e1",
+      "output_sha256": "3198ebb147cb1b025e90c7320a466d6daf66c83baeb12c6933c910b1df8f6503",
+      "point": "span:11,4",
+      "reps": 50,
+      "runtime_seconds": 52.5
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "16259e40e994b0820c3b752d",
+      "output_sha256": "e7001e9a4e98037b084ea4f584c29701de7aa5be70ea3b24a6ea28593a0b0aeb",
+      "point": "span:11,5",
+      "reps": 50,
+      "runtime_seconds": 56.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "73481ebf79446f840f48111a",
+      "output_sha256": "3df97ae7d1641478cad07b91e1e3c703eaafd1955f17fcc58d3fe52b7714ec71",
+      "point": "span:11,6",
+      "reps": 50,
+      "runtime_seconds": 48.1
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "31dec295d8edd4ddff10a1c1",
+      "output_sha256": "359f2e3b354bbb2d6452abe03945521cdf65d3f8b54c98fa4f58345c96e04202",
+      "point": "span:11,7",
+      "reps": 50,
+      "runtime_seconds": 60.7
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "ee374029e9232715f0e1ed46",
+      "output_sha256": "eca0c97c270c6c007a75da35815dca424cad6c2f242a2e9d4164d5639c25567a",
+      "point": "span:11,8",
+      "reps": 50,
+      "runtime_seconds": 59.9
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "87a732b68630f17e588aa5b9",
+      "output_sha256": "7ae348f267d079604f87808ad86d303c092e74bb40e311f7de4a17ebdb7c95f8",
+      "point": "span:11,9",
+      "reps": 50,
+      "runtime_seconds": 62.0
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "d2af60ccde3e332e31fdb32c",
+      "output_sha256": "5fa14b39b5d0f1015324e153473e4565218909dfd6a08656451a5e702cbf601d",
+      "point": "span:11,10",
+      "reps": 50,
+      "runtime_seconds": 62.3
+    },
+    {
+      "ci1_feasible": false,
+      "failures": null,
+      "family": "A2",
+      "job_id": "1cf5d107d23c39e14e0bd824",
+      "output_sha256": "ee13fa798bb53d18107a24a6afc7c8083734642f35572806baa5af2331f5d276",
+      "point": "span:11,11",
+      "reps": 50,
+      "runtime_seconds": 65.6
+    },
+    {
+      "ci1_feasible": true,
+      "failures": 0,
+      "family": "A1",
+      "job_id": "05bdcce7bc8cfe8e7f9ce5b0",
+      "output_sha256": "5d52759bc353ba671b41e264576310eb1cff7bc02ad66c218c7071bc973508d2",
+      "point": "a1:-1,-1",
+      "reps": 200,
+      "runtime_seconds": 256.4
+    }
+  ],
+  "resume_audits": {
+    "final (after all 289 jobs)": {
+      "checkpoint_files": 289,
+      "deterministic_output_hash_match": true,
+      "foreign_config_refused": true,
+      "job": "A1_PRIME 0,0",
+      "skipped_on_resume": true,
+      "snapshot_sha256": "e59d101b8900cfcb47a42d0bb7c2fdee52d8ce6160e4664a3eabfa0cfc171718",
+      "unique_job_ids": 289
+    },
+    "mid_run (after 11 jobs)": {
+      "checkpoint_files": 11,
+      "deterministic_output_hash_match": true,
+      "foreign_config_refused": true,
+      "job": "A1_PRIME 0,0",
+      "skipped_on_resume": true,
+      "snapshot_sha256": "e59d101b8900cfcb47a42d0bb7c2fdee52d8ce6160e4664a3eabfa0cfc171718",
+      "unique_job_ids": 11
+    }
+  },
+  "source_commit": "6b0f1e123499e8aae91e62110da4d11fb9a51d9d",
+  "timeline_utc": [
+    "2026-10-16T22:42:39Z start",
+    "resolution exit=0 2026-10-16T22:46:59Z",
+    "span batch1 exit=0 2026-10-16T22:51:56Z",
+    "resume exit=0 2026-10-16T22:54:08Z",
+    "span full exit=0 2026-10-17T00:39:05Z",
+    "span report exit=0 2026-10-17T00:39:07Z"
+  ],
+  "unique_job_ids": 289
+}

@@ -1,0 +1,25 @@
+domain,metric,value,unit,population_or_denominator,notes
+CAMPAIGN,campaigns,30,campaigns,campaign_desc (all retained),campaign inventory recorded by the vendor
+CAMPAIGN,households listed at least once,1584,households,"of 2,500 households","listed = factual database membership, never an assigned unit"
+CAMPAIGN,median accepted listed-recipient overlap,85.77,%,30 campaigns (accepted Phase 1 definition),listed-campaign overlap among a campaign's own listed recipients; never realized exposure
+CAMPAIGN,median campaigns per listed household,4.0,campaigns,"1,584 listed households",listing is repeated; maximum is 17 campaigns for one household
+HOUSEHOLD,first-half vs second-half household retailer SALES_VALUE correlation,0.8161,Pearson correlation,"2,500 households (QB-02)","retailer revenue across sample halves; descriptive persistence only, not a causal household effect"
+HOUSEHOLD,median active weeks per household,50.0,weeks,"2,500 households",active week = week with a recorded purchase at this retailer
+HOUSEHOLD,median household retailer SALES_VALUE,2157.75,retailer currency units,"2,500 households",retailer revenue over weeks 1-102
+HOUSEHOLD,median household trips,79.0,baskets,"2,500 households",baskets recorded over weeks 1-102
+HOUSEHOLD,top-10% household share of active weeks,18.20917,%,"top 250 of 2,500 households (QB-01)",active weeks are weeks with a recorded purchase at this retailer (QB-01)
+HOUSEHOLD,top-10% household share of retailer SALES_VALUE,34.291326,%,"top 250 of 2,500 households (QB-01)",retailer revenue; not welfare or income inequality (QB-01)
+HOUSEHOLD,top-10% household share of trips,33.644985,%,"top 250 of 2,500 households (QB-01)",trips are baskets recorded at this retailer (QB-01)
+PRODUCT,GROCERY share of retailer SALES_VALUE,50.8077,%,"of 8,057,463.08 retailer SALES_VALUE","retailer revenue; departmental partition, not comparable with the commodity-level dispersion"
+PRODUCT,commodity labels,308,labels,all commodity labels retained,includes the unlabelled sentinel label; all 308 labels are retained in T2
+PRODUCT,department labels,44,labels,Phase 3 department derivation,includes one unlabelled sentinel department carrying 0.00 recorded value
+PRODUCT,median commodity household penetration,33.22,"% of 2,500 households",308 commodity labels,observed-household penetration; never market penetration
+RETAILER VALUE,median weekly retailer SALES_VALUE (full weeks),85258.26,retailer currency units,weeks 2-101 (full observed weeks),retailer revenue; median of the weekly series reproduced by the accepted weekly route
+RETAILER VALUE,total recorded units,260685622.0,recorded units,all recorded household-weeks,dominated by very large-quantity lines (QA-03): not an intuitive physical volume measure
+RETAILER VALUE,total retailer SALES_VALUE,8057463.08,retailer currency units,all recorded household-weeks,retailer revenue (retailer SALES_VALUE); not a household grocery bill and not a customer-paid amount
+SAMPLE,active household-weeks,123976,household-weeks,"of the 255,000-cell grid",recorded purchase at this retailer (48.62% of the grid)
+SAMPLE,household-week grid,255000,household-weeks,"2,500 households x 102 weeks","balanced grid; zeros are no recorded purchase, not zero grocery consumption"
+SAMPLE,households,2500,households,S0 baseline population,"all 2,500 transacting households; S1/S2 are sensitivity populations only"
+SAMPLE,observed days,711,days,days 1-711 of the release,every day present in transaction data
+SAMPLE,observed weeks,102,weeks,weeks 1-102,weeks 1 and 102 are partial observed weeks (5 and 6 days)
+SAMPLE,trips (baskets),276484,baskets,all recorded household-weeks,baskets recorded at this retailer

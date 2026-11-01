@@ -1,0 +1,86 @@
+{
+  "changed_files": {
+    "src/complete_journey/phase8_final/pipeline.py": {
+      "new": "9542b6e5a550a0ff085852d08f9c67a113691ca11426520ab764a770ab4c9c5c",
+      "old": "c737eda5aa0ea7aaec96d43cdd2c1d2fbcadcb5327b2cf09f56df9ea942d5726"
+    },
+    "src/complete_journey/phase8_final/reveal.py": {
+      "new": "46b3e6a8ef32f0574627c29f842687f3e4262357c0f09e9c65f4e12e14ecb30a",
+      "old": "54129bb7ca59ff694a9e2b507750b23348bcb23fb164372bd9a1683f97a70e4a"
+    },
+    "src/complete_journey/phase8_final/runner.py": {
+      "new": "8e65597a2634f7c9b733a9190fb84e9d759a0334fd7cd34cbf375188e2cabba4",
+      "old": "02d5f4d436b074ee7aafae75c21493d11d63f35e836e011bf9061a2f5820abb1"
+    },
+    "src/complete_journey/phase8_final/snapshot.py": {
+      "new": "3389df774b5d803797d802a7a19ca3022d4055073c6578ab632cc5d12a42f059",
+      "old": "c276096ac0946b4d583aa0e86c97f5861967e4ce4dfb8ee3417256dff4aaa2cd"
+    }
+  },
+  "decision_sha256": {
+    "P8-001": "5f5988391023f4be2ea4f4d5daa1cf189e36d5808a2f18c5b423fb47360f0133",
+    "P8-002": "ab5d340d9c3e16ef7455774330f156402b00789d3ffa263935e4751962186ebd",
+    "P8-003": "a1c728d2feb498cb28bf9d13d2a84b4d598f440ad6a54942a5c9b3c4193cabd3",
+    "P8-004": "488aaa2c74bd96eb7c80f9b532661b3a5087b1858014b95f079c1fd1baa638be",
+    "P8-005": "6c33e9dde7ee20f86fc26e28aa949434676859bc8ca900a7299d90e2b054db4e",
+    "P8-006": "592840039e8c5fdd26538ecd7cbda40f340c686be44a096b8887beb5ba9e91f8"
+  },
+  "job_semantics_sha256": "25e372ed6202e5f795771314ef29c1aa47c7f8a3c6b2f13db48b49ae3a618f2c",
+  "parent_sha256": "85dc7784bf0994abfc0f8b197b0fff414129b3f8ce8f058bff4c072d8b1008c3",
+  "reason": "Mechanical, non-scientific fixes after the REAL_RQ1 AttributeError (no real comparison had been computed): (1) reveal.real_targets used the wrong module for the archived real P1..P5 accessor (abm.stage1, not abm.stage1_p8005); (2) pipeline.execute now records unexpected exceptions in last_error/status (health FAILED) before re-raising; (3) runner.check_deadline writes its projection fields unthrottled (stale ETA in status.json); (4) the 72 h projection is advisory (recorded at every timing checkpoint, no pause), per the researcher relaxation of the ceiling on 2026-10-20. Job semantics, checkpoints, frozen RQ2 artifacts, Stage 1 record, ledger, decisions, tolerances, grids and truths unchanged.",
+  "schema": "phase8-final-snapshot-v1-p8006-amendment",
+  "scientific_change": false,
+  "source_sha256": {
+    "scripts/final_run.py": "23dabf468fa755d3b2b403b394c5d63f6ec4e216103556fbb8ca700c1ebf948c",
+    "scripts/launch_abm.py": "13f39378055ef1703665da5177daa41b15f0142481154215c01ff9a7ccc4fa9e",
+    "scripts/run_abm.py": "d41780c49b63d034c8415d5ff3919b952636ba2946c2c456bcf986992db8ba5b",
+    "src/complete_journey/abm/__init__.py": "8d466b97da39edc5eb28a67e376a8809f2a38c61839b2478602f7e7ea0205b7b",
+    "src/complete_journey/abm/adequacy.py": "bf57e31d10b52511c756f0e98d0660956d1a0b3647f1870dc9243cf8fd06c5c5",
+    "src/complete_journey/abm/architectures.py": "39008969b230c6aab50de6030dfc85450273a3d84741a1501ea133f9b79e796a",
+    "src/complete_journey/abm/calibration.py": "922cde6709fe18f232687727fa225d6c34d4fa5f51f4e00dbbb0b103ff1aac07",
+    "src/complete_journey/abm/checkpoint.py": "55c2c0cec4f9cde9830e1b51826bcfd33b278a2096895a1bb4d03e1cc13ed0dc",
+    "src/complete_journey/abm/config.py": "bca2cde2a976300a665bb49d999dda99abab3a3fe5b470969d4c47d9208a5c71",
+    "src/complete_journey/abm/emulator.py": "1efd8de8cf181e0c81497077357b2b262c16348b66431db84ae4eda5ba8b83f9",
+    "src/complete_journey/abm/evaluate.py": "a4cc7cf0eda5fb09b1cef4301108b29aad575b6d70444898ae11404769e99610",
+    "src/complete_journey/abm/frontier.py": "bc7d9014f1cd1cf29a8c5eb0eca29f68a4fa260a96df721773ffcccd509ac756",
+    "src/complete_journey/abm/guards.py": "e41d49bc295a12c9e731d6bce353112bce252b4475a684717f44ac2db58b7787",
+    "src/complete_journey/abm/mapping.py": "a88ae838a52b0447a76c9497219e7b7eb9fb1dec637f8271212a3fba28f3a6c1",
+    "src/complete_journey/abm/mixture.py": "e8f80aed8af4b1be3fbd919b9893f4d2177804dc8d1d5cd1a3b4eb4c6247ce26",
+    "src/complete_journey/abm/moments.py": "e5505ec97dc9b1c411ffce9f30f5ab2e37dc80ae4f12a75df612fc256c937b74",
+    "src/complete_journey/abm/operators.py": "90bae09b3b27fa0e8d3015cc87f2178bff0106868672da3387ba788b5420e78d",
+    "src/complete_journey/abm/preflight.py": "f75e341804807c6415c08956b983a34dae23d8efcca32f50eede7e44aae7e4ce",
+    "src/complete_journey/abm/preflight_p8005.py": "3c42f8435f5857ed7df0d2b10a128ba485b261c99fd640126b74c012df13e78a",
+    "src/complete_journey/abm/procedure.py": "909fe09713e9575ceb8150c1f2005c52425459fbf28e3427475abcfd695d0450",
+    "src/complete_journey/abm/regions.py": "f9970cc2a0b3a63e7973b1072f9edd45e8a948b936575cff63db6d7d4c34a406",
+    "src/complete_journey/abm/representability.py": "9d0ecac7362ebf7d5b6078bea77038bd916276028a1b2bf887739a6034468f87",
+    "src/complete_journey/abm/rq2.py": "36c81f0776aa9e7c962ec227e30ce1456d2a8206cb2e33f33b0a2edbee095438",
+    "src/complete_journey/abm/seeds.py": "07e44983b589269b508eded1ab35c3aa1393c5958dd9efcd3e117dae413c4092",
+    "src/complete_journey/abm/span.py": "7e9260afe34646c8dbd606fe4384769a46944ac41279976f13e7c7ae0ddab87f",
+    "src/complete_journey/abm/stage1.py": "1e0f8731de212bd2052b03f98e0531452f628217c681ed54f502e7989277b345",
+    "src/complete_journey/abm/stage1_p8005.py": "a2615515d47e29314452a1819d5343fc5475eb1c6676a46a3bd6f4eddbf148c1",
+    "src/complete_journey/phase8_final/__init__.py": "f5063f1b697f261618092588c2ac68583522a6729d55ecde1fbb66dfedb79cb8",
+    "src/complete_journey/phase8_final/analysis.py": "165a5f6f0f2052f96604ce165823ccb7aa0258fce20acea94b309c76dcd7f213",
+    "src/complete_journey/phase8_final/evaluate.py": "768888102b2ad87538c9c9849963a376624ff3ef13ab8a7c2c35d3c00568e75b",
+    "src/complete_journey/phase8_final/jobs.py": "e5b8f48bf29f54a0aa8b1af5dfae155f38e23ac02f692b5111ee6be1bd4a1b34",
+    "src/complete_journey/phase8_final/pipeline.py": "9542b6e5a550a0ff085852d08f9c67a113691ca11426520ab764a770ab4c9c5c",
+    "src/complete_journey/phase8_final/preflight.py": "11495e3fc238def4fc816ee954abb94a2cfe92a10d13f5cb8658fd730ee4badd",
+    "src/complete_journey/phase8_final/reveal.py": "46b3e6a8ef32f0574627c29f842687f3e4262357c0f09e9c65f4e12e14ecb30a",
+    "src/complete_journey/phase8_final/runner.py": "8e65597a2634f7c9b733a9190fb84e9d759a0334fd7cd34cbf375188e2cabba4",
+    "src/complete_journey/phase8_final/settings.py": "375b0f1a9fbb222ee379be39bf6c867076cf2a127087af290d02afd9d31de1b6",
+    "src/complete_journey/phase8_final/snapshot.py": "3389df774b5d803797d802a7a19ca3022d4055073c6578ab632cc5d12a42f059",
+    "src/complete_journey/phase8_final/store.py": "f46c38861a9b78d75ed0c4d6ac2ee1e9ff5633ee491236085514d7e705f9857d",
+    "src/complete_journey/prediction/__init__.py": "cf6c30e492ac8a06c1b57464a154f83bfc494744ede51b1e0e645e9ade77b1ab",
+    "src/complete_journey/prediction/config.py": "8d1b24e19ee9a0880a732af5e12866631081e37763dc8ffdac37e8ad153fe77d",
+    "src/complete_journey/prediction/features.py": "68bef9188fe3e4228b17014d46da758deccdbbe924e09c0d301899b8d09b06c3",
+    "src/complete_journey/prediction/modeling.py": "11fb7c443e51e1d3539b7aeedd989f4a1330c129e7d196e9896c3c6b89e14fc8",
+    "src/complete_journey/prediction/moments.py": "854832af80f3422fba07d3be080a63c3dacc2b2b6d64b2baff9938e519c641d5",
+    "src/complete_journey/prediction/operators.py": "a4d1d794f972a4a023ffb238b0132ec0cfcf8e09196b4c1b409bd460927fd52c",
+    "src/complete_journey/prediction/panel.py": "521fbbc56aa4b4bbe59d06333a4e9d9eec89e9dd9f2962a08157dee6956fb94f",
+    "src/complete_journey/prediction/preflight.py": "960b8fb0700fa0183c8adbe2038e5aafeb0d01ae6df06c811e5c0c03453a0ade",
+    "src/complete_journey/prediction/protocol.py": "52e7cb3d351e57da094aae09e29325d8a3de2804ec37d476d2b1a54e423ce749",
+    "src/complete_journey/prediction/run_c.py": "aef0c9776ebc6bdf4b6708d9078c5acdcd2709ce4e21558543c7abea06e7b230",
+    "src/complete_journey/prediction/synthetic.py": "4bf0defaeb26a07e0aba17e82700298825556148cb9c873eab7c51519959e372",
+    "src/complete_journey/prediction/twfe.py": "9778521c110deeea738552683db0f3013d62435ebded39227c9a7a8e6557222d"
+  },
+  "written_utc": "2026-10-21T00:49:50Z"
+}

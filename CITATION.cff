@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Reproduction materials for: Heterogeneity, Latent State or Purchase History? Known-Truth Limits on Attributing Persistence in a Household Purchase Panel"
+type: software
+authors:
+  - family-names: Andreyev
+    given-names: Artyom
+    affiliation: "Arizona State University"
+license: MIT
+repository-code: "https://github.com/rtmandreyev/shopping-persistence-reproduction"
+abstract: "Code, frozen aggregate results and checks that reproduce the paper's numbers, tables and figures. The Complete Journey data and the stored learned-model responses are not included. The MIT license covers the source code only; see NOTICE.md."
+keywords:
+  - state dependence
+  - unobserved heterogeneity
+  - persistence
+  - agent-based models
+  - known-truth evaluation
+  - model adequacy
+  - consumer panel data
+preferred-citation:
+  type: report
+  title: "Heterogeneity, Latent State or Purchase History? Known-Truth Limits on Attributing Persistence in a Household Purchase Panel"
+  authors:
+    - family-names: Andreyev
+      given-names: Artyom
+      affiliation: "Arizona State University"
+  institution:
+    name: "Arizona State University"
+  year: 2026
+  month: 10

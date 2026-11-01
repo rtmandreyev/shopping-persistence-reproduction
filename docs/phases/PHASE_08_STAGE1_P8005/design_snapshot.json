@@ -1,0 +1,509 @@
+{
+  "architectures": {
+    "A0": "logit p = mu",
+    "A1": "logit p = alpha_i, alpha_i = mu + s*xi_i",
+    "A1_PRIME": "z_t = rho z_{t-1} + sqrt(1-rho^2) eps_t, z_0 ~ N(0,1); logit p = alpha_i + sigma_z z_t",
+    "A2": "H_{t+1} = lam H_t + (1-lam) y_t, H_start = 0; logit p = alpha_i + delta H_t"
+  },
+  "archive": "docs/phases/PHASE_08_STAGE1_P8005",
+  "archived_stage1": {
+    "artifact_sha256": {
+      "design_snapshot.json": "e59d101b8900cfcb47a42d0bb7c2fdee52d8ce6160e4664a3eabfa0cfc171718",
+      "design_snapshot.sha256": "0444ef598cc4ee994fdacb9a5cf20e1e6ce4e295d7d82a959752d4c8bdcc38aa",
+      "s1_checkpoint_manifest.json": "f3235466d53cc2f22ce1fcf1296b7834806f0962566dffced2ca52dd83b9c75c",
+      "s1_provenance.json": "294fb5cb7501946cf75ac84e956c9ad2bf5b85ae068510a950449abdbc2dd5bb",
+      "s1_resolution.json": "5ffa52d9b6eb15e438aea1d015c0720c37782f142e88f86766c05ae73dd098ca",
+      "s1_span.json": "8b0b0e559261f0d6b58262a5f6f1b5681a83615b72a262d1bb3366fcb644b56b",
+      "s1_span_diagnostics.json": "4f720e389a5877cd1ecc91712d5a77b32ef564eee8f18bb7ff1d9b2366e41505"
+    },
+    "snapshot_sha256": "e59d101b8900cfcb47a42d0bb7c2fdee52d8ce6160e4664a3eabfa0cfc171718",
+    "status": "FAILED PREREGISTERED DESIGN GATE (immutable; never reused)"
+  },
+  "authorized_stage": 1,
+  "budgets": {
+    "N": 2500,
+    "Q_gate": 200,
+    "Q_truth": 200,
+    "R_cal": 20,
+    "R_direct": 200,
+    "R_final_max": 500
+  },
+  "caps": {
+    "a2_delta_cap": 5.0,
+    "half_life_weeks": 25.0,
+    "persistence_cap": 0.9726549474122855,
+    "sigma_z_cap": 2.5
+  },
+  "checkpoint_schema": "phase8-checkpoint-v1",
+  "ci1": {
+    "R_cal": 20,
+    "boot_se": {
+      "mean": 0.00556934648198798,
+      "q10": 0.005476840777654468,
+      "q25": 0.0074781272734876295,
+      "q50": 0.008602230721040705,
+      "q75": 0.008025183283748042,
+      "q90": 0.00544566315990625
+    },
+    "components": [
+      "mean",
+      "q10",
+      "q25",
+      "q50",
+      "q75",
+      "q90"
+    ],
+    "gate": "|sim - target| <= max(0.02, 2 SE_j) for every component",
+    "gate_abs": 0.02,
+    "primary_start": "A1 solution (real CI-1); A1 itself: logit(mean), s = 1"
+  },
+  "decision_sha256": {
+    "P8-001": "5f5988391023f4be2ea4f4d5daa1cf189e36d5808a2f18c5b423fb47360f0133",
+    "P8-002": "ab5d340d9c3e16ef7455774330f156402b00789d3ffa263935e4751962186ebd",
+    "P8-003": "a1c728d2feb498cb28bf9d13d2a84b4d598f440ad6a54942a5c9b3c4193cabd3",
+    "P8-004": "488aaa2c74bd96eb7c80f9b532661b3a5087b1858014b95f079c1fd1baa638be",
+    "P8-005": "6c33e9dde7ee20f86fc26e28aa949434676859bc8ca900a7299d90e2b054db4e"
+  },
+  "emulator": {
+    "a1_table": "single point, same node rule",
+    "gate": "|mu_em - mu_crn| <= 0.1 tau_j(0.15); s_em in [0.8, 1.2] s_crn",
+    "h2": "10 panels per family, 6x6 subgrid, direct R = 25; agreement >= 0.95 at every kappa and no ADEQ/INADEQ contradiction",
+    "independent_diagnostic": "R = 200, MODEL replicates 50..249 (non-binding)",
+    "logit_normal_nodes": "eta_hat + {0, 0.10 e_mu, 0.10 e_s}",
+    "mixture_nodes": "eta_hat + {0, 0.10 e_k} for k in (pi, mu1, d, s); -0.10 if a node would leave the bounds",
+    "recalibration": "bounded weighted linear least squares on the emulated CI-1 map",
+    "reference": "P8-004: direct, the same 50 MODEL streams (replicates 0..49)",
+    "refinement": "once: failing points' neighbouring cell centres at R = 100; piecewise-linear triangles inside refined cells",
+    "table_R": 50,
+    "validation_offsets": "(+0.03, -0.03, ...) and its negation in eta",
+    "validation_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0
+      ],
+      [
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        9.0
+      ],
+      [
+        3.0,
+        0.0
+      ],
+      [
+        3.0,
+        3.0
+      ],
+      [
+        3.0,
+        6.0
+      ],
+      [
+        3.0,
+        9.0
+      ],
+      [
+        6.0,
+        0.0
+      ],
+      [
+        6.0,
+        3.0
+      ],
+      [
+        6.0,
+        6.0
+      ],
+      [
+        6.0,
+        9.0
+      ],
+      [
+        9.0,
+        0.0
+      ],
+      [
+        9.0,
+        3.0
+      ],
+      [
+        9.0,
+        6.0
+      ],
+      [
+        9.0,
+        9.0
+      ],
+      [
+        1.5,
+        1.5
+      ],
+      [
+        4.5,
+        7.5
+      ],
+      [
+        7.5,
+        4.5
+      ],
+      [
+        9.5,
+        9.5
+      ],
+      [
+        11.0,
+        11.0
+      ],
+      [
+        11.0,
+        0.0
+      ],
+      [
+        0.0,
+        11.0
+      ],
+      [
+        11.0,
+        6.0
+      ],
+      [
+        6.0,
+        11.0
+      ],
+      [
+        10.5,
+        10.5
+      ]
+    ]
+  },
+  "frontier": {
+    "coords": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "is_gate": false,
+    "status": "SECONDARY / DESCRIPTIVE / POST-STAGE-1 PREDECLARED",
+    "thresholds": [
+      0.01,
+      0.015,
+      0.02,
+      0.025,
+      0.03,
+      0.04,
+      0.05,
+      0.075,
+      0.1
+    ]
+  },
+  "gate_behaviour": {
+    "S1A": "never a gate; mixture A1 infeasible -> bracket unavailable",
+    "S1B": "CRN emulator gate per family and arm (+ A1 table) and H2; one predeclared refinement; still failing -> STOP",
+    "S1C": "G1-G5 per family and arm over assessable gate points; a family with no assessable gate point fails; any failure -> STOP",
+    "S1D": "never a gate",
+    "truth_outside_region": "STOP for researcher review before S1A"
+  },
+  "grid": {
+    "amplitude_axis_a1_prime": [
+      0.20833333333333334,
+      0.4166666666666667,
+      0.625,
+      0.8333333333333334,
+      1.0416666666666667,
+      1.25,
+      1.4583333333333333,
+      1.6666666666666667,
+      1.875,
+      2.0833333333333335,
+      2.2916666666666665,
+      2.5
+    ],
+    "amplitude_axis_a2": [
+      0.4166666666666667,
+      0.8333333333333334,
+      1.25,
+      1.6666666666666667,
+      2.0833333333333335,
+      2.5,
+      2.9166666666666665,
+      3.3333333333333335,
+      3.75,
+      4.166666666666667,
+      4.583333333333333,
+      5.0
+    ],
+    "half_life_axis": [
+      0.0,
+      0.5,
+      0.7393788183141569,
+      1.0933620739432781,
+      1.6168175164433936,
+      2.390881249475093,
+      3.5355339059327378,
+      5.228197762956365,
+      7.731237367774792,
+      11.43262629818316,
+      16.906083445156035,
+      25.0
+    ],
+    "persistence_axis": [
+      0.0,
+      0.25,
+      0.39161646414213896,
+      0.5304872183557373,
+      0.6513482518711384,
+      0.7483287867504336,
+      0.8219697963558239,
+      0.8758340840357661,
+      0.9142461800085722,
+      0.9411724750255525,
+      0.9598292571612411,
+      0.9726549474122855
+    ],
+    "refinement_max_levels": 2,
+    "refinement_max_points": 144,
+    "size": 12
+  },
+  "heterogeneity": {
+    "labels": [
+      "ROBUST TO FROZEN HETEROGENEITY BRACKET",
+      "HETEROGENEITY-DEPENDENT",
+      "HETEROGENEITY BRACKET UNAVAILABLE"
+    ],
+    "mixture": {
+      "a1_gate": "A1 infeasible under the mixture -> HETEROGENEITY BRACKET UNAVAILABLE; primary arm continues; mixture specification never altered",
+      "bounds": {
+        "d": [
+          0.25,
+          6.0
+        ],
+        "mu1": [
+          -5.0,
+          4.75
+        ],
+        "mu2_max": 5.0,
+        "pi": [
+          0.1,
+          0.9
+        ],
+        "s": [
+          0.05,
+          3.0
+        ]
+      },
+      "diagnostics": "descriptive only: Jacobian condition (steps {'pi': 0.02, 'mu1': 0.05, 'd': 0.05, 's': 0.05}), separation, bound flags, start agreement; pi profile on [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9] for A1",
+      "flags": [
+        "INFEASIBLE",
+        "MIXTURE-BOUNDARY",
+        "UNIMODAL (d <= 2s)"
+      ],
+      "form": "alpha_i = mu_1 + d B_i + s xi_i, B_i = 1{u_i < 1 - pi}, u_i from the shared MIXTURE stream (code 8, family 0)",
+      "optimizer": "Nelder-Mead; simplex 0.5 then 0.1 in u; xatol 1e-4, fatol 1e-10, maxiter 400, maxfev 800",
+      "selection": "lowest objective if it passes; else lowest passing; else INFEASIBLE",
+      "starts": "pi in (0.25, 0.50, 0.75); s = s_hat/2; d = s_hat sqrt(0.75/(pi(1-pi))); mu1 = mu_hat - (1 - pi) d; projected with margin 0.01",
+      "tau_and_amplitudes": "from the primary arm only",
+      "transforms": "pi = 0.10 + 0.80 expit(u1); mu1 = -5 + 9.75 expit(u2); d = 0.25 + (min(6, 5 - mu1) - 0.25) expit(u3); s = 0.05 + 2.95 expit(u4)"
+    },
+    "primary": "logit-normal alpha_i = mu + s xi_i"
+  },
+  "kappa_reference": 0.25,
+  "kappas": [
+    0.15,
+    0.25,
+    0.35
+  ],
+  "machine": {
+    "logical_cpus": 10,
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "operators": {
+    "analysis_operator": "O_interior_window",
+    "burn_in_weeks": 156,
+    "min_interior_weeks": 8,
+    "primary": "primary_endogenous_envelope",
+    "s_a": "S-a_availability_bracket"
+  },
+  "p8005_stage1_authorized": true,
+  "p8_003": {
+    "alpha": 0.05,
+    "c": 4.159788060314886,
+    "emulator_mean_error_fraction": 0.1,
+    "emulator_sd_tolerance": 0.2,
+    "g_minus": 0.8333333333333334,
+    "g_plus": 1.25,
+    "q_J": 2.0174602979666005,
+    "z_eq": 1.644853626951472,
+    "z_star": 2.5758293035489004
+  },
+  "perfect_model_gates": {
+    "G1_truth_inclusion_min_every_kappa": 0.8,
+    "G2_family_adequate_min": 0.8,
+    "G3_true_inadequate_max": 0.05,
+    "G4_nr_inclusion_min": 0.9,
+    "G5_a1_history_max": 0.1
+  },
+  "primary_moments": [
+    [
+      "P1",
+      "VI-2",
+      "O-M3"
+    ],
+    [
+      "P2",
+      "VI-3",
+      "beta_8"
+    ],
+    [
+      "P3",
+      "VI-3",
+      "gamma_2"
+    ],
+    [
+      "P4",
+      "VI-6",
+      "delta_log_loss_recency"
+    ],
+    [
+      "P5",
+      "VI-4",
+      "active_1"
+    ]
+  ],
+  "projected_core_hours": {
+    "basis": "Run C engineering cost probe (stage-0 seeds, outputs discarded); CPU-seconds",
+    "ceiling": 200.0,
+    "expected_wall_hours": [
+      27.9,
+      30.3
+    ],
+    "max_probe": 181.6,
+    "mean_probe": 167.5,
+    "workers": 6
+  },
+  "protocol_stage": 1,
+  "representability": {
+    "empty_set": "EXCLUDED",
+    "emulator_error": "e_j = 0.1 tau_j(0.15)",
+    "per_kappa": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "search_set": "Theta_C^CI only (emulated CI-1 gate); no span counts",
+    "sigma_pop": "sqrt(s_T^2/Q + (g+- s_C)^2/R_em), R_em = 50",
+    "states": [
+      "REPRESENTABLE",
+      "EXCLUDED",
+      "INDETERMINATE"
+    ]
+  },
+  "run_label": "S1-P8005",
+  "schema": "phase8-stage1-snapshot-v2-p8005",
+  "seed_stage_key": 11,
+  "seed_tree": {
+    "entropy": 20261015,
+    "mixture_stream": 8,
+    "namespace": 8,
+    "stage_key": 11,
+    "version": "spawn_key=(8, stage, truth_class, truth_point, q, role, family, grid_point, replicate, stream)"
+  },
+  "software": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "python": "3.12.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "source_commit_at_snapshot": "f43ea9d5270aec23bd393cec02cbb8e9e457c3ff",
+  "source_sha256": {
+    "scripts/run_abm.py": "d41780c49b63d034c8415d5ff3919b952636ba2946c2c456bcf986992db8ba5b",
+    "src/complete_journey/abm/__init__.py": "8d466b97da39edc5eb28a67e376a8809f2a38c61839b2478602f7e7ea0205b7b",
+    "src/complete_journey/abm/adequacy.py": "bf57e31d10b52511c756f0e98d0660956d1a0b3647f1870dc9243cf8fd06c5c5",
+    "src/complete_journey/abm/architectures.py": "39008969b230c6aab50de6030dfc85450273a3d84741a1501ea133f9b79e796a",
+    "src/complete_journey/abm/calibration.py": "922cde6709fe18f232687727fa225d6c34d4fa5f51f4e00dbbb0b103ff1aac07",
+    "src/complete_journey/abm/checkpoint.py": "55c2c0cec4f9cde9830e1b51826bcfd33b278a2096895a1bb4d03e1cc13ed0dc",
+    "src/complete_journey/abm/config.py": "bca2cde2a976300a665bb49d999dda99abab3a3fe5b470969d4c47d9208a5c71",
+    "src/complete_journey/abm/emulator.py": "1efd8de8cf181e0c81497077357b2b262c16348b66431db84ae4eda5ba8b83f9",
+    "src/complete_journey/abm/evaluate.py": "a4cc7cf0eda5fb09b1cef4301108b29aad575b6d70444898ae11404769e99610",
+    "src/complete_journey/abm/frontier.py": "bc7d9014f1cd1cf29a8c5eb0eca29f68a4fa260a96df721773ffcccd509ac756",
+    "src/complete_journey/abm/guards.py": "e41d49bc295a12c9e731d6bce353112bce252b4475a684717f44ac2db58b7787",
+    "src/complete_journey/abm/mapping.py": "a88ae838a52b0447a76c9497219e7b7eb9fb1dec637f8271212a3fba28f3a6c1",
+    "src/complete_journey/abm/mixture.py": "e8f80aed8af4b1be3fbd919b9893f4d2177804dc8d1d5cd1a3b4eb4c6247ce26",
+    "src/complete_journey/abm/moments.py": "e5505ec97dc9b1c411ffce9f30f5ab2e37dc80ae4f12a75df612fc256c937b74",
+    "src/complete_journey/abm/operators.py": "90bae09b3b27fa0e8d3015cc87f2178bff0106868672da3387ba788b5420e78d",
+    "src/complete_journey/abm/preflight.py": "f75e341804807c6415c08956b983a34dae23d8efcca32f50eede7e44aae7e4ce",
+    "src/complete_journey/abm/preflight_p8005.py": "3c42f8435f5857ed7df0d2b10a128ba485b261c99fd640126b74c012df13e78a",
+    "src/complete_journey/abm/procedure.py": "909fe09713e9575ceb8150c1f2005c52425459fbf28e3427475abcfd695d0450",
+    "src/complete_journey/abm/regions.py": "f9970cc2a0b3a63e7973b1072f9edd45e8a948b936575cff63db6d7d4c34a406",
+    "src/complete_journey/abm/representability.py": "9d0ecac7362ebf7d5b6078bea77038bd916276028a1b2bf887739a6034468f87",
+    "src/complete_journey/abm/rq2.py": "36c81f0776aa9e7c962ec227e30ce1456d2a8206cb2e33f33b0a2edbee095438",
+    "src/complete_journey/abm/seeds.py": "07e44983b589269b508eded1ab35c3aa1393c5958dd9efcd3e117dae413c4092",
+    "src/complete_journey/abm/span.py": "7e9260afe34646c8dbd606fe4384769a46944ac41279976f13e7c7ae0ddab87f",
+    "src/complete_journey/abm/stage1.py": "1e0f8731de212bd2052b03f98e0531452f628217c681ed54f502e7989277b345",
+    "src/complete_journey/abm/stage1_p8005.py": "a2615515d47e29314452a1819d5343fc5475eb1c6676a46a3bd6f4eddbf148c1",
+    "src/complete_journey/prediction/__init__.py": "cf6c30e492ac8a06c1b57464a154f83bfc494744ede51b1e0e645e9ade77b1ab",
+    "src/complete_journey/prediction/config.py": "8d1b24e19ee9a0880a732af5e12866631081e37763dc8ffdac37e8ad153fe77d",
+    "src/complete_journey/prediction/features.py": "68bef9188fe3e4228b17014d46da758deccdbbe924e09c0d301899b8d09b06c3",
+    "src/complete_journey/prediction/modeling.py": "11fb7c443e51e1d3539b7aeedd989f4a1330c129e7d196e9896c3c6b89e14fc8",
+    "src/complete_journey/prediction/moments.py": "854832af80f3422fba07d3be080a63c3dacc2b2b6d64b2baff9938e519c641d5",
+    "src/complete_journey/prediction/operators.py": "a4d1d794f972a4a023ffb238b0132ec0cfcf8e09196b4c1b409bd460927fd52c",
+    "src/complete_journey/prediction/panel.py": "521fbbc56aa4b4bbe59d06333a4e9d9eec89e9dd9f2962a08157dee6956fb94f",
+    "src/complete_journey/prediction/preflight.py": "960b8fb0700fa0183c8adbe2038e5aafeb0d01ae6df06c811e5c0c03453a0ade",
+    "src/complete_journey/prediction/protocol.py": "52e7cb3d351e57da094aae09e29325d8a3de2804ec37d476d2b1a54e423ce749",
+    "src/complete_journey/prediction/run_c.py": "aef0c9776ebc6bdf4b6708d9078c5acdcd2709ce4e21558543c7abea06e7b230",
+    "src/complete_journey/prediction/synthetic.py": "4bf0defaeb26a07e0aba17e82700298825556148cb9c873eab7c51519959e372",
+    "src/complete_journey/prediction/twfe.py": "9778521c110deeea738552683db0f3013d62435ebded39227c9a7a8e6557222d"
+  },
+  "span_map": {
+    "box_half_width_sd": 2.0,
+    "coords": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "gate": null,
+    "status": "DESCRIPTIVE REPRESENTATIONAL MAP"
+  },
+  "stage_order": [
+    "S1-RESOLUTION",
+    "TRUTH",
+    "S1A",
+    "S1B",
+    "S1C",
+    "S1D",
+    "REPRESENTABILITY-PREFLIGHT"
+  ],
+  "truths": {
+    "data_keys": "truth_key(11, class, point, q): Role.DATA, never MODEL",
+    "gate_points": [
+      "A1",
+      "rho=0.5,LOW",
+      "rho=0.5,HIGH",
+      "rho=0.8,LOW",
+      "rho=0.8,HIGH",
+      "rho=0.9,LOW",
+      "rho=0.9,HIGH",
+      "rho=0.95,LOW",
+      "rho=0.95,HIGH",
+      "lam=0.5,D1=5.0",
+      "lam=0.5,D1=15.0",
+      "lam=0.5,D1=30.0",
+      "lam=0.8,D1=5.0",
+      "lam=0.8,D1=15.0",
+      "lam=0.8,D1=30.0"
+    ],
+    "infeasible": "unreachable Delta_1, undefined branch or CI-1 infeasible -> INFEASIBLE TRUTH (recorded, never replaced)",
+    "q": 200,
+    "t3_mapping": "joint: delta on the ascending branch (P8-002) and heterogeneity matched to the real CI-1; at most 8 iterations, relative delta change <= 0.001"
+  },
+  "work": "outputs/diagnostics/phase8_stage1_p8005",
+  "workers": 6
+}

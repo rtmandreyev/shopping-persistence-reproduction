@@ -1,0 +1,22 @@
+{
+  "archive_sha256": {
+    "docs/phases/PHASE_07_RUN_C/benchmark_results.json": "21c1713687711d8b8c778090560cf318490161cab80b5aba0c2c7acfc9ed1877",
+    "docs/phases/PHASE_07_RUN_C/bootstrap_summary.json": "45c729725fce2efe713410bc9285ed473714727b7a66a1695f02562551ce3816",
+    "docs/phases/PHASE_07_RUN_C/moment_register_real.csv": "e9ac415fe77b9aac658755c56f1a242ab6e9e0de234198a47e32f30bda1b0590",
+    "docs/phases/PHASE_07_RUN_C/test_ledger.json": "3d69b40b3745d5aebcd8277c82ee36f57946a4df1c49c40475786b9269bae40e"
+  },
+  "data_sha256": {
+    "data/processed/econometrics_household_week.parquet": "4f30324a71f5648bf70a86a95040ae552194fb776f655755362c200ba1d4330b",
+    "data/processed/predictive_household_week_features.parquet": "723cbfa9687cd222bb7c212efaf20c39852fe346b19566d433bbf2a46e0e1ce9"
+  },
+  "design_snapshot_sha256": "e3f443fc147c57f50ea28ea255123895b5c6ac67ae07c78dcd5e89d136b33b8d",
+  "local_predictions_sha256": "048aeda3f4df65331d263a2206ca3e85435b4f6c4821f055ce47d2799f19cb11",
+  "source_commit": "618fed0ef92161fdff9c49133b35b075aa1b1e8d",
+  "timings": {
+    "benchmark_training_and_tuning_s": 128.9,
+    "bootstrap_s": 473.6,
+    "point_moments_s": 11.2,
+    "test_evaluation_s": 1.3,
+    "total_s": 615.5
+  }
+}

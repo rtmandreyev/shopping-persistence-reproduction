@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-10-21T00:38:47Z",
+  "rq2_artifact_sha256": {
+    "calibration_noise.json": "30e9ed243b4bde4e69cb304f7900962cb8a31909105fea05e4a211c648061d2a",
+    "rq2_per_truth.json": "d333946240be58a3a0189cf22186badd3c125e86773a8a32df00007d8e75b543",
+    "rq2_results.json": "4480b8af347cfaaad9406d312ec620897e386c1eeee9eb41274f5df8fbe5ce78",
+    "rq2_truths.json": "e37bdc54628ccd7855033cb81ebdd7665bda90837f05ade371766c33a2e2736d",
+    "stage1_gates.json": "a1b0f3d53e334cd9b70c645b1248e62ebba42fd896c6edb318dca8748fa9bc3c"
+  },
+  "run_label": "P8-FINAL"
+}

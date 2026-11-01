@@ -1,0 +1,13 @@
+{
+  "failures": 0,
+  "interval": "percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",
+  "local_replicates_sha256": "5860c7b8427b797c568dae61f15b8f94d8fc1bd1d8a0f10eb49dc67f1c380c62",
+  "replications": 500,
+  "shuffle_check_operator_O": {
+    "calibration_identical": true,
+    "mean_gap_shift": -0.08885508642492368,
+    "replications": 20
+  },
+  "successful": 500,
+  "workers": 3
+}

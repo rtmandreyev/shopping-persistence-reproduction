@@ -1,0 +1,9 @@
+{
+  "freeze_sha256": "6ebe1552c68411447f736d2c3b8b2b29e71020d72b2d91d4553ddf947767d78e",
+  "stage1_gates_sha256": "a1b0f3d53e334cd9b70c645b1248e62ebba42fd896c6edb318dca8748fa9bc3c",
+  "unlocked_utc": "2026-10-21T00:44:09Z",
+  "uses": [
+    "comparison (real P1..P5)",
+    "S-a availability (real E-2)"
+  ]
+}

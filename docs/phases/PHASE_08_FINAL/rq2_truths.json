@@ -1,0 +1,1459 @@
+{
+  "logit_normal": {
+    "A1": {
+      "coord": [
+        0.0,
+        0.0
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.21283395715550507,
+        "s": 1.5402942754764999
+      },
+      "inside_lattice": null,
+      "kind": "A1",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T0"
+    },
+    "AR+periodic a=HIGH": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.2368961400786444,
+        "s": 2.602135548772042
+      },
+      "inside_lattice": null,
+      "kind": "AR_PERIODIC",
+      "lattice_note": null,
+      "periodic": 1.5402942754764999,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "AR+periodic a=LOW": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.19968924594447907,
+        "s": 2.1713720566060015
+      },
+      "inside_lattice": null,
+      "kind": "AR_PERIODIC",
+      "lattice_note": null,
+      "periodic": 0.7701471377382499,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "HMM q=0.05": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.14967013089060568,
+        "s": 2.099592926865487
+      },
+      "inside_lattice": null,
+      "kind": "HMM",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "HMM q=0.1": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.19940646704437648,
+        "s": 2.1858091223549887
+      },
+      "inside_lattice": null,
+      "kind": "HMM",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.8": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.2078460527651785,
+        "s": 2.057864063525508
+      },
+      "inside_lattice": null,
+      "kind": "HET_RHO",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.9": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.17922180914850355,
+        "s": 1.917709841479342
+      },
+      "inside_lattice": null,
+      "kind": "HET_RHO",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "lam=0.0,D1=10.0": {
+      "coord": [
+        0.0,
+        0.29326273756545906
+      ],
+      "delta": 0.538859473985608,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.07881448634749386,
+        "s": 1.3814178909019754
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 10.073420891635847,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=15.0": {
+      "coord": [
+        0.0,
+        0.8730012061292857
+      ],
+      "delta": 0.7804171692205357,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.22741895992500688,
+        "s": 1.286308799513334
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 14.940004599269205,
+      "reason": null,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=2.5": {
+      "coord": [
+        0.0,
+        -0.6818019484660536
+      ],
+      "delta": 0.13258252147247768,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.1367348619845623,
+        "s": 1.4852650869728745
+      },
+      "inside_lattice": false,
+      "kind": "A2",
+      "lattice_note": "\u03b8_true OUTSIDE SEARCH LATTICE (RQ2 truth; labelled, not inserted)",
+      "periodic": 0.0,
+      "realized_pp": 2.4099330910385977,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=20.0": {
+      "coord": [
+        0.0,
+        1.4925514036825802
+      ],
+      "delta": 1.0385630848677418,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.3628534765277556,
+        "s": 1.2514992135794405
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 19.99757967940696,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=30.0": {
+      "coord": [
+        0.0,
+        2.6592775926403833
+      ],
+      "delta": 1.5246989969334932,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.6251105569428319,
+        "s": 1.1505121815688095
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 29.8008467197857,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=5.0": {
+      "coord": [
+        0.0,
+        -0.3636038969321072
+      ],
+      "delta": 0.26516504294495535,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.06497764672634213,
+        "s": 1.4466332800723423
+      },
+      "inside_lattice": false,
+      "kind": "A2",
+      "lattice_note": "\u03b8_true OUTSIDE SEARCH LATTICE (RQ2 truth; labelled, not inserted)",
+      "periodic": 0.0,
+      "realized_pp": 4.872875839214799,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=10.0": {
+      "coord": [
+        2.771838201355579,
+        1.5455844122715712
+      ],
+      "delta": 1.0606601717798214,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.37801830384075347,
+        "s": 1.1839357704718332
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 9.97094148363625,
+      "reason": null,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=15.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 15.0 pp unreachable (max 14.27 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=2.5": {
+      "coord": [
+        2.771838201355579,
+        -0.3636038969321072
+      ],
+      "delta": 0.26516504294495535,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.06382135030571486,
+        "s": 1.4481430808285138
+      },
+      "inside_lattice": false,
+      "kind": "A2",
+      "lattice_note": "\u03b8_true OUTSIDE SEARCH LATTICE (RQ2 truth; labelled, not inserted)",
+      "periodic": 0.0,
+      "realized_pp": 2.406854298778276,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=20.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 20.0 pp unreachable (max 14.27 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=30.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 30.0 pp unreachable (max 14.27 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=5.0": {
+      "coord": [
+        2.771838201355579,
+        0.27279220613578564
+      ],
+      "delta": 0.5303300858899107,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.08103677096131753,
+        "s": 1.3624514513863237
+      },
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": 4.86904257182872,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=10.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 10.0 pp unreachable (max 4.85 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=15.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 15.0 pp unreachable (max 4.85 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=2.5": {
+      "coord": [
+        5.669129614532749,
+        0.7838106725040814
+      ],
+      "delta": 0.7432544468767006,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.2035247875693511,
+        "s": 1.2727453518050664
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 2.7168147547227717,
+      "reason": null,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=20.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 20.0 pp unreachable (max 4.85 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=30.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 30.0 pp unreachable (max 4.85 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=5.0": {
+      "coord": [
+        5.669129614532749,
+        2.394112549695428
+      ],
+      "delta": 1.4142135623730951,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.563441961515456,
+        "s": 1.0727813921717595
+      },
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": 5.194201362523326,
+      "reason": null,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "mask D1=10.0": {
+      "coord": null,
+      "delta": 1.5,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.67000875926571,
+        "s": 1.6685990313243222
+      },
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 10.01402003725502,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T4"
+    },
+    "mask D1=15.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 15.0 pp unreachable (max 14.33 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=2.5": {
+      "coord": null,
+      "delta": 0.375,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.03348985517009735,
+        "s": 1.9496560725257812
+      },
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 2.5298046439276103,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T4"
+    },
+    "mask D1=20.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 20.0 pp unreachable (max 14.33 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=30.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 30.0 pp unreachable (max 14.33 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=5.0": {
+      "coord": null,
+      "delta": 0.75,
+      "het": {
+        "arm": "logit_normal",
+        "mu": -0.25539294500602916,
+        "s": 1.84503587362198
+      },
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 5.063573279451279,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T4"
+    },
+    "rho=0.5,HIGH": {
+      "coord": [
+        2.771838201355579,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.25127889921673974,
+        "s": 2.1210465362091857
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.5,LOW": {
+      "coord": [
+        2.771838201355579,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.2261136068987124,
+        "s": 1.7091236267690215
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.8,HIGH": {
+      "coord": [
+        5.669129614532749,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.2069986456609615,
+        "s": 2.0902764911380722
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.8,LOW": {
+      "coord": [
+        5.669129614532749,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.20833212135351792,
+        "s": 1.6704063049697189
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.9,HIGH": {
+      "coord": [
+        7.5873886317002635,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.17676276502367164,
+        "s": 2.035103041887083
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.9,LOW": {
+      "coord": [
+        7.5873886317002635,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.20319490335553642,
+        "s": 1.6672174503951132
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.95,HIGH": {
+      "coord": [
+        9.427428735582366,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.14816903950400667,
+        "s": 1.8717963335584176
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.95,LOW": {
+      "coord": [
+        9.427428735582366,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "logit_normal",
+        "mu": 0.19764145876211836,
+        "s": 1.5989569805405488
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    }
+  },
+  "mixture": {
+    "A1": {
+      "coord": [
+        0.0,
+        0.0
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.2066504143598378,
+        "mu1": -0.30627937324125476,
+        "mu2": 1.900371041118583,
+        "pi": 0.7491262489675945,
+        "s": 1.201346055256665
+      },
+      "inside_lattice": null,
+      "kind": "A1",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T0"
+    },
+    "AR+periodic a=HIGH": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 3.0538332872561376,
+        "mu1": -0.45155325949441494,
+        "mu2": 2.6022800277617226,
+        "pi": 0.7549013997406501,
+        "s": 2.216894548993343
+      },
+      "inside_lattice": null,
+      "kind": "AR_PERIODIC",
+      "lattice_note": null,
+      "periodic": 1.5402942754764999,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "AR+periodic a=LOW": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.8000926047074155,
+        "mu1": -0.4972032829633637,
+        "mu2": 2.302889321744052,
+        "pi": 0.7324730399826412,
+        "s": 1.7544053369347647
+      },
+      "inside_lattice": null,
+      "kind": "AR_PERIODIC",
+      "lattice_note": null,
+      "periodic": 0.7701471377382499,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "HMM q=0.05": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.857438793166147,
+        "mu1": -0.5041487210697326,
+        "mu2": 2.3532900720964145,
+        "pi": 0.748303711013509,
+        "s": 1.6846520436896801
+      },
+      "inside_lattice": null,
+      "kind": "HMM",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "HMM q=0.1": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 3.0194356776300237,
+        "mu1": -1.0343991302667828,
+        "mu2": 1.985036547363241,
+        "pi": 0.5774729529770923,
+        "s": 1.4497064221422775
+      },
+      "inside_lattice": null,
+      "kind": "HMM",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.8": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.7727007196583044,
+        "mu1": -0.4324201830470127,
+        "mu2": 2.3402805366112918,
+        "pi": 0.752350478335757,
+        "s": 1.6638759591433552
+      },
+      "inside_lattice": null,
+      "kind": "HET_RHO",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.9": {
+      "coord": null,
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.636957440173378,
+        "mu1": -0.4404694309413637,
+        "mu2": 2.1964880092320143,
+        "pi": 0.7477335311773148,
+        "s": 1.4884660335778772
+      },
+      "inside_lattice": null,
+      "kind": "HET_RHO",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T2"
+    },
+    "lam=0.0,D1=10.0": {
+      "coord": [
+        0.0,
+        0.29326273756545906
+      ],
+      "delta": 0.538859473985608,
+      "het": {
+        "arm": "mixture",
+        "d": 1.9865904152472493,
+        "mu1": -0.5700838373301256,
+        "mu2": 1.4165065779171238,
+        "pi": 0.7399459339886895,
+        "s": 1.0472165334848778
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 10.05546982250054,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=15.0": {
+      "coord": [
+        0.0,
+        0.8730012061292857
+      ],
+      "delta": 0.7804171692205357,
+      "het": {
+        "arm": "mixture",
+        "d": 1.8793706691378713,
+        "mu1": -0.6745616224738802,
+        "mu2": 1.2048090466639911,
+        "pi": 0.7413067437411689,
+        "s": 1.0088850851477007
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 14.793092774655884,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=2.5": {
+      "coord": [
+        0.0,
+        -0.6818019484660536
+      ],
+      "delta": 0.13258252147247768,
+      "het": {
+        "arm": "mixture",
+        "d": 2.158139484410046,
+        "mu1": -0.37974686766082844,
+        "mu2": 1.7783926167492177,
+        "pi": 0.7437631186988561,
+        "s": 1.1564750263949932
+      },
+      "inside_lattice": false,
+      "kind": "A2",
+      "lattice_note": "\u03b8_true OUTSIDE SEARCH LATTICE (RQ2 truth; labelled, not inserted)",
+      "periodic": 0.0,
+      "realized_pp": 2.390281264911934,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=20.0": {
+      "coord": [
+        0.0,
+        1.4973349415057138
+      ],
+      "delta": 1.0405562256273808,
+      "het": {
+        "arm": "mixture",
+        "d": 1.841492095623531,
+        "mu1": -0.7797993665427105,
+        "mu2": 1.0616927290808205,
+        "pi": 0.7513852381402792,
+        "s": 0.9668127421602823
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 19.920248542368636,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=30.0": {
+      "coord": [
+        0.0,
+        2.7123106012293743
+      ],
+      "delta": 1.5467960838455728,
+      "het": {
+        "arm": "mixture",
+        "d": 1.6359061069210266,
+        "mu1": -0.9841156271205689,
+        "mu2": 0.6517904798004577,
+        "pi": 0.7703158929887087,
+        "s": 0.9028526524931343
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 30.18664827620947,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=5.0": {
+      "coord": [
+        0.0,
+        -0.3636038969321072
+      ],
+      "delta": 0.26516504294495535,
+      "het": {
+        "arm": "mixture",
+        "d": 2.0734462242186193,
+        "mu1": -0.4333686190065231,
+        "mu2": 1.6400776052120962,
+        "pi": 0.7441022044241785,
+        "s": 1.130945466854086
+      },
+      "inside_lattice": false,
+      "kind": "A2",
+      "lattice_note": "\u03b8_true OUTSIDE SEARCH LATTICE (RQ2 truth; labelled, not inserted)",
+      "periodic": 0.0,
+      "realized_pp": 4.841178359115148,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=10.0": {
+      "coord": [
+        2.771838201355579,
+        1.6488237080492008
+      ],
+      "delta": 1.1036765450205004,
+      "het": {
+        "arm": "mixture",
+        "d": 1.741354652898189,
+        "mu1": -0.8089892032125476,
+        "mu2": 0.9323654496856413,
+        "pi": 0.7429366607984548,
+        "s": 0.9124154712997802
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 10.281325476400045,
+      "reason": null,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=15.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 15.0 pp unreachable (max 14.64 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=2.5": {
+      "coord": [
+        2.771838201355579,
+        -0.3636038969321072
+      ],
+      "delta": 0.26516504294495535,
+      "het": {
+        "arm": "mixture",
+        "d": 2.118736731321352,
+        "mu1": -0.427166287597049,
+        "mu2": 1.691570443724303,
+        "pi": 0.7495206017056096,
+        "s": 1.123331116323228
+      },
+      "inside_lattice": false,
+      "kind": "A2",
+      "lattice_note": "\u03b8_true OUTSIDE SEARCH LATTICE (RQ2 truth; labelled, not inserted)",
+      "periodic": 0.0,
+      "realized_pp": 2.3903130548385465,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=20.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 20.0 pp unreachable (max 14.64 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=30.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 30.0 pp unreachable (max 14.64 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=5.0": {
+      "coord": [
+        2.771838201355579,
+        0.27279220613578564
+      ],
+      "delta": 0.5303300858899107,
+      "het": {
+        "arm": "mixture",
+        "d": 1.977519220250271,
+        "mu1": -0.5497474762122128,
+        "mu2": 1.4277717440380582,
+        "pi": 0.745091542606011,
+        "s": 1.0493283088617935
+      },
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": 4.847905385790321,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=10.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 10.0 pp unreachable (max 5.02 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=15.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 15.0 pp unreachable (max 5.02 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=2.5": {
+      "coord": [
+        5.669129614532749,
+        0.7838106725040814
+      ],
+      "delta": 0.7432544468767006,
+      "het": {
+        "arm": "mixture",
+        "d": 1.8837918134991465,
+        "mu1": -0.647167253021089,
+        "mu2": 1.2366245604780575,
+        "pi": 0.7408322623746451,
+        "s": 0.9859054877681885
+      },
+      "inside_lattice": true,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 2.690878414249531,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=20.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 20.0 pp unreachable (max 5.02 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=30.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 30.0 pp unreachable (max 5.02 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=5.0": {
+      "coord": [
+        5.669129614532749,
+        2.394112549695428
+      ],
+      "delta": 1.4142135623730951,
+      "het": {
+        "arm": "mixture",
+        "d": 1.667528476960636,
+        "mu1": -0.9162336862943308,
+        "mu2": 0.7512947906663052,
+        "pi": 0.7651190114479527,
+        "s": 0.8180702869353524
+      },
+      "inside_lattice": null,
+      "kind": "A2",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": 5.161053536023366,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T3"
+    },
+    "mask D1=10.0": {
+      "coord": null,
+      "delta": 1.4865088937534012,
+      "het": {
+        "arm": "mixture",
+        "d": 2.2928103503174775,
+        "mu1": -1.4100127907784317,
+        "mu2": 0.8827975595390458,
+        "pi": 0.6537806375454088,
+        "s": 1.2206244433501032
+      },
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 9.82915158161405,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T4"
+    },
+    "mask D1=15.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 15.0 pp unreachable (max 14.48 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=2.5": {
+      "coord": null,
+      "delta": 0.375,
+      "het": {
+        "arm": "mixture",
+        "d": 2.6032514711969488,
+        "mu1": -0.6704393496257781,
+        "mu2": 1.9328121215711707,
+        "pi": 0.7357050364120038,
+        "s": 1.5194202333210018
+      },
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 2.5401153103127863,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T4"
+    },
+    "mask D1=20.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 20.0 pp unreachable (max 14.48 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=30.0": {
+      "coord": null,
+      "delta": null,
+      "het": null,
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": null,
+      "reason": "\u0394_1 = 30.0 pp unreachable (max 14.48 pp)",
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=5.0": {
+      "coord": null,
+      "delta": 0.75,
+      "het": {
+        "arm": "mixture",
+        "d": 2.5218877952157235,
+        "mu1": -0.8133445083999602,
+        "mu2": 1.7085432868157633,
+        "pi": 0.754190656501429,
+        "s": 1.4641112222364725
+      },
+      "inside_lattice": null,
+      "kind": "MIXED",
+      "lattice_note": null,
+      "periodic": 0.0,
+      "realized_pp": 5.062981974385039,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T4"
+    },
+    "rho=0.5,HIGH": {
+      "coord": [
+        2.771838201355579,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.909923357810591,
+        "mu1": -0.4355510291616911,
+        "mu2": 2.4743723286489,
+        "pi": 0.7455034587423505,
+        "s": 1.6895563125796718
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.5,LOW": {
+      "coord": [
+        2.771838201355579,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.2805988178826193,
+        "mu1": -0.38699198325995976,
+        "mu2": 1.8936068346226596,
+        "pi": 0.7184316546674664,
+        "s": 1.3345391215407492
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.8,HIGH": {
+      "coord": [
+        5.669129614532749,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.776353358164479,
+        "mu1": -0.54257952000009,
+        "mu2": 2.233773838164389,
+        "pi": 0.710419653379963,
+        "s": 1.6490527095728462
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.8,LOW": {
+      "coord": [
+        5.669129614532749,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.260934980799711,
+        "mu1": -0.37911313217942144,
+        "mu2": 1.8818218486202896,
+        "pi": 0.7219765510960107,
+        "s": 1.331778503735508
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.9,HIGH": {
+      "coord": [
+        7.5873886317002635,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.6912752268625475,
+        "mu1": -0.4611737605525068,
+        "mu2": 2.2301014663100407,
+        "pi": 0.7421023892686198,
+        "s": 1.6222974587645664
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.9,LOW": {
+      "coord": [
+        7.5873886317002635,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.2843584971406994,
+        "mu1": -0.383047359504487,
+        "mu2": 1.9013111376362124,
+        "pi": 0.7242766021288847,
+        "s": 1.301075592796315
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.95,HIGH": {
+      "coord": [
+        9.427428735582366,
+        6.3934125222872
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.6019546965824434,
+        "mu1": -0.44513847619201297,
+        "mu2": 2.1568162203904304,
+        "pi": 0.7492912453453072,
+        "s": 1.4535959503000548
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    },
+    "rho=0.95,LOW": {
+      "coord": [
+        9.427428735582366,
+        2.6967062611435995
+      ],
+      "delta": null,
+      "het": {
+        "arm": "mixture",
+        "d": 2.3438895540118994,
+        "mu1": -0.3477674318371573,
+        "mu2": 1.996122122174742,
+        "pi": 0.7456028941538132,
+        "s": 1.2513731541445692
+      },
+      "inside_lattice": null,
+      "kind": "A1_PRIME",
+      "lattice_note": null,
+      "periodic": null,
+      "realized_pp": null,
+      "reason": null,
+      "status": "FEASIBLE",
+      "truth_class": "T1"
+    }
+  }
+}

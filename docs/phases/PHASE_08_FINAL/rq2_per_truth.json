@@ -1,0 +1,6685 @@
+{
+  "logit_normal": {
+    "A1": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 196,
+          "UNRESOLVED": 4
+        },
+        "0.25": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.35": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "ADEQUATE": 193,
+            "INCONCLUSIVE": 7
+          },
+          "0.25": {
+            "ADEQUATE": 193,
+            "INCONCLUSIVE": 7
+          },
+          "0.35": {
+            "ADEQUATE": 193,
+            "INCONCLUSIVE": 7
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1",
+      "label": "A1",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T0"
+    },
+    "AR+periodic a=HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "NEITHER": 200
+        },
+        "0.25": {
+          "NEITHER": 200
+        },
+        "0.35": {
+          "NEITHER": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "AR_PERIODIC",
+      "label": "AR+periodic a=HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "AR+periodic a=LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "NEITHER": 200
+        },
+        "0.25": {
+          "NEITHER": 200
+        },
+        "0.35": {
+          "NEITHER": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "AR_PERIODIC",
+      "label": "AR+periodic a=LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "HMM q=0.05": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 198,
+          "UNRESOLVED": 2
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HMM",
+      "label": "HMM q=0.05",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "HMM q=0.1": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HMM",
+      "label": "HMM q=0.1",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.8": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HET_RHO",
+      "label": "het-rho mean=0.8",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.9": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 199,
+          "UNRESOLVED": 1
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 199,
+          "UNRESOLVED": 1
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HET_RHO",
+      "label": "het-rho mean=0.9",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "lam=0.0,D1=10.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 2,
+          "UNRESOLVED": 198
+        },
+        "0.25": {
+          "EQUIVALENT": 87,
+          "HISTORY_FAVOURED": 1,
+          "UNRESOLVED": 112
+        },
+        "0.35": {
+          "EQUIVALENT": 172,
+          "UNRESOLVED": 28
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 10.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 2,
+            "INADEQUATE": 2,
+            "INCONCLUSIVE": 196
+          },
+          "0.25": {
+            "ADEQUATE": 87,
+            "INADEQUATE": 1,
+            "INCONCLUSIVE": 112
+          },
+          "0.35": {
+            "ADEQUATE": 172,
+            "INCONCLUSIVE": 28
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 92,
+            "INCONCLUSIVE": 108
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.00012658102786701836,
+            0.02754189845720562
+          ],
+          "k": 1,
+          "n": 200,
+          "rate": 0.005
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=10.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "INDETERMINATE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.0,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 94,
+          "UNRESOLVED": 106
+        },
+        "0.25": {
+          "EQUIVALENT": 196,
+          "UNRESOLVED": 4
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 171,
+            "INCONCLUSIVE": 29
+          },
+          "0.25": {
+            "ADEQUATE": 50,
+            "INCONCLUSIVE": 150
+          },
+          "0.35": {
+            "ADEQUATE": 78,
+            "INCONCLUSIVE": 122
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 94,
+            "INCONCLUSIVE": 106
+          },
+          "0.25": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=2.5",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=20.0": {
+      "comparative_counts": {
+        "0.15": {
+          "HISTORY_FAVOURED": 34,
+          "NEITHER": 160,
+          "UNRESOLVED": 6
+        },
+        "0.25": {
+          "HISTORY_FAVOURED": 57,
+          "UNRESOLVED": 143
+        },
+        "0.35": {
+          "HISTORY_FAVOURED": 183,
+          "UNRESOLVED": 17
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 20.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 34,
+            "INADEQUATE": 160,
+            "INCONCLUSIVE": 6
+          },
+          "0.25": {
+            "ADEQUATE": 57,
+            "INCONCLUSIVE": 143
+          },
+          "0.35": {
+            "ADEQUATE": 183,
+            "INCONCLUSIVE": 17
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.12069562323621742,
+            0.22937160039388627
+          ],
+          "k": 34,
+          "n": 200,
+          "rate": 0.17
+        },
+        "0.25": {
+          "ci95": [
+            0.22355439801068494,
+            0.35294269975153986
+          ],
+          "k": 57,
+          "n": 200,
+          "rate": 0.285
+        },
+        "0.35": {
+          "ci95": [
+            0.8673948341704476,
+            0.9497040813697427
+          ],
+          "k": 183,
+          "n": 200,
+          "rate": 0.915
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=20.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=30.0": {
+      "comparative_counts": {
+        "0.15": {
+          "HISTORY_FAVOURED": 95,
+          "UNRESOLVED": 105
+        },
+        "0.25": {
+          "HISTORY_FAVOURED": 129,
+          "UNRESOLVED": 71
+        },
+        "0.35": {
+          "HISTORY_FAVOURED": 184,
+          "UNRESOLVED": 16
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 30.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 95,
+            "INCONCLUSIVE": 105
+          },
+          "0.25": {
+            "ADEQUATE": 129,
+            "INCONCLUSIVE": 71
+          },
+          "0.35": {
+            "ADEQUATE": 184,
+            "INCONCLUSIVE": 16
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.4041200334249788,
+            0.5466319825296759
+          ],
+          "k": 95,
+          "n": 200,
+          "rate": 0.475
+        },
+        "0.25": {
+          "ci95": [
+            0.5744138330734203,
+            0.7112162222864156
+          ],
+          "k": 129,
+          "n": 200,
+          "rate": 0.645
+        },
+        "0.35": {
+          "ci95": [
+            0.8733351439779183,
+            0.9535823916001774
+          ],
+          "k": 184,
+          "n": 200,
+          "rate": 0.92
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=30.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 20,
+          "UNRESOLVED": 180
+        },
+        "0.25": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 179,
+            "INCONCLUSIVE": 21
+          },
+          "0.25": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 20,
+            "INCONCLUSIVE": 180
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=5.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=10.0": {
+      "delta1_pp": 10.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 176,
+            "INCONCLUSIVE": 24
+          },
+          "0.25": {
+            "ADEQUATE": 103,
+            "INCONCLUSIVE": 97
+          },
+          "0.35": {
+            "ADEQUATE": 176,
+            "INCONCLUSIVE": 24
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.5,D1=2.5",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=20.0": {
+      "delta1_pp": 20.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=30.0": {
+      "delta1_pp": 30.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.5,D1=5.0",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=10.0": {
+      "delta1_pp": 10.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=2.5": {
+      "delta1_pp": 2.5,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=20.0": {
+      "delta1_pp": 20.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=30.0": {
+      "delta1_pp": 30.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=5.0": {
+      "delta1_pp": 5.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "mask D1=10.0": {
+      "comparative_counts": {
+        "0.15": {
+          "NEITHER": 183,
+          "UNRESOLVED": 17
+        },
+        "0.25": {
+          "NEITHER": 34,
+          "UNRESOLVED": 166
+        },
+        "0.35": {
+          "UNRESOLVED": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 10.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 110,
+            "INCONCLUSIVE": 90
+          },
+          "0.35": {
+            "INADEQUATE": 4,
+            "INCONCLUSIVE": 196
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 183,
+            "INCONCLUSIVE": 17
+          },
+          "0.25": {
+            "INADEQUATE": 41,
+            "INCONCLUSIVE": 159
+          },
+          "0.35": {
+            "INADEQUATE": 1,
+            "INCONCLUSIVE": 199
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "MIXED",
+      "label": "mask D1=10.0",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T4"
+    },
+    "mask D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 193,
+          "UNRESOLVED": 7
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 193,
+            "INCONCLUSIVE": 7
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "MIXED",
+      "label": "mask D1=2.5",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T4"
+    },
+    "mask D1=20.0": {
+      "delta1_pp": 20.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=30.0": {
+      "delta1_pp": 30.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 169,
+          "UNRESOLVED": 31
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 197,
+          "UNRESOLVED": 3
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 169,
+            "INCONCLUSIVE": 31
+          },
+          "0.25": {
+            "ADEQUATE": 197,
+            "INCONCLUSIVE": 3
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "MIXED",
+      "label": "mask D1=5.0",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T4"
+    },
+    "rho=0.5,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 62,
+          "UNRESOLVED": 138
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 62,
+            "INCONCLUSIVE": 138
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.5,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.5,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 50,
+            "INCONCLUSIVE": 150
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.5,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.8,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.8,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.8,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 141,
+          "UNRESOLVED": 59
+        },
+        "0.25": {
+          "EQUIVALENT": 196,
+          "UNRESOLVED": 4
+        },
+        "0.35": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 141,
+            "INCONCLUSIVE": 59
+          },
+          "0.25": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          },
+          "0.35": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.8,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.9,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 198,
+          "UNRESOLVED": 2
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.9,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.9,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 192,
+          "UNRESOLVED": 8
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 91,
+          "UNRESOLVED": 109
+        },
+        "0.35": {
+          "EQUIVALENT": 31,
+          "UNRESOLVED": 169
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 193,
+            "INCONCLUSIVE": 7
+          },
+          "0.25": {
+            "INADEQUATE": 91,
+            "INCONCLUSIVE": 109
+          },
+          "0.35": {
+            "ADEQUATE": 31,
+            "INCONCLUSIVE": 169
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.9,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.95,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 200
+        },
+        "0.35": {
+          "LATENT_FAVOURED": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.95,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.95,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "LATENT_FAVOURED": 199,
+          "UNRESOLVED": 1
+        },
+        "0.25": {
+          "LATENT_FAVOURED": 162,
+          "UNRESOLVED": 38
+        },
+        "0.35": {
+          "EQUIVALENT": 1,
+          "LATENT_FAVOURED": 3,
+          "UNRESOLVED": 196
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 162,
+            "INCONCLUSIVE": 38
+          },
+          "0.35": {
+            "ADEQUATE": 1,
+            "INADEQUATE": 3,
+            "INCONCLUSIVE": 196
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.95,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "INDETERMINATE"
+      },
+      "truth_class": "T1"
+    }
+  },
+  "mixture": {
+    "A1": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 197,
+          "UNRESOLVED": 3
+        },
+        "0.25": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        },
+        "0.35": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          },
+          "0.25": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          },
+          "0.35": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.25": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.35": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1",
+      "label": "A1",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T0"
+    },
+    "AR+periodic a=HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "NEITHER": 200
+        },
+        "0.25": {
+          "NEITHER": 200
+        },
+        "0.35": {
+          "NEITHER": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "AR_PERIODIC",
+      "label": "AR+periodic a=HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "AR+periodic a=LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "NEITHER": 200
+        },
+        "0.25": {
+          "NEITHER": 200
+        },
+        "0.35": {
+          "NEITHER": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "AR_PERIODIC",
+      "label": "AR+periodic a=LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T2"
+    },
+    "HMM q=0.05": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 6,
+          "UNRESOLVED": 194
+        },
+        "0.25": {
+          "EQUIVALENT": 44,
+          "UNRESOLVED": 156
+        },
+        "0.35": {
+          "EQUIVALENT": 196,
+          "UNRESOLVED": 4
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 6,
+            "INCONCLUSIVE": 194
+          },
+          "0.25": {
+            "ADEQUATE": 44,
+            "INCONCLUSIVE": 156
+          },
+          "0.35": {
+            "ADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HMM",
+      "label": "HMM q=0.05",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T2"
+    },
+    "HMM q=0.1": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 194,
+          "UNRESOLVED": 6
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 194,
+            "INCONCLUSIVE": 6
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HMM",
+      "label": "HMM q=0.1",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.8": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.25": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HET_RHO",
+      "label": "het-rho mean=0.8",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T2"
+    },
+    "het-rho mean=0.9": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 7,
+          "LATENT_FAVOURED": 19,
+          "UNRESOLVED": 174
+        },
+        "0.25": {
+          "EQUIVALENT": 52,
+          "UNRESOLVED": 148
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 7,
+            "INADEQUATE": 19,
+            "INCONCLUSIVE": 174
+          },
+          "0.25": {
+            "ADEQUATE": 52,
+            "INCONCLUSIVE": 148
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "HET_RHO",
+      "label": "het-rho mean=0.9",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T2"
+    },
+    "lam=0.0,D1=10.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 11,
+          "UNRESOLVED": 189
+        },
+        "0.25": {
+          "EQUIVALENT": 167,
+          "UNRESOLVED": 33
+        },
+        "0.35": {
+          "EQUIVALENT": 178,
+          "UNRESOLVED": 22
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 10.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 12,
+            "INCONCLUSIVE": 188
+          },
+          "0.25": {
+            "ADEQUATE": 167,
+            "INCONCLUSIVE": 33
+          },
+          "0.35": {
+            "ADEQUATE": 190,
+            "INCONCLUSIVE": 10
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 75,
+            "INADEQUATE": 18,
+            "INCONCLUSIVE": 107
+          },
+          "0.25": {
+            "ADEQUATE": 181,
+            "INCONCLUSIVE": 19
+          },
+          "0.35": {
+            "ADEQUATE": 182,
+            "INCONCLUSIVE": 18
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=10.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=15.0": {
+      "comparative_counts": {
+        "0.15": {
+          "HISTORY_FAVOURED": 180,
+          "UNRESOLVED": 20
+        },
+        "0.25": {
+          "HISTORY_FAVOURED": 94,
+          "UNRESOLVED": 106
+        },
+        "0.35": {
+          "HISTORY_FAVOURED": 43,
+          "UNRESOLVED": 157
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 15.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 94,
+            "INCONCLUSIVE": 106
+          },
+          "0.35": {
+            "INADEQUATE": 43,
+            "INCONCLUSIVE": 157
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 180,
+            "INCONCLUSIVE": 20
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.8497872121322443,
+            0.937840633745934
+          ],
+          "k": 180,
+          "n": 200,
+          "rate": 0.9
+        },
+        "0.25": {
+          "ci95": [
+            0.39923294119711444,
+            0.541669499588525
+          ],
+          "k": 94,
+          "n": 200,
+          "rate": 0.47
+        },
+        "0.35": {
+          "ci95": [
+            0.16018169533233634,
+            0.27847104388405713
+          ],
+          "k": 43,
+          "n": 200,
+          "rate": 0.215
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=15.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 102,
+          "UNRESOLVED": 98
+        },
+        "0.25": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 159,
+            "INCONCLUSIVE": 41
+          },
+          "0.25": {
+            "ADEQUATE": 42,
+            "INCONCLUSIVE": 158
+          },
+          "0.35": {
+            "ADEQUATE": 59,
+            "INCONCLUSIVE": 141
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 102,
+            "INCONCLUSIVE": 98
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=2.5",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=20.0": {
+      "comparative_counts": {
+        "0.15": {
+          "HISTORY_FAVOURED": 22,
+          "NEITHER": 174,
+          "UNRESOLVED": 4
+        },
+        "0.25": {
+          "HISTORY_FAVOURED": 42,
+          "UNRESOLVED": 158
+        },
+        "0.35": {
+          "HISTORY_FAVOURED": 154,
+          "UNRESOLVED": 46
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 20.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 22,
+            "INADEQUATE": 174,
+            "INCONCLUSIVE": 4
+          },
+          "0.25": {
+            "ADEQUATE": 42,
+            "INCONCLUSIVE": 158
+          },
+          "0.35": {
+            "ADEQUATE": 154,
+            "INCONCLUSIVE": 46
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.07023316352921179,
+            0.16179621556950016
+          ],
+          "k": 22,
+          "n": 200,
+          "rate": 0.11
+        },
+        "0.25": {
+          "ci95": [
+            0.15573975672412835,
+            0.27306870461379884
+          ],
+          "k": 42,
+          "n": 200,
+          "rate": 0.21
+        },
+        "0.35": {
+          "ci95": [
+            0.7053936054340193,
+            0.8264191371984088
+          ],
+          "k": 154,
+          "n": 200,
+          "rate": 0.77
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=20.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=30.0": {
+      "comparative_counts": {
+        "0.15": {
+          "HISTORY_FAVOURED": 7,
+          "UNRESOLVED": 193
+        },
+        "0.25": {
+          "HISTORY_FAVOURED": 49,
+          "UNRESOLVED": 151
+        },
+        "0.35": {
+          "HISTORY_FAVOURED": 178,
+          "UNRESOLVED": 22
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 30.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 7,
+            "INCONCLUSIVE": 193
+          },
+          "0.25": {
+            "ADEQUATE": 49,
+            "INCONCLUSIVE": 151
+          },
+          "0.35": {
+            "ADEQUATE": 178,
+            "INCONCLUSIVE": 22
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.014185525898419248,
+            0.0707809983509772
+          ],
+          "k": 7,
+          "n": 200,
+          "rate": 0.035
+        },
+        "0.25": {
+          "ci95": [
+            0.1870841260760019,
+            0.3106398658615988
+          ],
+          "k": 49,
+          "n": 200,
+          "rate": 0.245
+        },
+        "0.35": {
+          "ci95": [
+            0.8382037844304998,
+            0.9297668364707882
+          ],
+          "k": 178,
+          "n": 200,
+          "rate": 0.89
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=30.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "EXCLUDED"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.0,D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 27,
+          "UNRESOLVED": 173
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 193,
+            "INCONCLUSIVE": 7
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 27,
+            "INCONCLUSIVE": 173
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.0,D1=5.0",
+      "lam": 0.0,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=10.0": {
+      "delta1_pp": 10.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 167,
+            "INCONCLUSIVE": 33
+          },
+          "0.25": {
+            "ADEQUATE": 112,
+            "INCONCLUSIVE": 88
+          },
+          "0.35": {
+            "ADEQUATE": 176,
+            "INCONCLUSIVE": 24
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.5,D1=2.5",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=20.0": {
+      "delta1_pp": 20.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=30.0": {
+      "delta1_pp": 30.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.5,D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.5,D1=5.0",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=10.0": {
+      "delta1_pp": 10.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 196,
+            "INCONCLUSIVE": 4
+          },
+          "0.25": {
+            "ADEQUATE": 23,
+            "INCONCLUSIVE": 177
+          },
+          "0.35": {
+            "ADEQUATE": 195,
+            "INCONCLUSIVE": 5
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.8,D1=2.5",
+      "lam": 0.8,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=20.0": {
+      "delta1_pp": 20.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=30.0": {
+      "delta1_pp": 30.0,
+      "lam": 0.8,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T3"
+    },
+    "lam=0.8,D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A2",
+      "label": "lam=0.8,D1=5.0",
+      "lam": 0.8,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T3"
+    },
+    "mask D1=10.0": {
+      "comparative_counts": {
+        "0.15": {
+          "HISTORY_FAVOURED": 11,
+          "UNRESOLVED": 189
+        },
+        "0.25": {
+          "HISTORY_FAVOURED": 1,
+          "UNRESOLVED": 199
+        },
+        "0.35": {
+          "UNRESOLVED": 200
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 10.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 41,
+            "INCONCLUSIVE": 159
+          },
+          "0.35": {
+            "INADEQUATE": 1,
+            "INCONCLUSIVE": 199
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 11,
+            "INCONCLUSIVE": 189
+          },
+          "0.25": {
+            "ADEQUATE": 35,
+            "INCONCLUSIVE": 165
+          },
+          "0.35": {
+            "ADEQUATE": 124,
+            "INCONCLUSIVE": 76
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.02777225455200654,
+            0.09627764443391285
+          ],
+          "k": 11,
+          "n": 200,
+          "rate": 0.055
+        },
+        "0.25": {
+          "ci95": [
+            0.00012658102786701836,
+            0.02754189845720562
+          ],
+          "k": 1,
+          "n": 200,
+          "rate": 0.005
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "MIXED",
+      "label": "mask D1=10.0",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "EXCLUDED",
+        "0.25": "EXCLUDED",
+        "0.35": "INDETERMINATE"
+      },
+      "truth_class": "T4"
+    },
+    "mask D1=15.0": {
+      "delta1_pp": 15.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=2.5": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 1,
+          "UNRESOLVED": 199
+        },
+        "0.25": {
+          "EQUIVALENT": 63,
+          "UNRESOLVED": 137
+        },
+        "0.35": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 2.5,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 197,
+            "INCONCLUSIVE": 3
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 1,
+            "INCONCLUSIVE": 199
+          },
+          "0.25": {
+            "ADEQUATE": 63,
+            "INCONCLUSIVE": 137
+          },
+          "0.35": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "MIXED",
+      "label": "mask D1=2.5",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T4"
+    },
+    "mask D1=20.0": {
+      "delta1_pp": 20.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=30.0": {
+      "delta1_pp": 30.0,
+      "lam": 0.5,
+      "status": "INFEASIBLE TRUTH",
+      "truth_class": "T4"
+    },
+    "mask D1=5.0": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 138,
+          "LATENT_FAVOURED": 1,
+          "UNRESOLVED": 61
+        },
+        "0.25": {
+          "EQUIVALENT": 171,
+          "UNRESOLVED": 29
+        },
+        "0.35": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        }
+      },
+      "competitor": "A1_PRIME",
+      "delta1_pp": 5.0,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 179,
+            "INCONCLUSIVE": 21
+          },
+          "0.25": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 151,
+            "INADEQUATE": 1,
+            "INCONCLUSIVE": 48
+          },
+          "0.25": {
+            "ADEQUATE": 172,
+            "INCONCLUSIVE": 28
+          },
+          "0.35": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "MIXED",
+      "label": "mask D1=5.0",
+      "lam": 0.5,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T4"
+    },
+    "rho=0.5,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.5,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.5,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 67,
+            "INCONCLUSIVE": 133
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.5,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.8,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.8,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.8,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.8,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.9,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 6,
+          "LATENT_FAVOURED": 58,
+          "UNRESOLVED": 136
+        },
+        "0.25": {
+          "EQUIVALENT": 53,
+          "LATENT_FAVOURED": 11,
+          "UNRESOLVED": 136
+        },
+        "0.35": {
+          "EQUIVALENT": 130,
+          "UNRESOLVED": 70
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 6,
+            "INADEQUATE": 58,
+            "INCONCLUSIVE": 136
+          },
+          "0.25": {
+            "ADEQUATE": 53,
+            "INADEQUATE": 11,
+            "INCONCLUSIVE": 136
+          },
+          "0.35": {
+            "ADEQUATE": 130,
+            "INCONCLUSIVE": 70
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.9,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "INDETERMINATE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.9,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 200
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.9,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.95,HIGH": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 177,
+          "UNRESOLVED": 23
+        },
+        "0.25": {
+          "EQUIVALENT": 198,
+          "UNRESOLVED": 2
+        },
+        "0.35": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 177,
+            "INCONCLUSIVE": 23
+          },
+          "0.25": {
+            "ADEQUATE": 198,
+            "INCONCLUSIVE": 2
+          },
+          "0.35": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.95,HIGH",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    },
+    "rho=0.95,LOW": {
+      "comparative_counts": {
+        "0.15": {
+          "EQUIVALENT": 199,
+          "UNRESOLVED": 1
+        },
+        "0.25": {
+          "EQUIVALENT": 200
+        },
+        "0.35": {
+          "EQUIVALENT": 200
+        }
+      },
+      "competitor": "A2",
+      "delta1_pp": null,
+      "family_verdict_counts": {
+        "A1": {
+          "0.15": {
+            "INADEQUATE": 200
+          },
+          "0.25": {
+            "INADEQUATE": 200
+          },
+          "0.35": {
+            "INADEQUATE": 200
+          }
+        },
+        "A1_PRIME": {
+          "0.15": {
+            "ADEQUATE": 200
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        },
+        "A2": {
+          "0.15": {
+            "ADEQUATE": 199,
+            "INCONCLUSIVE": 1
+          },
+          "0.25": {
+            "ADEQUATE": 200
+          },
+          "0.35": {
+            "ADEQUATE": 200
+          }
+        }
+      },
+      "hf": {
+        "0.15": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.25": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        },
+        "0.35": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "k": 0,
+          "n": 200,
+          "rate": 0.0
+        }
+      },
+      "kind": "A1_PRIME",
+      "label": "rho=0.95,LOW",
+      "lam": null,
+      "naive": {
+        "m3": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "rec": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        },
+        "union": {
+          "ci95": [
+            0.9817246596448638,
+            1.0
+          ],
+          "k": 200,
+          "n": 200,
+          "rate": 1.0
+        }
+      },
+      "q": 200,
+      "q_pop": 200,
+      "states": {
+        "0.15": "REPRESENTABLE",
+        "0.25": "REPRESENTABLE",
+        "0.35": "REPRESENTABLE"
+      },
+      "truth_class": "T1"
+    }
+  }
+}

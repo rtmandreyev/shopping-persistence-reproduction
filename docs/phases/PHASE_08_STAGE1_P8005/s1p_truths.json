@@ -1,0 +1,586 @@
+{
+  "outside_region": [],
+  "truths": {
+    "logit_normal": [
+      {
+        "coord": [
+          0.0,
+          0.0
+        ],
+        "d_ci": 0.015574500912751033,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.21283395715550507,
+          "s": 1.5402942754764999
+        },
+        "index": 0,
+        "label": "A1",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T0"
+      },
+      {
+        "coord": [
+          2.771838201355579,
+          2.6967062611435995
+        ],
+        "d_ci": 0.01494734719998192,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.2261136068987124,
+          "s": 1.7091236267690215
+        },
+        "index": 1,
+        "label": "rho=0.5,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          2.771838201355579,
+          6.3934125222872
+        ],
+        "d_ci": 0.010845208371414672,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.25127889921673974,
+          "s": 2.1210465362091857
+        },
+        "index": 2,
+        "label": "rho=0.5,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          5.669129614532749,
+          2.6967062611435995
+        ],
+        "d_ci": 0.013652030509173296,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.20833212135351792,
+          "s": 1.6704063049697189
+        },
+        "index": 3,
+        "label": "rho=0.8,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          5.669129614532749,
+          6.3934125222872
+        ],
+        "d_ci": 0.009723902288187758,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.2069986456609615,
+          "s": 2.0902764911380722
+        },
+        "index": 4,
+        "label": "rho=0.8,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          7.5873886317002635,
+          2.6967062611435995
+        ],
+        "d_ci": 0.011904143475571893,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.20319490335553642,
+          "s": 1.6672174503951132
+        },
+        "index": 5,
+        "label": "rho=0.9,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          7.5873886317002635,
+          6.3934125222872
+        ],
+        "d_ci": 0.010267900917532907,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.17676276502367164,
+          "s": 2.035103041887083
+        },
+        "index": 6,
+        "label": "rho=0.9,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          9.427428735582366,
+          2.6967062611435995
+        ],
+        "d_ci": 0.012908822923108354,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.19764145876211836,
+          "s": 1.5989569805405488
+        },
+        "index": 7,
+        "label": "rho=0.95,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          9.427428735582366,
+          6.3934125222872
+        ],
+        "d_ci": 0.011012051384415605,
+        "delta": null,
+        "het": {
+          "arm": "logit_normal",
+          "mu": 0.14816903950400667,
+          "s": 1.8717963335584176
+        },
+        "index": 8,
+        "label": "rho=0.95,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          2.771838201355579,
+          0.27279220613578564
+        ],
+        "d_ci": 0.016991548134405288,
+        "delta": 0.5303300858899107,
+        "het": {
+          "arm": "logit_normal",
+          "mu": -0.08103677096131753,
+          "s": 1.3624514513863237
+        },
+        "index": 22,
+        "label": "lam=0.5,D1=5.0",
+        "mapping_within_tol": true,
+        "realized_pp": 4.86904257182872,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 24,
+        "label": "lam=0.5,D1=15.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 15.0 pp unreachable (max 14.27 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 26,
+        "label": "lam=0.5,D1=30.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 30.0 pp unreachable (max 14.27 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": [
+          5.669129614532749,
+          2.394112549695428
+        ],
+        "d_ci": 0.022000206143063084,
+        "delta": 1.4142135623730951,
+        "het": {
+          "arm": "logit_normal",
+          "mu": -0.563441961515456,
+          "s": 1.0727813921717595
+        },
+        "index": 28,
+        "label": "lam=0.8,D1=5.0",
+        "mapping_within_tol": true,
+        "realized_pp": 5.194201362523326,
+        "reason": null,
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 30,
+        "label": "lam=0.8,D1=15.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 15.0 pp unreachable (max 4.85 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 32,
+        "label": "lam=0.8,D1=30.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 30.0 pp unreachable (max 4.85 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      }
+    ],
+    "mixture": [
+      {
+        "coord": [
+          0.0,
+          0.0
+        ],
+        "d_ci": 0.005881364667079114,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.2066504143598378,
+          "mu1": -0.30627937324125476,
+          "mu2": 1.900371041118583,
+          "pi": 0.7491262489675945,
+          "s": 1.201346055256665
+        },
+        "index": 0,
+        "label": "A1",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T0"
+      },
+      {
+        "coord": [
+          2.771838201355579,
+          2.6967062611435995
+        ],
+        "d_ci": 0.0034770150484435547,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.2805988178826193,
+          "mu1": -0.38699198325995976,
+          "mu2": 1.8936068346226596,
+          "pi": 0.7184316546674664,
+          "s": 1.3345391215407492
+        },
+        "index": 1,
+        "label": "rho=0.5,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          2.771838201355579,
+          6.3934125222872
+        ],
+        "d_ci": 0.0035833469314202615,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.909923357810591,
+          "mu1": -0.4355510291616911,
+          "mu2": 2.4743723286489,
+          "pi": 0.7455034587423505,
+          "s": 1.6895563125796718
+        },
+        "index": 2,
+        "label": "rho=0.5,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          5.669129614532749,
+          2.6967062611435995
+        ],
+        "d_ci": 0.004159682816550214,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.260934980799711,
+          "mu1": -0.37911313217942144,
+          "mu2": 1.8818218486202896,
+          "pi": 0.7219765510960107,
+          "s": 1.331778503735508
+        },
+        "index": 3,
+        "label": "rho=0.8,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          5.669129614532749,
+          6.3934125222872
+        ],
+        "d_ci": 0.0022462671018063096,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.776353358164479,
+          "mu1": -0.54257952000009,
+          "mu2": 2.233773838164389,
+          "pi": 0.710419653379963,
+          "s": 1.6490527095728462
+        },
+        "index": 4,
+        "label": "rho=0.8,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          7.5873886317002635,
+          2.6967062611435995
+        ],
+        "d_ci": 0.005304682355686263,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.2843584971406994,
+          "mu1": -0.383047359504487,
+          "mu2": 1.9013111376362124,
+          "pi": 0.7242766021288847,
+          "s": 1.301075592796315
+        },
+        "index": 5,
+        "label": "rho=0.9,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          7.5873886317002635,
+          6.3934125222872
+        ],
+        "d_ci": 0.004276083675385567,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.6912752268625475,
+          "mu1": -0.4611737605525068,
+          "mu2": 2.2301014663100407,
+          "pi": 0.7421023892686198,
+          "s": 1.6222974587645664
+        },
+        "index": 6,
+        "label": "rho=0.9,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          9.427428735582366,
+          2.6967062611435995
+        ],
+        "d_ci": 0.004336012130562783,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.3438895540118994,
+          "mu1": -0.3477674318371573,
+          "mu2": 1.996122122174742,
+          "pi": 0.7456028941538132,
+          "s": 1.2513731541445692
+        },
+        "index": 7,
+        "label": "rho=0.95,LOW",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          9.427428735582366,
+          6.3934125222872
+        ],
+        "d_ci": 0.004695913645169192,
+        "delta": null,
+        "het": {
+          "arm": "mixture",
+          "d": 2.6019546965824434,
+          "mu1": -0.44513847619201297,
+          "mu2": 2.1568162203904304,
+          "pi": 0.7492912453453072,
+          "s": 1.4535959503000548
+        },
+        "index": 8,
+        "label": "rho=0.95,HIGH",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T1"
+      },
+      {
+        "coord": [
+          2.771838201355579,
+          0.27279220613578564
+        ],
+        "d_ci": 0.0074939549077986944,
+        "delta": 0.5303300858899107,
+        "het": {
+          "arm": "mixture",
+          "d": 1.977519220250271,
+          "mu1": -0.5497474762122128,
+          "mu2": 1.4277717440380582,
+          "pi": 0.745091542606011,
+          "s": 1.0493283088617935
+        },
+        "index": 22,
+        "label": "lam=0.5,D1=5.0",
+        "mapping_within_tol": true,
+        "realized_pp": 4.847905385790321,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 24,
+        "label": "lam=0.5,D1=15.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 15.0 pp unreachable (max 14.64 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 26,
+        "label": "lam=0.5,D1=30.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 30.0 pp unreachable (max 14.64 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": [
+          5.669129614532749,
+          2.394112549695428
+        ],
+        "d_ci": 0.00878738755334485,
+        "delta": 1.4142135623730951,
+        "het": {
+          "arm": "mixture",
+          "d": 1.667528476960636,
+          "mu1": -0.9162336862943308,
+          "mu2": 0.7512947906663052,
+          "pi": 0.7651190114479527,
+          "s": 0.8180702869353524
+        },
+        "index": 28,
+        "label": "lam=0.8,D1=5.0",
+        "mapping_within_tol": true,
+        "realized_pp": 5.161053536023366,
+        "reason": null,
+        "status": "FEASIBLE",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 30,
+        "label": "lam=0.8,D1=15.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 15.0 pp unreachable (max 5.02 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      },
+      {
+        "coord": null,
+        "d_ci": null,
+        "delta": null,
+        "het": null,
+        "index": 32,
+        "label": "lam=0.8,D1=30.0",
+        "mapping_within_tol": null,
+        "realized_pp": null,
+        "reason": "\u0394_1 = 30.0 pp unreachable (max 5.02 pp)",
+        "status": "INFEASIBLE TRUTH",
+        "truth_class": "T3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+moment_id,component,estimate,unit,population,operator,sample_n,households,uncertainty_low,uncertainty_high,uncertainty_method,source,simulation_architecture,simulation_replication,seed,status,bootstrap_se
+CI-1,mean,0.5357085260925717,share of weeks,households,O_interior_window,2490,2490,0.5256118613098189,0.5480806964116104,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.00556934648198798
+CI-1,q10,0.1590909090909091,share of weeks,households,O_interior_window,2490,2490,0.15,0.16912278986074167,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005476840777654468
+CI-1,q25,0.3026315789473684,share of weeks,households,O_interior_window,2490,2490,0.28888888888888886,0.31760270774976657,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0074781272734876295
+CI-1,q50,0.5402298850574713,share of weeks,households,O_interior_window,2490,2490,0.5222222222222223,0.5567903584817244,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.008602230721040705
+CI-1,q75,0.773538961038961,share of weeks,households,O_interior_window,2490,2490,0.7576825161272835,0.7872340425531915,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.008025183283748042
+CI-1,q90,0.9166666666666666,share of weeks,households,O_interior_window,2490,2490,0.9058823529411765,0.9270833333333334,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.00544566315990625
+K-1,between_share,0.2982866194410227,share of SS,household-week rows,O_interior_window,218652,2490,0.2889906486577904,0.30880247674603495,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005265990098204045
+K-2,gini,0.2958174195737744,index,households,O_interior_window,2490,2490,0.28759201331303463,0.30312883578582367,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004033387174052636
+K-2,top10_share,0.17941845416800092,share,households,O_interior_window,2490,2490,0.1762706508012399,0.18281900760671385,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0016625317102493408
+VI-1,P11,0.7169885088733257,probability,household-week rows,O_interior_window,216162,2490,0.7087556538691253,0.7261003191792336,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004441262155102234
+VI-1,P01,0.3382535074005644,probability,household-week rows,O_interior_window,216162,2490,0.33055827149478145,0.3475163670455987,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004410685011758723
+VI-1,GAP,0.37873500147276123,probability points,household-week rows,O_interior_window,216162,2490,0.3679889893170999,0.38983456056233967,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005543301635436108
+VI-2,O-M0,0.37873500147277184,probability points,household-week rows,O_interior_window,216162,2490,0.36798898931703833,0.389834560562151,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.00554330163542199
+VI-2,O-M1,0.3768982277639208,probability points,household-week rows,O_interior_window,216162,2490,0.3660826954104456,0.3880063149859967,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005520604471444432
+VI-2,O-M2,0.11285380823080796,probability points,household-week rows,O_interior_window,216162,2490,0.10390237691738062,0.12107101094502201,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.00453448024234908
+VI-2,O-M3,0.11198741657132602,probability points,household-week rows,O_interior_window,216162,2490,0.10300243750206507,0.11979264553036707,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004504060591558743
+VI-2,M0_to_M2_reduction,0.7020243500284954,share (descriptive),household-week rows,O_interior_window,216162,2490,0.6841317064769352,0.723269543961232,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.010340916413403348
+VI-3,beta_1,0.09988850163699267,probability points,household-week rows,O_interior_window,198732,2490,0.0904603650490922,0.10814835486633227,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004518078287756654
+VI-3,beta_2,0.11107200463381968,probability points,household-week rows,O_interior_window,198732,2490,0.10298227417974878,0.11916164480177878,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.003999770759483255
+VI-3,beta_4,0.09574291046096237,probability points,household-week rows,O_interior_window,198732,2490,0.08821813658602144,0.10284702688419194,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0036904963929357886
+VI-3,beta_8,0.060816112351040286,probability points,household-week rows,O_interior_window,198732,2490,0.05376858355171543,0.06685432082791351,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0033666339239918344
+VI-3,gamma_2,0.1020673388750924,probability points,household-week rows,O_interior_window,198732,2490,0.09487996008553691,0.10904676536758101,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.003555635231789827
+VI-4,active_1,0.5005619731501717,share of interior spells,spells,O_interior_window,32030,2490,0.4919044363130379,0.5093271950875302,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004491418909996449
+VI-4,active_2,0.1979394317827037,share of interior spells,spells,O_interior_window,32030,2490,0.19337647098012958,0.20271425077004437,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.002309487075994165
+VI-4,active_3-4,0.15544801748360912,share of interior spells,spells,O_interior_window,32030,2490,0.15089411683565723,0.16033286303521127,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0023292798625500857
+VI-4,active_5+,0.14605057758351545,share of interior spells,spells,O_interior_window,32030,2490,0.14027991294640316,0.15302774999890406,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0032936202419093035
+VI-4,inactive_1,0.5353686241558523,share of interior spells,spells,O_interior_window,32133,2490,0.5268748114489109,0.544499566901761,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004511975145122261
+VI-4,inactive_2,0.19238788784116018,share of interior spells,spells,O_interior_window,32133,2490,0.18845256447236705,0.1968376762076731,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.002154763792416657
+VI-4,inactive_3-4,0.14558242305418106,share of interior spells,spells,O_interior_window,32133,2490,0.14052512894811472,0.14996137858033118,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0023650124131548624
+VI-4,inactive_5+,0.12666106494880652,share of interior spells,spells,O_interior_window,32133,2490,0.12072068726179881,0.13233407415621093,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0029867275342217166
+VI-5,spearman,0.7692591797182052,rank correlation,households,O_interior_window,2490,2490,0.7510336317802913,0.7884700266307596,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.009517353648328895
+VI-6,delta_log_loss_recency,0.024803708225347054,nats,household-week rows,O_interior_window,74919,2490,0.02185070289755458,0.02763545450245718,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.0014917094999764902
+VI-6,delta_brier_recency,0.010452456312077224,Brier,household-week rows,O_interior_window,74919,2490,0.00914028246295375,0.011684673934681786,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.0006491074843006306
+CI-1,mean,0.5297414634146342,share of weeks,households,S_fixed_20_101,2500,2500,0.5192712195121951,0.5418771951219513,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005678737459690745
+CI-1,q10,0.14634146341463414,share of weeks,households,S_fixed_20_101,2500,2500,0.13414634146341464,0.15853658536585366,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0072479900249469344
+CI-1,q25,0.2926829268292683,share of weeks,households,S_fixed_20_101,2500,2500,0.2804878048780488,0.3048780487804878,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.007163103287775688
+CI-1,q50,0.5365853658536586,share of weeks,households,S_fixed_20_101,2500,2500,0.5121951219512195,0.5487804878048781,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.01059790071333451
+CI-1,q75,0.7682926829268293,share of weeks,households,S_fixed_20_101,2500,2500,0.7560975609756098,0.7926829268292683,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.009106745842154568
+CI-1,q90,0.9158536585365843,share of weeks,households,S_fixed_20_101,2500,2500,0.9030182926829263,0.926829268292683,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.006928037006379021
+VI-1,P11,0.7136726951268924,probability,household-week rows,S_fixed_20_101,205000,2500,0.7049825182060054,0.7229712860601235,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004548081676566958
+VI-1,P01,0.32254885689390483,probability,household-week rows,S_fixed_20_101,205000,2500,0.31404975117906087,0.3316285903884223,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004537069145033873
+VI-1,GAP,0.3911238382329875,probability points,household-week rows,S_fixed_20_101,205000,2500,0.37975019341608957,0.40226414919426795,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005902887904239023
+VI-2,O-M0,0.39112383823292546,probability points,household-week rows,S_fixed_20_101,205000,2500,0.3797501934159204,0.4022641491943125,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005902887904239545
+VI-2,O-M1,0.39128706249012263,probability points,household-week rows,S_fixed_20_101,205000,2500,0.3800271890374983,0.4025665216739079,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0059090336394554376
+VI-2,O-M2,0.1045065340951003,probability points,household-week rows,S_fixed_20_101,205000,2500,0.09510770442892127,0.11272196819494532,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004662561636347651
+VI-2,O-M3,0.10438450396774239,probability points,household-week rows,S_fixed_20_101,205000,2500,0.09498511542281014,0.11252115396212198,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004665213200520692
+VI-2,M0_to_M2_reduction,0.7328044882990137,share (descriptive),household-week rows,S_fixed_20_101,205000,2500,0.714459277138504,0.7550995294206296,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.010539080142648016
+VI-3,beta_1,0.10438450396774239,probability points,household-week rows,S_fixed_20_101,205000,2500,0.09498511542281014,0.11252115396212198,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004665213200520692
+VI-3,beta_2,0.11713167717914957,probability points,household-week rows,S_fixed_20_101,205000,2500,0.10877378175791261,0.12538828178780684,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004111307290667645
+VI-3,beta_4,0.10069632005634918,probability points,household-week rows,S_fixed_20_101,205000,2500,0.09292258967991954,0.10753671228829631,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.00387543608058376
+VI-3,beta_8,0.0631057786650484,probability points,household-week rows,S_fixed_20_101,205000,2500,0.05629255492908076,0.06918231672759134,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.00339544282953705
+VI-3,gamma_2,0.10731262276017495,probability points,household-week rows,S_fixed_20_101,205000,2500,0.0998535208280447,0.11483698380570309,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0036186678423803693
+VI-4,active_1,0.5088934147997285,share of interior spells,spells,S_fixed_20_101,29460,2500,0.5002042235357854,0.5174824112370813,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004491761747194631
+VI-4,active_2,0.19714867617107942,share of interior spells,spells,S_fixed_20_101,29460,2500,0.19234569208535357,0.20204743835297043,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0024485987157505345
+VI-4,active_3-4,0.15380176510522742,share of interior spells,spells,S_fixed_20_101,29460,2500,0.14926786919100224,0.15836395422911692,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0023815427776444496
+VI-4,active_5+,0.1401561439239647,share of interior spells,spells,S_fixed_20_101,29460,2500,0.13442055915063583,0.14688283962892854,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0032823354261743904
+VI-4,inactive_1,0.5335253261053702,share of interior spells,spells,S_fixed_20_101,29515,2500,0.524671360691608,0.5433045159570672,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004654095752545263
+VI-4,inactive_2,0.19088599017448754,share of interior spells,spells,S_fixed_20_101,29515,2500,0.18659500517589026,0.19527788180056732,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.002243754781957222
+VI-4,inactive_3-4,0.14802642724038625,share of interior spells,spells,S_fixed_20_101,29515,2500,0.14303971864897902,0.1524670080118337,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.002481153403567354
+VI-4,inactive_5+,0.12756225647975605,share of interior spells,spells,S_fixed_20_101,29515,2500,0.12153110883143556,0.13354462750419524,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0030948510658156507
+VI-6,delta_log_loss_recency,0.03025095921195431,nats,household-week rows,S_fixed_20_101,82451,2500,0.02693195817444418,0.033371777439043016,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.001703609992730681
+VI-6,delta_brier_recency,0.012743191236031737,Brier,household-week rows,S_fixed_20_101,82451,2500,0.011285434908034233,0.014099409621233952,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.0007458391972682401
+CI-1,mean,0.49073199999999995,share of weeks,households,G_full_grid,2500,2500,0.4813173,0.5015099000000001,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005118428252807916
+CI-1,q10,0.14900000000000005,share of weeks,households,G_full_grid,2500,2500,0.14,0.16,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0062924871703944766
+CI-1,q25,0.28,share of weeks,households,G_full_grid,2500,2500,0.27,0.29,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005996826147863166
+CI-1,q50,0.49,share of weeks,households,G_full_grid,2500,2500,0.48,0.51,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.009016456786674691
+CI-1,q75,0.71,share of weeks,households,G_full_grid,2500,2500,0.69,0.72,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.007710212042445984
+CI-1,q90,0.83,share of weeks,households,G_full_grid,2500,2500,0.82,0.85,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.007228237602464089
+VI-1,P11,0.7089512929828315,probability,household-week rows,G_full_grid,250000,2500,0.7005019058291014,0.718260598236597,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0045005013683696625
+VI-1,P01,0.2843935314168314,probability,household-week rows,G_full_grid,250000,2500,0.2778677791206464,0.2915054770276893,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0034297165158643267
+VI-1,GAP,0.42455776156600017,probability points,household-week rows,G_full_grid,250000,2500,0.4146242730318372,0.43479727240026633,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005332018189159127
+VI-2,O-M0,0.4245577615664921,probability points,household-week rows,G_full_grid,250000,2500,0.41462427303206983,0.4347972724006546,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005332018189157617
+VI-2,O-M1,0.39640808132193367,probability points,household-week rows,G_full_grid,250000,2500,0.3857619880195124,0.4074060051746191,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.005564524697919393
+VI-2,O-M2,0.22826547241720177,probability points,household-week rows,G_full_grid,250000,2500,0.21991233826771714,0.2365891968287173,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004536405536194528
+VI-2,O-M3,0.17436331366710217,probability points,household-week rows,G_full_grid,250000,2500,0.16555234091046325,0.18222378593013963,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004352667914760466
+VI-2,M0_to_M2_reduction,0.46234530826860887,share (descriptive),household-week rows,G_full_grid,250000,2500,0.44988266579468017,0.4768244681487008,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0072931205617219295
+VI-3,beta_1,0.14382324514073674,probability points,household-week rows,G_full_grid,232500,2500,0.1347487523710515,0.15198510894466252,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004417725957937327
+VI-3,beta_2,0.14971784274459038,probability points,household-week rows,G_full_grid,232500,2500,0.14202934094496944,0.15730950274006364,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0038676030448296012
+VI-3,beta_4,0.1267107978960891,probability points,household-week rows,G_full_grid,232500,2500,0.11911862574689278,0.13282144004756613,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0035808575825601982
+VI-3,beta_8,0.08235126870021976,probability points,household-week rows,G_full_grid,232500,2500,0.07567790641075273,0.08807051233008736,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0031757795572698285
+VI-3,gamma_2,0.13123982018040367,probability points,household-week rows,G_full_grid,232500,2500,0.12475997877420593,0.13791226175437382,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0032568404750767483
+VI-4,active_1,0.5045237282348924,share of interior spells,spells,G_full_grid,35148,2500,0.49624807820532446,0.5130814603395198,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004361382006825292
+VI-4,active_2,0.19508933651985888,share of interior spells,spells,G_full_grid,35148,2500,0.19066481185461792,0.19964606268113547,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0022096038457211425
+VI-4,active_3-4,0.15227039945373846,share of interior spells,spells,G_full_grid,35148,2500,0.14792613154092432,0.15675084907553613,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0021945056009183787
+VI-4,active_5+,0.14811653579151018,share of interior spells,spells,G_full_grid,35148,2500,0.14225336163186117,0.15468559647731966,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0032384387095876896
+VI-4,inactive_1,0.5234672924611323,share of interior spells,spells,G_full_grid,34090,2500,0.5146712623083909,0.5326009701525989,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.004524044165327532
+VI-4,inactive_2,0.1902610736286301,share of interior spells,spells,G_full_grid,34090,2500,0.1863215405029396,0.19460153853599577,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.002085445101086618
+VI-4,inactive_3-4,0.14796127896743913,share of interior spells,spells,G_full_grid,34090,2500,0.1432260294376706,0.15237149799467617,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0023621646263439658
+VI-4,inactive_5+,0.13831035494279847,share of interior spells,spells,G_full_grid,34090,2500,0.13210454452930667,0.14408512598288545,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,computed,0.0030814124989044177
+VI-6,delta_log_loss_recency,0.028330474143933526,nats,household-week rows,G_full_grid,82451,2500,0.02506632623937543,0.031242500466923392,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.0016329635988753183
+VI-6,delta_brier_recency,0.011875252217925625,Brier,household-week rows,G_full_grid,82451,2500,0.010497359903793309,0.013193055949946743,"household bootstrap B=500; percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",real,,,,secondary,0.0007148184728494784
+E-1,week_003,0.5227272727272727,probability,household-week rows,O_interior_window,88,88,,,,real,,,,environment,
+E-1,week_004,0.48847926267281105,probability,household-week rows,O_interior_window,217,217,,,,real,,,,environment,
+E-1,week_005,0.509090909090909,probability,household-week rows,O_interior_window,330,330,,,,real,,,,environment,
+E-1,week_006,0.5558035714285714,probability,household-week rows,O_interior_window,448,448,,,,real,,,,environment,
+E-1,week_007,0.5085324232081911,probability,household-week rows,O_interior_window,586,586,,,,real,,,,environment,
+E-1,week_008,0.4616477272727273,probability,household-week rows,O_interior_window,704,704,,,,real,,,,environment,
+E-1,week_009,0.5149700598802395,probability,household-week rows,O_interior_window,835,835,,,,real,,,,environment,
+E-1,week_010,0.5181347150259067,probability,household-week rows,O_interior_window,965,965,,,,real,,,,environment,
+E-1,week_011,0.5333943275388838,probability,household-week rows,O_interior_window,1093,1093,,,,real,,,,environment,
+E-1,week_012,0.5255474452554745,probability,household-week rows,O_interior_window,1233,1233,,,,real,,,,environment,
+E-1,week_013,0.5198581560283688,probability,household-week rows,O_interior_window,1410,1410,,,,real,,,,environment,
+E-1,week_014,0.5534471853257432,probability,household-week rows,O_interior_window,1581,1581,,,,real,,,,environment,
+E-1,week_015,0.517599538372764,probability,household-week rows,O_interior_window,1733,1733,,,,real,,,,environment,
+E-1,week_016,0.5374077976817703,probability,household-week rows,O_interior_window,1898,1898,,,,real,,,,environment,
+E-1,week_017,0.5186440677966102,probability,household-week rows,O_interior_window,2065,2065,,,,real,,,,environment,
+E-1,week_018,0.5218929677134011,probability,household-week rows,O_interior_window,2261,2261,,,,real,,,,environment,
+E-1,week_019,0.5095723014256619,probability,household-week rows,O_interior_window,2455,2455,,,,real,,,,environment,
+E-1,week_020,0.5304067660088603,probability,household-week rows,O_interior_window,2483,2483,,,,real,,,,environment,
+E-1,week_021,0.5281803542673108,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_022,0.5283702213279678,probability,household-week rows,O_interior_window,2485,2485,,,,real,,,,environment,
+E-1,week_023,0.5187122736418511,probability,household-week rows,O_interior_window,2485,2485,,,,real,,,,environment,
+E-1,week_024,0.5372233400402414,probability,household-week rows,O_interior_window,2485,2485,,,,real,,,,environment,
+E-1,week_025,0.5410297666934835,probability,household-week rows,O_interior_window,2486,2486,,,,real,,,,environment,
+E-1,week_026,0.523943661971831,probability,household-week rows,O_interior_window,2485,2485,,,,real,,,,environment,
+E-1,week_027,0.509456740442656,probability,household-week rows,O_interior_window,2485,2485,,,,real,,,,environment,
+E-1,week_028,0.5175050301810865,probability,household-week rows,O_interior_window,2485,2485,,,,real,,,,environment,
+E-1,week_029,0.535426731078905,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_030,0.5173107890499195,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_031,0.5140901771336553,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_032,0.5144927536231884,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_033,0.5249597423510467,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_034,0.5197262479871175,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_035,0.5080515297906603,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_036,0.53341384863124,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_037,0.5297906602254429,probability,household-week rows,O_interior_window,2484,2484,,,,real,,,,environment,
+E-1,week_038,0.5167136528393073,probability,household-week rows,O_interior_window,2483,2483,,,,real,,,,environment,
+E-1,week_039,0.5215465163109142,probability,household-week rows,O_interior_window,2483,2483,,,,real,,,,environment,
+E-1,week_040,0.5142972211035038,probability,household-week rows,O_interior_window,2483,2483,,,,real,,,,environment,
+E-1,week_041,0.5265914585012087,probability,household-week rows,O_interior_window,2482,2482,,,,real,,,,environment,
+E-1,week_042,0.530241935483871,probability,household-week rows,O_interior_window,2480,2480,,,,real,,,,environment,
+E-1,week_043,0.519758064516129,probability,household-week rows,O_interior_window,2480,2480,,,,real,,,,environment,
+E-1,week_044,0.5312626058894716,probability,household-week rows,O_interior_window,2479,2479,,,,real,,,,environment,
+E-1,week_045,0.5203711173860428,probability,household-week rows,O_interior_window,2479,2479,,,,real,,,,environment,
+E-1,week_046,0.5383373688458434,probability,household-week rows,O_interior_window,2478,2478,,,,real,,,,environment,
+E-1,week_047,0.5189669087974172,probability,household-week rows,O_interior_window,2478,2478,,,,real,,,,environment,
+E-1,week_048,0.5246166263115416,probability,household-week rows,O_interior_window,2478,2478,,,,real,,,,environment,
+E-1,week_049,0.5262520193861067,probability,household-week rows,O_interior_window,2476,2476,,,,real,,,,environment,
+E-1,week_050,0.5379644588045234,probability,household-week rows,O_interior_window,2476,2476,,,,real,,,,environment,
+E-1,week_051,0.5258481421647819,probability,household-week rows,O_interior_window,2476,2476,,,,real,,,,environment,
+E-1,week_052,0.5246365105008077,probability,household-week rows,O_interior_window,2476,2476,,,,real,,,,environment,
+E-1,week_053,0.5201938610662359,probability,household-week rows,O_interior_window,2476,2476,,,,real,,,,environment,
+E-1,week_054,0.5307194826192401,probability,household-week rows,O_interior_window,2474,2474,,,,real,,,,environment,
+E-1,week_055,0.5392077607113985,probability,household-week rows,O_interior_window,2474,2474,,,,real,,,,environment,
+E-1,week_056,0.5388349514563107,probability,household-week rows,O_interior_window,2472,2472,,,,real,,,,environment,
+E-1,week_057,0.5220558478348847,probability,household-week rows,O_interior_window,2471,2471,,,,real,,,,environment,
+E-1,week_058,0.520242914979757,probability,household-week rows,O_interior_window,2470,2470,,,,real,,,,environment,
+E-1,week_059,0.5628038897893031,probability,household-week rows,O_interior_window,2468,2468,,,,real,,,,environment,
+E-1,week_060,0.5610547667342799,probability,household-week rows,O_interior_window,2465,2465,,,,real,,,,environment,
+E-1,week_061,0.5641233766233766,probability,household-week rows,O_interior_window,2464,2464,,,,real,,,,environment,
+E-1,week_062,0.5525781567194479,probability,household-week rows,O_interior_window,2463,2463,,,,real,,,,environment,
+E-1,week_063,0.5519902518277823,probability,household-week rows,O_interior_window,2462,2462,,,,real,,,,environment,
+E-1,week_064,0.5414634146341464,probability,household-week rows,O_interior_window,2460,2460,,,,real,,,,environment,
+E-1,week_065,0.544973544973545,probability,household-week rows,O_interior_window,2457,2457,,,,real,,,,environment,
+E-1,week_066,0.5217922606924643,probability,household-week rows,O_interior_window,2455,2455,,,,real,,,,environment,
+E-1,week_067,0.544231553200163,probability,household-week rows,O_interior_window,2453,2453,,,,real,,,,environment,
+E-1,week_068,0.5744594043247654,probability,household-week rows,O_interior_window,2451,2451,,,,real,,,,environment,
+E-1,week_069,0.5375510204081633,probability,household-week rows,O_interior_window,2450,2450,,,,real,,,,environment,
+E-1,week_070,0.536734693877551,probability,household-week rows,O_interior_window,2450,2450,,,,real,,,,environment,
+E-1,week_071,0.5450081833060556,probability,household-week rows,O_interior_window,2444,2444,,,,real,,,,environment,
+E-1,week_072,0.5748257482574826,probability,household-week rows,O_interior_window,2439,2439,,,,real,,,,environment,
+E-1,week_073,0.5486253590480098,probability,household-week rows,O_interior_window,2437,2437,,,,real,,,,environment,
+E-1,week_074,0.5363748458692972,probability,household-week rows,O_interior_window,2433,2433,,,,real,,,,environment,
+E-1,week_075,0.5454545454545454,probability,household-week rows,O_interior_window,2431,2431,,,,real,,,,environment,
+E-1,week_076,0.5477366255144033,probability,household-week rows,O_interior_window,2430,2430,,,,real,,,,environment,
+E-1,week_077,0.5570663370416151,probability,household-week rows,O_interior_window,2427,2427,,,,real,,,,environment,
+E-1,week_078,0.5328105654147751,probability,household-week rows,O_interior_window,2423,2423,,,,real,,,,environment,
+E-1,week_079,0.5620860927152318,probability,household-week rows,O_interior_window,2416,2416,,,,real,,,,environment,
+E-1,week_080,0.5469269102990033,probability,household-week rows,O_interior_window,2408,2408,,,,real,,,,environment,
+E-1,week_081,0.5596177814707104,probability,household-week rows,O_interior_window,2407,2407,,,,real,,,,environment,
+E-1,week_082,0.5630217028380634,probability,household-week rows,O_interior_window,2396,2396,,,,real,,,,environment,
+E-1,week_083,0.5614548494983278,probability,household-week rows,O_interior_window,2392,2392,,,,real,,,,environment,
+E-1,week_084,0.539203354297694,probability,household-week rows,O_interior_window,2385,2385,,,,real,,,,environment,
+E-1,week_085,0.584070796460177,probability,household-week rows,O_interior_window,2373,2373,,,,real,,,,environment,
+E-1,week_086,0.5634517766497462,probability,household-week rows,O_interior_window,2364,2364,,,,real,,,,environment,
+E-1,week_087,0.5706382978723404,probability,household-week rows,O_interior_window,2350,2350,,,,real,,,,environment,
+E-1,week_088,0.5814450619923044,probability,household-week rows,O_interior_window,2339,2339,,,,real,,,,environment,
+E-1,week_089,0.564974182444062,probability,household-week rows,O_interior_window,2324,2324,,,,real,,,,environment,
+E-1,week_090,0.580155979202773,probability,household-week rows,O_interior_window,2308,2308,,,,real,,,,environment,
+E-1,week_091,0.5790849673202615,probability,household-week rows,O_interior_window,2295,2295,,,,real,,,,environment,
+E-1,week_092,0.618229854689564,probability,household-week rows,O_interior_window,2271,2271,,,,real,,,,environment,
+E-1,week_093,0.5427046263345195,probability,household-week rows,O_interior_window,2248,2248,,,,real,,,,environment,
+E-1,week_094,0.5991847826086957,probability,household-week rows,O_interior_window,2208,2208,,,,real,,,,environment,
+E-1,week_095,0.5971389017074297,probability,household-week rows,O_interior_window,2167,2167,,,,real,,,,environment,
+E-1,week_096,0.5977496483825597,probability,household-week rows,O_interior_window,2133,2133,,,,real,,,,environment,
+E-1,week_097,0.6136801541425819,probability,household-week rows,O_interior_window,2076,2076,,,,real,,,,environment,
+E-1,week_098,0.6522613065326633,probability,household-week rows,O_interior_window,1990,1990,,,,real,,,,environment,
+E-1,week_099,0.6438136047134441,probability,household-week rows,O_interior_window,1867,1867,,,,real,,,,environment,
+E-1,week_100,0.6601347213717085,probability,household-week rows,O_interior_window,1633,1633,,,,real,,,,environment,
+E-1,week_101,0.6979253112033195,probability,household-week rows,O_interior_window,1205,1205,,,,real,,,,environment,

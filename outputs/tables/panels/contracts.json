@@ -1,0 +1,1490 @@
+{
+  "format_version": 1,
+  "phase": "2",
+  "note": "Canonical Parquet artifacts are local and Git-ignored. This document and the aggregate summaries under outputs/tables/panels/ contain no household identifiers.",
+  "tables": [
+    {
+      "table": "basket_panel",
+      "title": "Basket-level canonical panel",
+      "grain": "household_key x basket_id",
+      "key": [
+        "household_key",
+        "basket_id"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "basket_id",
+          "integer"
+        ],
+        [
+          "day",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "store_id",
+          "integer"
+        ],
+        [
+          "basket_sales_value",
+          "double"
+        ],
+        [
+          "basket_units",
+          "integer"
+        ],
+        [
+          "distinct_products",
+          "integer"
+        ],
+        [
+          "distinct_commodities",
+          "integer"
+        ],
+        [
+          "transaction_line_count",
+          "integer"
+        ],
+        [
+          "basket_retail_disc",
+          "double"
+        ],
+        [
+          "basket_coupon_disc",
+          "double"
+        ],
+        [
+          "basket_coupon_match_disc",
+          "double"
+        ],
+        [
+          "qa_quantity_zero_lines",
+          "integer"
+        ],
+        [
+          "qa_retail_disc_positive_lines",
+          "integer"
+        ],
+        [
+          "qa_implied_paid_negative_lines",
+          "integer"
+        ]
+      ],
+      "population": "Every distinct shopping basket in transaction_data. No basket is dropped for carrying a flagged anomaly.",
+      "time_support": "Days 1-711 / weeks 1-102 (basket day is uniquely determined).",
+      "zero_semantics": "Not applicable: a basket exists only because it has transaction lines. basket_units may be 0 when every line has QUANTITY = 0 (flagged by qa_quantity_zero_lines).",
+      "missing_semantics": "No nulls: every basket has a household, day, week, and store.",
+      "expected_row_count": null,
+      "actual_row_count": 276484,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/basket_panel.parquet",
+      "parquet_sha256": "9ef6a868f80f051b9979763657171c1dc3d320d1c6998e504b6a2e676f6477dd",
+      "generating_sql": "sql/panels/01_basket_panel.sql",
+      "source_tables": [
+        "transaction_data",
+        "product"
+      ],
+      "limitations": "Sales values are retailer revenue, not customer-paid prices. Discount sums keep source sign conventions."
+    },
+    {
+      "table": "campaign_household_week",
+      "title": "Listed-recipient campaign household-week timeline",
+      "grain": "household_key x campaign x week_no",
+      "key": [
+        "household_key",
+        "campaign",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "campaign",
+          "integer"
+        ],
+        [
+          "campaign_type",
+          "text"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "relative_week",
+          "integer"
+        ],
+        [
+          "period_label",
+          "text"
+        ],
+        [
+          "is_campaign_week",
+          "integer"
+        ],
+        [
+          "listed_recipient",
+          "integer"
+        ],
+        [
+          "retailer_purchase",
+          "integer"
+        ],
+        [
+          "trips",
+          "integer"
+        ],
+        [
+          "weekly_sales_value",
+          "double"
+        ],
+        [
+          "units",
+          "integer"
+        ],
+        [
+          "overlapping_listed_campaign_count",
+          "integer"
+        ],
+        [
+          "coupon_redemption_rows",
+          "integer"
+        ]
+      ],
+      "population": "Every (household, campaign) pair listed in campaign_table (7,208) x 102 weeks = 735,216 rows. Listed recipients only; non-listed households are reachable via campaign_week_calendar, NOT enumerated here.",
+      "time_support": "Weeks 1-102 per listed pair.",
+      "zero_semantics": "coupon_redemption_rows = 0 means no recorded redemption that week. overlapping_listed_campaign_count counts listings, not realized exposure.",
+      "missing_semantics": "No nulls.",
+      "expected_row_count": 735216,
+      "actual_row_count": 735216,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/campaign_household_week.parquet",
+      "parquet_sha256": "38f8208410e39b71372bbf6e85f1c488be3c6b0412d809b68fdd0c1d186db096",
+      "generating_sql": "sql/panels/08_campaign_household_week.sql",
+      "source_tables": [
+        "campaign_table",
+        "campaign_week_calendar",
+        "household_week_base",
+        "coupon_redempt"
+      ],
+      "limitations": "Infrastructure only. 'Listed' is never 'treated'; no control group is defined anywhere in this pipeline."
+    },
+    {
+      "table": "campaign_week_calendar",
+      "title": "Neutral campaign week calendar",
+      "grain": "campaign x week_no",
+      "key": [
+        "campaign",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "campaign",
+          "integer"
+        ],
+        [
+          "campaign_type",
+          "text"
+        ],
+        [
+          "start_day",
+          "integer"
+        ],
+        [
+          "end_day",
+          "integer"
+        ],
+        [
+          "duration_days",
+          "integer"
+        ],
+        [
+          "nominal_start_week",
+          "integer"
+        ],
+        [
+          "nominal_end_week",
+          "integer"
+        ],
+        [
+          "start_week",
+          "integer"
+        ],
+        [
+          "end_week",
+          "integer"
+        ],
+        [
+          "ends_after_transaction_window",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "relative_week",
+          "integer"
+        ],
+        [
+          "period_label",
+          "text"
+        ],
+        [
+          "is_campaign_week",
+          "integer"
+        ]
+      ],
+      "population": "30 campaigns x 102 observed weeks = 3,060 rows.",
+      "time_support": "Weeks 1-102; period labels use the accepted P1-009 convention.",
+      "zero_semantics": "is_campaign_week = 0 means the week is outside the clipped campaign span (pre/post); it is not an exposure value.",
+      "missing_semantics": "No nulls.",
+      "expected_row_count": 3060,
+      "actual_row_count": 3060,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/campaign_week_calendar.parquet",
+      "parquet_sha256": "4be48ab605ae0679be41dacf6ad0f5078881c7ae3c0430ab9e2a4990c38043f3",
+      "generating_sql": "sql/panels/07_campaign_week_calendar.sql",
+      "source_tables": [
+        "campaign_desc",
+        "transaction_data"
+      ],
+      "limitations": "Infrastructure only: no treatment/control, no window, no horizon, no estimand."
+    },
+    {
+      "table": "choice_household_product_week",
+      "title": "Household-product-week purchases, price candidates and prior history",
+      "grain": "household_key x product_id x week_no",
+      "key": [
+        "household_key",
+        "product_id",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "product_id",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "brand",
+          "text"
+        ],
+        [
+          "commodity_desc",
+          "text"
+        ],
+        [
+          "purchase_lines",
+          "integer"
+        ],
+        [
+          "units",
+          "integer"
+        ],
+        [
+          "sales_value",
+          "double"
+        ],
+        [
+          "retail_disc",
+          "double"
+        ],
+        [
+          "coupon_disc",
+          "double"
+        ],
+        [
+          "coupon_match_disc",
+          "double"
+        ],
+        [
+          "distinct_stores",
+          "integer"
+        ],
+        [
+          "prior_purchase_weeks",
+          "integer"
+        ],
+        [
+          "prior_purchase_lines",
+          "integer"
+        ],
+        [
+          "prior_units",
+          "integer"
+        ],
+        [
+          "weeks_since_prior_product_purchase",
+          "integer"
+        ],
+        [
+          "prior_brand_purchase_lines",
+          "integer"
+        ],
+        [
+          "weeks_since_prior_brand_purchase",
+          "integer"
+        ],
+        [
+          "prior_commodity_purchase_lines",
+          "integer"
+        ],
+        [
+          "weeks_since_prior_commodity_purchase",
+          "integer"
+        ],
+        [
+          "previously_purchased_product",
+          "integer"
+        ]
+      ],
+      "population": "SPARSE: observed household x product x week purchase cells (2,519,013). No dense household x product-grid is built.",
+      "time_support": "Weeks 1-102.",
+      "zero_semantics": "prior_* counters are 0 when there is no prior purchase; weeks_since_prior_* is NULL there.",
+      "missing_semantics": "weeks_since_prior_* NULL = no prior purchase. Price candidates are NOT here (see choice_line_price_candidates).",
+      "expected_row_count": 2519013,
+      "actual_row_count": 2519013,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/choice_household_product_week.parquet",
+      "parquet_sha256": "0b4699d2da2d66103a910a089e141735f71cded8e8dd57040273486336bbc007",
+      "generating_sql": "sql/panels/10_choice_household_product_week.sql",
+      "source_tables": [
+        "transaction_data",
+        "product"
+      ],
+      "limitations": "No price columns: the vendor formulas are exact only at line grain. No commodity is selected and no choice set is built."
+    },
+    {
+      "table": "choice_line_price_candidates",
+      "title": "Transaction-line vendor unit-price candidates (exact Phase 1 formulas)",
+      "grain": "household_key x basket_id x product_id",
+      "key": [
+        "household_key",
+        "basket_id",
+        "product_id"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "basket_id",
+          "integer"
+        ],
+        [
+          "product_id",
+          "integer"
+        ],
+        [
+          "store_id",
+          "integer"
+        ],
+        [
+          "day",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "quantity",
+          "integer"
+        ],
+        [
+          "sales_value",
+          "double"
+        ],
+        [
+          "retail_disc",
+          "double"
+        ],
+        [
+          "coupon_disc",
+          "double"
+        ],
+        [
+          "coupon_match_disc",
+          "double"
+        ],
+        [
+          "vendor_loyalty_unit_price_candidate",
+          "double"
+        ],
+        [
+          "vendor_nonloyalty_unit_price_candidate",
+          "double"
+        ]
+      ],
+      "population": "Positive-quantity transaction lines only (2,581,266). The 14,466 QUANTITY = 0 lines are excluded because the formula is undefined there; they remain in the canonical tables.",
+      "time_support": "Days 1-711 / weeks 1-102.",
+      "zero_semantics": "Not applicable: QUANTITY > 0 by construction, so no division by zero and no NULL candidates.",
+      "missing_semantics": "No nulls.",
+      "expected_row_count": 2581266,
+      "actual_row_count": 2581266,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/choice_line_price_candidates.parquet",
+      "parquet_sha256": "746139c535d9e1c4f0bd1eeeef626bf3b08aa5309052be2b8b632e9ef3468b6c",
+      "generating_sql": "sql/panels/11_choice_line_price_candidates.sql",
+      "source_tables": [
+        "transaction_data"
+      ],
+      "limitations": "CANDIDATE measures only, never the chosen economic price; no column is named 'price'. Not aggregated to any occasion grain."
+    },
+    {
+      "table": "choice_product_store_week",
+      "title": "Purchased product-store-week facts with causal_data metadata",
+      "grain": "product_id x store_id x week_no",
+      "key": [
+        "product_id",
+        "store_id",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "product_id",
+          "integer"
+        ],
+        [
+          "store_id",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "transaction_lines",
+          "integer"
+        ],
+        [
+          "transaction_units",
+          "integer"
+        ],
+        [
+          "transaction_sales_value",
+          "double"
+        ],
+        [
+          "distinct_households",
+          "integer"
+        ],
+        [
+          "causal_record_present",
+          "integer"
+        ],
+        [
+          "causal_record_rows",
+          "integer"
+        ],
+        [
+          "causal_display_codes",
+          "text"
+        ],
+        [
+          "causal_mailer_codes",
+          "text"
+        ],
+        [
+          "display_conflict",
+          "integer"
+        ],
+        [
+          "mailer_conflict",
+          "integer"
+        ],
+        [
+          "any_display_descriptive",
+          "integer"
+        ],
+        [
+          "any_mailer_descriptive",
+          "integer"
+        ]
+      ],
+      "population": "The purchased PSW universe (2,370,784 keys). causal_data keys that were never purchased are not materialised (they remain in raw causal_data).",
+      "time_support": "Weeks 1-102 (purchases); causal_data weeks 9-101.",
+      "zero_semantics": "causal_record_present = 0 means NO recorded causal row: its code columns are NULL, never '0', and never 'no placement'.",
+      "missing_semantics": "display_conflict / mailer_conflict / any_* are NULL when no record exists (undefined without a record), else 0/1.",
+      "expected_row_count": 2370784,
+      "actual_row_count": 2370784,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/choice_product_store_week.parquet",
+      "parquet_sha256": "6f97b8284ce525f16ce62373e748a65157e7b17f73fe79e2eaf1ade141ab9414",
+      "generating_sql": "sql/panels/09_choice_product_store_week.sql",
+      "source_tables": [
+        "transaction_data",
+        "causal_data"
+      ],
+      "limitations": "Placement is not a treatment and not randomised. Raw code sets are preserved as sorted lists; no canonical exposure is chosen."
+    },
+    {
+      "table": "econometrics_household_week",
+      "title": "Econometric household-week mart (S0 baseline + S1/S2 flags)",
+      "grain": "household_key x week_no",
+      "key": [
+        "household_key",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "retailer_purchase",
+          "integer"
+        ],
+        [
+          "weekly_sales_value",
+          "double"
+        ],
+        [
+          "trips",
+          "integer"
+        ],
+        [
+          "units",
+          "integer"
+        ],
+        [
+          "distinct_products",
+          "integer"
+        ],
+        [
+          "distinct_commodities",
+          "integer"
+        ],
+        [
+          "active_store_count",
+          "integer"
+        ],
+        [
+          "transaction_line_count",
+          "integer"
+        ],
+        [
+          "weekly_retail_disc",
+          "double"
+        ],
+        [
+          "weekly_coupon_disc",
+          "double"
+        ],
+        [
+          "weekly_coupon_match_disc",
+          "double"
+        ],
+        [
+          "retail_disc_magnitude",
+          "double"
+        ],
+        [
+          "coupon_disc_magnitude",
+          "double"
+        ],
+        [
+          "coupon_match_disc_magnitude",
+          "double"
+        ],
+        [
+          "total_discount_magnitude",
+          "double"
+        ],
+        [
+          "qa_quantity_zero_lines",
+          "integer"
+        ],
+        [
+          "qa_retail_disc_positive_lines",
+          "integer"
+        ],
+        [
+          "qa_implied_paid_negative_lines",
+          "integer"
+        ],
+        [
+          "lag1_retailer_purchase",
+          "integer"
+        ],
+        [
+          "lag1_weekly_sales_value",
+          "double"
+        ],
+        [
+          "lag1_trips",
+          "integer"
+        ],
+        [
+          "lag1_units",
+          "integer"
+        ],
+        [
+          "listed_campaign_active_count",
+          "integer"
+        ],
+        [
+          "listed_campaign_recipient_any",
+          "integer"
+        ],
+        [
+          "sample_full",
+          "integer"
+        ],
+        [
+          "sample_sustained_support",
+          "integer"
+        ],
+        [
+          "sample_higher_support",
+          "integer"
+        ]
+      ],
+      "population": "All 2,500 transaction-universe households x all 102 weeks = 255,000 rows. S0 conditions on nothing; S1/S2 are sensitivity flags only.",
+      "time_support": "Weeks 1-102.",
+      "zero_semantics": "Inherited from household_week_base: retailer_purchase = 0 means no recorded purchase from this retailer, not zero consumption.",
+      "missing_semantics": "Retailer-nonpurchase outcomes are observed recorded-activity zeros, not missing values. lag1_* are NULL in a household's first week (no invented zero history). Price-share variables are deliberately absent.",
+      "expected_row_count": 255000,
+      "actual_row_count": 255000,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/econometrics_household_week.parquet",
+      "parquet_sha256": "4f30324a71f5648bf70a86a95040ae552194fb776f655755362c200ba1d4330b",
+      "generating_sql": "sql/panels/06_econometrics_household_week.sql",
+      "source_tables": [
+        "household_week_base",
+        "panel_eligibility",
+        "campaign_table",
+        "campaign_desc"
+      ],
+      "limitations": "Data preparation, not a model. S1/S2 condition on full-period realized activity and are not causal or predictive eligibility rules. Logical integer-family units, qa_*_lines and lag1_units may serialize as double; see docs/VARIABLE_DICTIONARY.md (P4-001)."
+    },
+    {
+      "table": "household_category_week",
+      "title": "Sparse household x commodity x week factual table",
+      "grain": "household_key x commodity_desc x week_no",
+      "key": [
+        "household_key",
+        "commodity_desc",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "commodity_desc",
+          "text"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "category_sales_value",
+          "double"
+        ],
+        [
+          "category_units",
+          "integer"
+        ],
+        [
+          "category_trips",
+          "integer"
+        ],
+        [
+          "distinct_products",
+          "integer"
+        ],
+        [
+          "category_national_sales_value",
+          "double"
+        ],
+        [
+          "category_private_sales_value",
+          "double"
+        ],
+        [
+          "category_national_units",
+          "integer"
+        ],
+        [
+          "category_private_units",
+          "integer"
+        ],
+        [
+          "distinct_national_products",
+          "integer"
+        ],
+        [
+          "distinct_private_products",
+          "integer"
+        ],
+        [
+          "category_retail_disc",
+          "double"
+        ],
+        [
+          "category_coupon_disc",
+          "double"
+        ],
+        [
+          "category_coupon_match_disc",
+          "double"
+        ]
+      ],
+      "population": "SPARSE: one row per observed household x commodity x week purchase. Deliberately not the dense 2,500 x 308 x 102 grid.",
+      "time_support": "Weeks 1-102; commodity from product.COMMODITY_DESC.",
+      "zero_semantics": "An absent row is an unobserved commodity-week, not a zero.",
+      "missing_semantics": "No nulls: commodity_desc is always present; product labels including vendor sentinels are preserved, never dropped.",
+      "expected_row_count": null,
+      "actual_row_count": 1750131,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/household_category_week.parquet",
+      "parquet_sha256": "2830b7d43c781291dd54ab86c23f83b30363a941f3737beae0a206064888d0a8",
+      "generating_sql": "sql/panels/03_household_category_week.sql",
+      "source_tables": [
+        "transaction_data",
+        "product"
+      ],
+      "limitations": "No product availability inference, no chosen discrete-choice commodity. Sentinel commodity labels are kept as ordinary categories."
+    },
+    {
+      "table": "household_history",
+      "title": "Household-level full-sample activity summary",
+      "grain": "household_key",
+      "key": [
+        "household_key"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "first_purchase_day",
+          "integer"
+        ],
+        [
+          "last_purchase_day",
+          "integer"
+        ],
+        [
+          "first_purchase_week",
+          "integer"
+        ],
+        [
+          "last_purchase_week",
+          "integer"
+        ],
+        [
+          "active_weeks",
+          "integer"
+        ],
+        [
+          "inactive_grid_weeks",
+          "integer"
+        ],
+        [
+          "active_weeks_first_half",
+          "integer"
+        ],
+        [
+          "active_weeks_second_half",
+          "integer"
+        ],
+        [
+          "total_baskets",
+          "integer"
+        ],
+        [
+          "total_sales_value",
+          "double"
+        ],
+        [
+          "total_units",
+          "integer"
+        ],
+        [
+          "distinct_products",
+          "integer"
+        ],
+        [
+          "distinct_commodities",
+          "integer"
+        ],
+        [
+          "distinct_stores",
+          "integer"
+        ],
+        [
+          "longest_internal_no_purchase_week_gap",
+          "integer"
+        ],
+        [
+          "leading_no_purchase_weeks",
+          "integer"
+        ],
+        [
+          "trailing_no_purchase_weeks",
+          "integer"
+        ],
+        [
+          "has_demographics",
+          "integer"
+        ],
+        [
+          "campaign_recipient_ever",
+          "integer"
+        ],
+        [
+          "campaign_count",
+          "integer"
+        ],
+        [
+          "coupon_redeemer_ever",
+          "integer"
+        ],
+        [
+          "coupon_redemption_count",
+          "integer"
+        ]
+      ],
+      "population": "Every transacting household (structurally 2,500 rows).",
+      "time_support": "Whole-sample summary over weeks 1-102.",
+      "zero_semantics": "'inactive' = no recorded retailer purchase that week. Leading/trailing inactivity is calendar truncation, not attrition.",
+      "missing_semantics": "No nulls; campaign/coupon/demographic indicators are 0 when the household does not appear in the relevant table.",
+      "expected_row_count": 2500,
+      "actual_row_count": 2500,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/household_history.parquet",
+      "parquet_sha256": "723aa744177562df00b8580d9d64fd3c1666143f10fefa24c1737fa1c808902f",
+      "generating_sql": "sql/panels/04_household_history.sql",
+      "source_tables": [
+        "transaction_data",
+        "product",
+        "hh_demographic",
+        "campaign_table",
+        "coupon_redempt"
+      ],
+      "limitations": "campaign_* and coupon_* are descriptive existence/count summaries, not treatment variables."
+    },
+    {
+      "table": "household_week_base",
+      "title": "Complete household x week retailer-observation grid",
+      "grain": "household_key x week_no",
+      "key": [
+        "household_key",
+        "week_no"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "week_no",
+          "integer"
+        ],
+        [
+          "retailer_purchase",
+          "integer"
+        ],
+        [
+          "trips",
+          "integer"
+        ],
+        [
+          "weekly_sales_value",
+          "double"
+        ],
+        [
+          "units",
+          "integer"
+        ],
+        [
+          "distinct_products",
+          "integer"
+        ],
+        [
+          "distinct_commodities",
+          "integer"
+        ],
+        [
+          "active_store_count",
+          "integer"
+        ],
+        [
+          "transaction_line_count",
+          "integer"
+        ],
+        [
+          "weekly_retail_disc",
+          "double"
+        ],
+        [
+          "weekly_coupon_disc",
+          "double"
+        ],
+        [
+          "weekly_coupon_match_disc",
+          "double"
+        ],
+        [
+          "qa_quantity_zero_lines",
+          "integer"
+        ],
+        [
+          "qa_retail_disc_positive_lines",
+          "integer"
+        ],
+        [
+          "qa_implied_paid_negative_lines",
+          "integer"
+        ]
+      ],
+      "population": "Every transacting household x every week in the source week domain (structurally 2,500 x 102 = 255,000 rows).",
+      "time_support": "Weeks 1-102 (derived from transaction_data, not hardcoded).",
+      "zero_semantics": "retailer_purchase = 0 and all activity metrics = 0 means 'no recorded purchase from THIS retailer that week'. It does NOT mean the household consumed zero groceries.",
+      "missing_semantics": "No nulls by construction.",
+      "expected_row_count": 255000,
+      "actual_row_count": 255000,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/household_week_base.parquet",
+      "parquet_sha256": "0b4f8e71adb2817abd548b0ee949b959747ec10f2c0d7927461e828682798b75",
+      "generating_sql": "sql/panels/02_household_week_base.sql",
+      "source_tables": [
+        "transaction_data",
+        "product"
+      ],
+      "limitations": "Non-purchase weeks are observed zeros of recorded retailer activity, not zero grocery consumption. First/last purchase boundaries are not verified enrollment/exit or observation eligibility. Logical integer-family units and qa_*_lines may serialize as double; see docs/VARIABLE_DICTIONARY.md (P4-001)."
+    },
+    {
+      "table": "panel_eligibility",
+      "title": "Household eligibility diagnostics (local-only, evidence only)",
+      "grain": "household_key",
+      "key": [
+        "household_key"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "active_weeks",
+          "integer"
+        ],
+        [
+          "active_share_102",
+          "double"
+        ],
+        [
+          "first_purchase_week",
+          "integer"
+        ],
+        [
+          "last_purchase_week",
+          "integer"
+        ],
+        [
+          "active_weeks_first_half",
+          "integer"
+        ],
+        [
+          "active_weeks_second_half",
+          "integer"
+        ],
+        [
+          "active_weeks_block_1",
+          "integer"
+        ],
+        [
+          "active_weeks_block_2",
+          "integer"
+        ],
+        [
+          "active_weeks_block_3",
+          "integer"
+        ],
+        [
+          "active_weeks_block_4",
+          "integer"
+        ],
+        [
+          "active_weeks_early",
+          "integer"
+        ],
+        [
+          "active_weeks_middle",
+          "integer"
+        ],
+        [
+          "active_weeks_late",
+          "integer"
+        ],
+        [
+          "longest_internal_no_purchase_week_gap",
+          "integer"
+        ],
+        [
+          "leading_no_purchase_weeks",
+          "integer"
+        ],
+        [
+          "trailing_no_purchase_weeks",
+          "integer"
+        ],
+        [
+          "total_trips",
+          "integer"
+        ],
+        [
+          "total_sales_value",
+          "double"
+        ],
+        [
+          "has_demographics",
+          "integer"
+        ],
+        [
+          "campaign_recipient_ever",
+          "integer"
+        ],
+        [
+          "campaign_count",
+          "integer"
+        ],
+        [
+          "coupon_redeemer_ever",
+          "integer"
+        ]
+      ],
+      "population": "Every transacting household (structurally 2,500 rows). LOCAL-ONLY and customer-level: never Git-tracked.",
+      "time_support": "Whole-sample diagnostics over weeks 1-102.",
+      "zero_semantics": "'inactive' = no recorded retailer purchase that week.",
+      "missing_semantics": "No nulls.",
+      "expected_row_count": 2500,
+      "actual_row_count": 2500,
+      "scope": "private",
+      "git_tracked": false,
+      "parquet_path": "data/processed/private/panel_eligibility.parquet",
+      "parquet_sha256": "8013814ac4c3770a211a09a4bbc6c79ca74731cfd4ccdd2080615f31201b3a32",
+      "generating_sql": "sql/panels/05_panel_eligibility.sql",
+      "source_tables": [
+        "transaction_data",
+        "hh_demographic",
+        "campaign_table",
+        "coupon_redempt"
+      ],
+      "limitations": "Does NOT determine eligibility: no flag, no threshold, no ranking, no exclusion. Evidence for a researcher decision made after 2A."
+    },
+    {
+      "table": "predictive_household_week_features",
+      "title": "Point-in-time household-week predictive feature store",
+      "grain": "household_key x as_of_week",
+      "key": [
+        "household_key",
+        "as_of_week"
+      ],
+      "required_columns": [
+        [
+          "household_key",
+          "integer"
+        ],
+        [
+          "as_of_week",
+          "integer"
+        ],
+        [
+          "history_weeks_available",
+          "integer"
+        ],
+        [
+          "current_retailer_purchase",
+          "integer"
+        ],
+        [
+          "current_weekly_sales_value",
+          "double"
+        ],
+        [
+          "current_trips",
+          "integer"
+        ],
+        [
+          "current_units",
+          "integer"
+        ],
+        [
+          "current_distinct_products",
+          "integer"
+        ],
+        [
+          "current_distinct_commodities",
+          "integer"
+        ],
+        [
+          "current_active_store_count",
+          "integer"
+        ],
+        [
+          "lag1_retailer_purchase",
+          "integer"
+        ],
+        [
+          "lag2_retailer_purchase",
+          "integer"
+        ],
+        [
+          "lag4_retailer_purchase",
+          "integer"
+        ],
+        [
+          "lag1_weekly_sales_value",
+          "double"
+        ],
+        [
+          "lag2_weekly_sales_value",
+          "double"
+        ],
+        [
+          "lag4_weekly_sales_value",
+          "double"
+        ],
+        [
+          "lag1_trips",
+          "integer"
+        ],
+        [
+          "lag2_trips",
+          "integer"
+        ],
+        [
+          "lag4_trips",
+          "integer"
+        ],
+        [
+          "lag1_units",
+          "integer"
+        ],
+        [
+          "lag2_units",
+          "integer"
+        ],
+        [
+          "lag4_units",
+          "integer"
+        ],
+        [
+          "active_weeks_last4",
+          "integer"
+        ],
+        [
+          "active_weeks_last8",
+          "integer"
+        ],
+        [
+          "active_weeks_last12",
+          "integer"
+        ],
+        [
+          "active_share_last4",
+          "double"
+        ],
+        [
+          "active_share_last8",
+          "double"
+        ],
+        [
+          "active_share_last12",
+          "double"
+        ],
+        [
+          "sales_value_last4",
+          "double"
+        ],
+        [
+          "sales_value_last8",
+          "double"
+        ],
+        [
+          "sales_value_last12",
+          "double"
+        ],
+        [
+          "mean_weekly_sales_value_last4",
+          "double"
+        ],
+        [
+          "mean_weekly_sales_value_last8",
+          "double"
+        ],
+        [
+          "mean_weekly_sales_value_last12",
+          "double"
+        ],
+        [
+          "trips_last4",
+          "integer"
+        ],
+        [
+          "trips_last8",
+          "integer"
+        ],
+        [
+          "trips_last12",
+          "integer"
+        ],
+        [
+          "mean_trips_last4",
+          "double"
+        ],
+        [
+          "mean_trips_last8",
+          "double"
+        ],
+        [
+          "mean_trips_last12",
+          "double"
+        ],
+        [
+          "units_last4",
+          "integer"
+        ],
+        [
+          "units_last8",
+          "integer"
+        ],
+        [
+          "units_last12",
+          "integer"
+        ],
+        [
+          "mean_units_last4",
+          "double"
+        ],
+        [
+          "mean_units_last8",
+          "double"
+        ],
+        [
+          "mean_units_last12",
+          "double"
+        ],
+        [
+          "distinct_commodities_last4",
+          "integer"
+        ],
+        [
+          "distinct_commodities_last8",
+          "integer"
+        ],
+        [
+          "distinct_commodities_last12",
+          "integer"
+        ],
+        [
+          "distinct_commodities_to_date",
+          "integer"
+        ],
+        [
+          "ever_purchased_as_of_week",
+          "integer"
+        ],
+        [
+          "weeks_since_last_retailer_purchase",
+          "integer"
+        ],
+        [
+          "active_weeks_to_date",
+          "integer"
+        ],
+        [
+          "active_share_to_date",
+          "double"
+        ],
+        [
+          "trips_to_date",
+          "integer"
+        ],
+        [
+          "sales_value_to_date",
+          "double"
+        ],
+        [
+          "units_to_date",
+          "integer"
+        ],
+        [
+          "retail_disc_magnitude_last4",
+          "double"
+        ],
+        [
+          "retail_disc_magnitude_last8",
+          "double"
+        ],
+        [
+          "retail_disc_magnitude_last12",
+          "double"
+        ],
+        [
+          "coupon_disc_magnitude_last4",
+          "double"
+        ],
+        [
+          "coupon_disc_magnitude_last8",
+          "double"
+        ],
+        [
+          "coupon_disc_magnitude_last12",
+          "double"
+        ],
+        [
+          "coupon_match_disc_magnitude_last4",
+          "double"
+        ],
+        [
+          "coupon_match_disc_magnitude_last8",
+          "double"
+        ],
+        [
+          "coupon_match_disc_magnitude_last12",
+          "double"
+        ],
+        [
+          "total_discount_magnitude_last4",
+          "double"
+        ],
+        [
+          "total_discount_magnitude_last8",
+          "double"
+        ],
+        [
+          "total_discount_magnitude_last12",
+          "double"
+        ],
+        [
+          "listed_campaign_active_count_current",
+          "integer"
+        ],
+        [
+          "listed_campaign_weeks_to_date",
+          "integer"
+        ],
+        [
+          "distinct_listed_campaigns_to_date",
+          "integer"
+        ],
+        [
+          "coupon_redemption_rows_current_week",
+          "integer"
+        ],
+        [
+          "coupon_redemption_rows_prior_4w",
+          "integer"
+        ],
+        [
+          "coupon_redemption_rows_prior_8w",
+          "integer"
+        ],
+        [
+          "coupon_redemption_rows_prior_12w",
+          "integer"
+        ],
+        [
+          "coupon_redemption_rows_to_date",
+          "integer"
+        ],
+        [
+          "has_demographics",
+          "integer"
+        ],
+        [
+          "demographic_classification_1",
+          "text"
+        ],
+        [
+          "demographic_classification_2",
+          "text"
+        ],
+        [
+          "demographic_classification_3",
+          "text"
+        ],
+        [
+          "demographic_classification_4",
+          "text"
+        ],
+        [
+          "demographic_classification_5",
+          "text"
+        ],
+        [
+          "demographic_homeowner_desc",
+          "text"
+        ],
+        [
+          "demographic_kid_category_desc",
+          "text"
+        ]
+      ],
+      "population": "All 2,500 transaction-universe households x all 102 observed weeks = 255,000 rows. Not restricted to S1/S2 and not restricted to the 801 demographic households.",
+      "time_support": "as_of_week = t means information through the END of week t. Features use weeks <= t only; an eventual target must be strictly after t.",
+      "zero_semantics": "A historical retailer-nonpurchase week is a genuine 0 in the retailer-observation grid and enters rolling windows as a zero.",
+      "missing_semantics": "NULL is family-specific: lag unavailable before week 1; weeks_since_last_retailer_purchase NULL = never purchased yet (see ever_purchased_as_of_week); demographic fields NULL = unavailable. NULLs are never filled with zero in this table.",
+      "expected_row_count": 255000,
+      "actual_row_count": 255000,
+      "scope": "processed",
+      "git_tracked": false,
+      "parquet_path": "data/processed/predictive_household_week_features.parquet",
+      "parquet_sha256": "723cbfa9687cd222bb7c212efaf20c39852fe346b19566d433bbf2a46e0e1ce9",
+      "generating_sql": "sql/panels/12_predictive_household_week_features.sql",
+      "source_tables": [
+        "household_week_base",
+        "household_category_week",
+        "campaign_household_week",
+        "coupon_redempt",
+        "hh_demographic"
+      ],
+      "limitations": "Feature infrastructure only: no target, no split, no model, no eligibility rule. causal_data placement is deliberately excluded."
+    }
+  ],
+  "qa": {
+    "hard_invariants": 162,
+    "hard_failed": 0,
+    "empirical_findings": 10
+  }
+}

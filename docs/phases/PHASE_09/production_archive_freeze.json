@@ -1,0 +1,249 @@
+{
+ "archives": {
+  "P-J13": {
+   "drift": [
+    {
+     "bound": {
+      "max": 0.1,
+      "median": 0.04814041960764357
+     },
+     "max_abs_shift": 0.040000000000000036,
+     "median_abs_shift": 0.009999999999999995,
+     "stop": false,
+     "timepoint": 2
+    },
+    {
+     "bound": {
+      "max": 0.1,
+      "median": 0.04814041960764357
+     },
+     "max_abs_shift": 0.040000000000000036,
+     "median_abs_shift": 0.010000000000000009,
+     "stop": false,
+     "timepoint": 3
+    },
+    {
+     "bound": {
+      "max": 0.1,
+      "median": 0.04814041960764357
+     },
+     "max_abs_shift": 0.04999999999999999,
+     "median_abs_shift": 0.010000000000000009,
+     "stop": false,
+     "timepoint": 4
+    }
+   ],
+   "drift_rule": "P9-005",
+   "drift_under_original_p9005_rule": null,
+   "failed_attempts": 0,
+   "files": 3370,
+   "gates": {
+    "count_equals_manifest": true,
+    "drift_no_stop": true,
+    "http_200": true,
+    "ledger_attempts_reconcile": true,
+    "ledger_successes_reconcile": true,
+    "model_pin": true,
+    "no_budget_overrun": true,
+    "no_credential_strings": true,
+    "provider_pin": true,
+    "request_set_equals_manifest": true,
+    "resume_sends_zero": true,
+    "unique": true
+   },
+   "manifest_sha256": "a4f795c5b6349f35ce2cef917e26262587f57e864ec1f6e1fa886b7999473836",
+   "retried_successes": 0,
+   "sigma_smoke": 0.01604680653588119,
+   "success_digest_sha256": "7cc23fee9ddf1bc04683633ba60ce62891117d5a61769fcecef9be4e4b52d518",
+   "successes": 3368,
+   "tree_sha256": "6cbd15f2dbc05bad417eee8688cc1c5b83837b8079356ff235a522d0990b654c"
+  },
+  "P-J14": {
+   "drift": [
+    {
+     "bound": {
+      "max": 0.1,
+      "median": 0.042160407967665625
+     },
+     "max_abs_shift": 0.030000000000000027,
+     "median_abs_shift": 0.0,
+     "stop": false,
+     "timepoint": 2
+    },
+    {
+     "bound": {
+      "max": 0.1,
+      "median": 0.042160407967665625
+     },
+     "max_abs_shift": 0.030000000000000027,
+     "median_abs_shift": 0.010000000000000009,
+     "stop": false,
+     "timepoint": 3
+    },
+    {
+     "bound": {
+      "max": 0.1,
+      "median": 0.042160407967665625
+     },
+     "max_abs_shift": 0.02999999999999997,
+     "median_abs_shift": 0.010000000000000009,
+     "stop": false,
+     "timepoint": 4
+    }
+   ],
+   "drift_rule": "P9-005",
+   "drift_under_original_p9005_rule": null,
+   "failed_attempts": 0,
+   "files": 3370,
+   "gates": {
+    "count_equals_manifest": true,
+    "drift_no_stop": true,
+    "http_200": true,
+    "ledger_attempts_reconcile": true,
+    "ledger_successes_reconcile": true,
+    "model_pin": true,
+    "no_budget_overrun": true,
+    "no_credential_strings": true,
+    "provider_pin": true,
+    "request_set_equals_manifest": true,
+    "resume_sends_zero": true,
+    "unique": true
+   },
+   "manifest_sha256": "6f51ce1ff87b1af605906b428c452e49b7abaf73b64259e69a343692bd3543f8",
+   "retried_successes": 0,
+   "sigma_smoke": 0.014053469322555209,
+   "success_digest_sha256": "6fef8fa36ba93d61758e45a55ed1b9ebc583b2ccfb0596fef2137893925b8912",
+   "successes": 3368,
+   "tree_sha256": "8431e3c3a9de70f07c1b349ba2ed7b01b0ac32caf40b6672cdffe7a2911b9eba"
+  },
+  "P-M": {
+   "drift": [
+    {
+     "bound": {
+      "median": 0.08197178338788158,
+      "single_by_cell": {
+       "BOTH": 0.26866702091103234,
+       "HISTORY": 0.14683910321213217,
+       "LATENT": 0.14683910321213217,
+       "NEITHER": 0.14683910321213217
+      }
+     },
+     "max_abs_shift": 0.13839196695695066,
+     "max_abs_shift_by_cell": {
+      "BOTH": 0.13839196695695066,
+      "HISTORY": 0.06241874674751252,
+      "LATENT": 0.006334863122677125,
+      "NEITHER": 0.03096712751204178
+     },
+     "median_abs_shift": 0.0003257826512452211,
+     "rule": "P9-006 stratified",
+     "stop": false,
+     "timepoint": 2
+    },
+    {
+     "bound": {
+      "median": 0.08197178338788158,
+      "single_by_cell": {
+       "BOTH": 0.26866702091103234,
+       "HISTORY": 0.14683910321213217,
+       "LATENT": 0.14683910321213217,
+       "NEITHER": 0.14683910321213217
+      }
+     },
+     "max_abs_shift": 0.18256425157553086,
+     "max_abs_shift_by_cell": {
+      "BOTH": 0.18256425157553086,
+      "HISTORY": 0.11311842788294146,
+      "LATENT": 0.00042555266817800863,
+      "NEITHER": 0.03096712751204178
+     },
+     "median_abs_shift": 0.0006615035431103977,
+     "rule": "P9-006 stratified",
+     "stop": false,
+     "timepoint": 3
+    },
+    {
+     "bound": {
+      "median": 0.08197178338788158,
+      "single_by_cell": {
+       "BOTH": 0.26866702091103234,
+       "HISTORY": 0.14683910321213217,
+       "LATENT": 0.14683910321213217,
+       "NEITHER": 0.14683910321213217
+      }
+     },
+     "max_abs_shift": 0.08917837731597655,
+     "max_abs_shift_by_cell": {
+      "BOTH": 0.08917837731597655,
+      "HISTORY": 0.03155222302903374,
+      "LATENT": 0.006334863334668688,
+      "NEITHER": 0.03096712751204178
+     },
+     "median_abs_shift": 0.0014868769886974302,
+     "rule": "P9-006 stratified",
+     "stop": false,
+     "timepoint": 4
+    }
+   ],
+   "drift_rule": "P9-006",
+   "drift_under_original_p9005_rule": [
+    {
+     "bound": {
+      "max": 0.16394356677576316,
+      "median": 0.08197178338788158
+     },
+     "max_abs_shift": 0.13839196695695066,
+     "median_abs_shift": 0.0003257826512452211,
+     "stop": false,
+     "timepoint": 2
+    },
+    {
+     "bound": {
+      "max": 0.16394356677576316,
+      "median": 0.08197178338788158
+     },
+     "max_abs_shift": 0.18256425157553086,
+     "median_abs_shift": 0.0006615035431103977,
+     "stop": true,
+     "timepoint": 3
+    },
+    {
+     "bound": {
+      "max": 0.16394356677576316,
+      "median": 0.08197178338788158
+     },
+     "max_abs_shift": 0.08917837731597655,
+     "median_abs_shift": 0.0014868769886974302,
+     "stop": false,
+     "timepoint": 4
+    }
+   ],
+   "failed_attempts": 3,
+   "files": 3373,
+   "gates": {
+    "count_equals_manifest": true,
+    "drift_no_stop": true,
+    "http_200": true,
+    "ledger_attempts_reconcile": true,
+    "ledger_successes_reconcile": true,
+    "model_pin": true,
+    "no_budget_overrun": true,
+    "no_credential_strings": true,
+    "provider_pin": true,
+    "request_set_equals_manifest": true,
+    "resume_sends_zero": true,
+    "unique": true
+   },
+   "manifest_sha256": "ec99c2e33a10f73a2e87c66303dc7f7ada1d671b3d82a90b6b631a524cea4bf9",
+   "retried_successes": 3,
+   "sigma_smoke": 0.027323927795960528,
+   "success_digest_sha256": "fd7353a1ca45961a8ed3a4048a180cb3e7db114e9866a26d196bc60d48da5b62",
+   "successes": 3368,
+   "tree_sha256": "25a012bbf8f1fb479277ac688018709bdde7ba1a0a3d6d964bce6a24a382f975"
+  }
+ },
+ "governing_decision": "P9-005",
+ "public_copy_note": "Billing, token-count and latency fields are omitted from this copy; hashes, counts and drift summaries are unchanged.",
+ "schema": "phase9-production-archive-freeze-v1",
+ "status": "FROZEN (API acquisition complete; the rest of Phase 9 is local-only)"
+}

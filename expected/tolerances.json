@@ -1,0 +1,7 @@
+{
+ "_note": "absolute tolerances; prediction metrics depend on the solver and platform",
+ "camp.prior_revenue": 1e-06,
+ "default": 1e-06,
+ "desc.": 1e-06,
+ "pred.": 0.0002
+}

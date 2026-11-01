@@ -1,0 +1,312 @@
+{
+  "authority": "P7-003 design; Run B synthetic preflight accepted",
+  "benchmark_plan": [
+    [
+      "B0",
+      "base_rate",
+      "train-validation prevalence; validation log loss of the train-only base rate reported"
+    ],
+    [
+      "B1",
+      "tier0",
+      "fixed C=1.0 fitted on train+validation; no tuning"
+    ],
+    [
+      "B1",
+      "tier1",
+      "fixed C=1.0 fitted on train+validation; no tuning"
+    ],
+    [
+      "B1",
+      "tier2",
+      "C grid selected on validation log loss; refit on train+validation"
+    ],
+    [
+      "B2",
+      "tier2",
+      "12-point grid selected on validation log loss; refit on train+validation"
+    ]
+  ],
+  "benchmark_threads": 4,
+  "bootstrap": {
+    "content": "all operator-plan moments, including VI-6 with refit, jointly per replicate",
+    "failure_policy": "any failed replicate stops the run after all replicates; nothing is dropped",
+    "interval": "percentile [2.5%, 97.5%] over successful replicates; SE = sd(ddof=1)",
+    "method": "household cluster bootstrap: whole trajectories with replacement, duplicates relabelled",
+    "replications": 500,
+    "seeds": "numpy SeedSequence(20261015).spawn(500)",
+    "threads_per_worker": 1,
+    "workers": 3
+  },
+  "data_sha256": {
+    "data/processed/econometrics_household_week.parquet": "4f30324a71f5648bf70a86a95040ae552194fb776f655755362c200ba1d4330b",
+    "data/processed/predictive_household_week_features.parquet": "723cbfa9687cd222bb7c212efaf20c39852fe346b19566d433bbf2a46e0e1ce9"
+  },
+  "inventory_rows": 91,
+  "inventory_sha256": "be48b3f9e59951467182d4e44c423782c95df4ea04171f4302be5d3cdbe177a8",
+  "metrics": {
+    "calibration": "intercept (logit offset GLM) and slope (GLM on logit p); 10 equal-frequency reliability bins",
+    "descriptive": [
+      "roc_auc"
+    ],
+    "primary": "log_loss",
+    "probability_clip": 1e-15,
+    "secondary": "brier"
+  },
+  "min_interior_weeks": 8,
+  "models": {
+    "B0": "training prevalence (PrevalenceModel)",
+    "B1": "Pipeline(SimpleImputer(median, add_indicator) -> StandardScaler -> LogisticRegression(l1_ratio=0, solver=lbfgs, tol=1e-08, max_iter=5000))",
+    "B1_fixed_C": 1.0,
+    "B1_tier2_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "B2": "HistGradientBoostingClassifier(max_iter=300, early_stopping=False, random_state=20261015)",
+    "B2_grid": {
+      "learning_rate": [
+        0.05,
+        0.1
+      ],
+      "max_leaf_nodes": [
+        15,
+        31,
+        63
+      ],
+      "min_samples_leaf": [
+        50,
+        200
+      ]
+    }
+  },
+  "moments": {
+    "ci1_quantiles": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9
+    ],
+    "environment": "E-1 weekly path under operator O (point estimates)",
+    "lags": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "operator_plan": {
+      "G_full_grid": [
+        "CI-1",
+        "VI-1",
+        "VI-2",
+        "VI-3",
+        "VI-4",
+        "VI-6"
+      ],
+      "O_interior_window": [
+        "CI-1",
+        "K-1",
+        "K-2",
+        "VI-1",
+        "VI-2",
+        "VI-3",
+        "VI-4",
+        "VI-5",
+        "VI-6"
+      ],
+      "S_fixed_20_101": [
+        "CI-1",
+        "VI-1",
+        "VI-2",
+        "VI-3",
+        "VI-4",
+        "VI-6"
+      ]
+    },
+    "shuffle_check": "D-4 on operator O, 20 shuffles, atol 1e-12",
+    "spell_bins": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        null
+      ]
+    ]
+  },
+  "operators": {
+    "G_full_grid": "responses 2-101, full grid",
+    "O_interior_window": "interior window [f+1, min(l-1,101)], >= 8 weeks; lag k needs r-k in window",
+    "S_fixed_20_101": "responses 20-101, full-grid lags (week 19 lags response 20)"
+  },
+  "predictive_population": {
+    "name": "P_point_in_time",
+    "rule": "a recorded purchase at or before origin t (point-in-time); response <= 101"
+  },
+  "recency_gain": {
+    "also_computed_for": [
+      "S_fixed_20_101",
+      "G_full_grid"
+    ],
+    "ordering": "computed after the single benchmark test evaluation",
+    "population": "O_interior_window",
+    "primary": "delta_log_loss_recency = LL(B1|Tier0) - LL(B1|Tier1); positive = recency helps",
+    "s_g_rows": "S/G VI-6 rows restricted to origins at or after the first recorded purchase (Tier 0 undefined before it; point-in-time rule)",
+    "secondary": "delta_brier_recency = Brier(Tier0) - Brier(Tier1)"
+  },
+  "recency_windows": {
+    "evaluate": [
+      69,
+      101
+    ],
+    "train": [
+      2,
+      68
+    ]
+  },
+  "seed": 20261015,
+  "software": {
+    "duckdb": "1.5.6",
+    "linearmodels": "7.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "python": "3.12.3",
+    "scikit_learn": "1.9.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  },
+  "source_commit_at_snapshot": "8b4b26e9a3c952033039c2cf9a9e59dfd2ad38ac",
+  "source_sha256": {
+    "scripts/run_predictive.py": "b7f674d3d808574850977dae22f820a0054a085e48ab225143f7e4589328249c",
+    "src/complete_journey/prediction/__init__.py": "cf6c30e492ac8a06c1b57464a154f83bfc494744ede51b1e0e645e9ade77b1ab",
+    "src/complete_journey/prediction/config.py": "8d1b24e19ee9a0880a732af5e12866631081e37763dc8ffdac37e8ad153fe77d",
+    "src/complete_journey/prediction/features.py": "68bef9188fe3e4228b17014d46da758deccdbbe924e09c0d301899b8d09b06c3",
+    "src/complete_journey/prediction/modeling.py": "11fb7c443e51e1d3539b7aeedd989f4a1330c129e7d196e9896c3c6b89e14fc8",
+    "src/complete_journey/prediction/moments.py": "854832af80f3422fba07d3be080a63c3dacc2b2b6d64b2baff9938e519c641d5",
+    "src/complete_journey/prediction/operators.py": "a4d1d794f972a4a023ffb238b0132ec0cfcf8e09196b4c1b409bd460927fd52c",
+    "src/complete_journey/prediction/panel.py": "521fbbc56aa4b4bbe59d06333a4e9d9eec89e9dd9f2962a08157dee6956fb94f",
+    "src/complete_journey/prediction/preflight.py": "960b8fb0700fa0183c8adbe2038e5aafeb0d01ae6df06c811e5c0c03453a0ade",
+    "src/complete_journey/prediction/protocol.py": "52e7cb3d351e57da094aae09e29325d8a3de2804ec37d476d2b1a54e423ce749",
+    "src/complete_journey/prediction/run_c.py": "aef0c9776ebc6bdf4b6708d9078c5acdcd2709ce4e21558543c7abea06e7b230",
+    "src/complete_journey/prediction/synthetic.py": "4bf0defaeb26a07e0aba17e82700298825556148cb9c873eab7c51519959e372",
+    "src/complete_journey/prediction/twfe.py": "9778521c110deeea738552683db0f3013d62435ebded39227c9a7a8e6557222d"
+  },
+  "splits": {
+    "test": [
+      85,
+      101
+    ],
+    "train": [
+      2,
+      68
+    ],
+    "validation": [
+      69,
+      84
+    ]
+  },
+  "target": {
+    "definition": "Y_{i,r}=1 if any recorded retailer line in response week r=t+1",
+    "responses": [
+      2,
+      101
+    ],
+    "variable": "retailer_purchase"
+  },
+  "test_policy": "test period 85-101 touched exactly once by the five selected models; the ledger records selections before scoring",
+  "tiers": {
+    "tier0": [
+      "T0_tenure_log",
+      "T0_rate_logit",
+      "T0_rate_x_tenure"
+    ],
+    "tier1": [
+      "T0_tenure_log",
+      "T0_rate_logit",
+      "T0_rate_x_tenure",
+      "T1_y_t",
+      "T1_recent4_share",
+      "T1_weeks_since_last"
+    ],
+    "tier2": [
+      "T0_tenure_log",
+      "T0_rate_logit",
+      "T0_rate_x_tenure",
+      "T1_y_t",
+      "T1_recent4_share",
+      "T1_weeks_since_last",
+      "current_retailer_purchase",
+      "current_weekly_sales_value",
+      "current_trips",
+      "current_distinct_products",
+      "current_distinct_commodities",
+      "current_active_store_count",
+      "lag1_retailer_purchase",
+      "lag2_retailer_purchase",
+      "lag4_retailer_purchase",
+      "lag1_weekly_sales_value",
+      "lag2_weekly_sales_value",
+      "lag4_weekly_sales_value",
+      "lag1_trips",
+      "lag2_trips",
+      "lag4_trips",
+      "active_weeks_last4",
+      "active_weeks_last8",
+      "active_weeks_last12",
+      "active_share_last4",
+      "active_share_last8",
+      "active_share_last12",
+      "sales_value_last4",
+      "sales_value_last8",
+      "sales_value_last12",
+      "mean_weekly_sales_value_last4",
+      "mean_weekly_sales_value_last8",
+      "mean_weekly_sales_value_last12",
+      "trips_last4",
+      "trips_last8",
+      "trips_last12",
+      "mean_trips_last4",
+      "mean_trips_last8",
+      "mean_trips_last12",
+      "distinct_commodities_last4",
+      "distinct_commodities_last8",
+      "distinct_commodities_last12",
+      "distinct_commodities_to_date",
+      "weeks_since_last_retailer_purchase",
+      "active_weeks_to_date",
+      "active_share_to_date",
+      "trips_to_date",
+      "sales_value_to_date",
+      "retail_disc_magnitude_last4",
+      "retail_disc_magnitude_last8",
+      "retail_disc_magnitude_last12",
+      "coupon_disc_magnitude_last4",
+      "coupon_disc_magnitude_last8",
+      "coupon_disc_magnitude_last12",
+      "coupon_match_disc_magnitude_last4",
+      "coupon_match_disc_magnitude_last8",
+      "coupon_match_disc_magnitude_last12",
+      "total_discount_magnitude_last4",
+      "total_discount_magnitude_last8",
+      "total_discount_magnitude_last12",
+      "coupon_redemption_rows_current_week",
+      "coupon_redemption_rows_prior_4w",
+      "coupon_redemption_rows_prior_8w",
+      "coupon_redemption_rows_prior_12w",
+      "coupon_redemption_rows_to_date"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "inputs_sha256": {
+    "calibration_noise.json": "30e9ed243b4bde4e69cb304f7900962cb8a31909105fea05e4a211c648061d2a",
+    "design_snapshot.amend-1.json": "21be99db419ec38102b9440e443e2a7ab688b71de081f9e389ca56359ead2d27",
+    "design_snapshot.json": "85dc7784bf0994abfc0f8b197b0fff414129b3f8ce8f058bff4c072d8b1008c3",
+    "import_manifest.json": "aa06152baeb6f74c45e7962dde6ab4658fb5337b637187f09d10778ae519dd2f",
+    "real_reveal_ledger.json": "43e1eccbdb84201618a61176de8d695763c9db7fd2650d933a9b1e1fe9f71560",
+    "real_rq1.json": "d85df377730c0ada028920ca82176574c031d3c034d0e310c302e3b33d210bd8",
+    "rq2_freeze.json": "6ebe1552c68411447f736d2c3b8b2b29e71020d72b2d91d4553ddf947767d78e",
+    "rq2_per_truth.json": "d333946240be58a3a0189cf22186badd3c125e86773a8a32df00007d8e75b543",
+    "rq2_results.json": "4480b8af347cfaaad9406d312ec620897e386c1eeee9eb41274f5df8fbe5ce78",
+    "rq2_truths.json": "e37bdc54628ccd7855033cb81ebdd7665bda90837f05ade371766c33a2e2736d",
+    "s_a_bracket.json": "63bcb529cd071c3ecb42bab1c4f5711f4dc0dc50f6472d1cb51a472542b8b7b8",
+    "stage1_gates.json": "a1b0f3d53e334cd9b70c645b1248e62ebba42fd896c6edb318dca8748fa9bc3c"
+  },
+  "note": "no simulation; aggregate, identifier-free; deterministic bytes",
+  "outputs_sha256": {
+    "f13_real_architecture_comparison.png": "40f8d2308be8c9b55604096131edb0f59ea5477c1cd0a483f3de88945d769b97",
+    "f14_known_truth_operating_characteristics.png": "9a3debadd38d91700f4221cd738e056ef87e87b1fd215e698f62fddf07007eed",
+    "t10_real_adequacy_across_arms.csv": "ee0e0d18e7f6a48c838fa7e121ebdef518b0dc83ae766f13163405f0512f1c0a",
+    "t11_known_truth_operating_characteristics.csv": "c62dcd7d3c3c45dd7cd8a50e0a944f8606b15c1aa921295b141e0cf2c6d2443e"
+  },
+  "producer": "scripts/phase8_final_synthesis.py"
+}
