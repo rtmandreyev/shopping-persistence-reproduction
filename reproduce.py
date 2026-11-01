@@ -4,12 +4,12 @@
     ./reproduce.sh                                   # --quick: 0.5 to 2 minutes, no data needed
     ./reproduce.sh --check                           # verification only: no rendering, no compiling
     ./reproduce.sh --standard [--data-dir PATH]      # adds the raw-data reproduction
-    ./reproduce.sh --learned-model-simulations --archive DIR [--checkpoint-stores DIR]
+    ./reproduce.sh --learned-model-simulations --archive DIR [--checkpoint-stores DIR] [--small-scale]
     ./reproduce.sh --known-truth-production          # why the in-family production run is not repeated
     ./reproduce.sh --model-queries                   # status of the original learned-model queries
 
 Apart from uv's environment (.venv/), every mode writes only under the build directory
-(default build/), reads no credentials and ends with a report,
+(default build/, or --build-dir DIR), reads no credentials and ends with a report,
 build/reproduction_report_<mode>.json. No step needs the network, and
 reproduce.py blocks network access in its own process.
 An option that the selected mode does not use is a usage error.
@@ -46,7 +46,7 @@ USED_BY = {
 
 
 def main(argv=None) -> int:
-    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p = argparse.ArgumentParser(prog="reproduce.sh", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     g = p.add_mutually_exclusive_group()
     g.add_argument("--quick", action="store_true", help="checks that need no data (default)")
     g.add_argument("--check", action="store_true", help="the verification checks of --quick only")

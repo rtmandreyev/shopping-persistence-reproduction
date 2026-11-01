@@ -6,7 +6,7 @@ dunnhumby's *The Complete Journey* data are not included (see `../NOTICE.md`). `
 1. Download *The Complete Journey* from <https://www.dunnhumby.com/source-files/> under
    dunnhumby's terms.
 2. Put the release folder at `data/raw/dunnhumby_The-Complete-Journey/` so that it contains
-   exactly these nine files (the CSV subfolder name contains spaces):
+   these nine files (the CSV subfolder name contains spaces):
 
    ```
    data/raw/dunnhumby_The-Complete-Journey/

@@ -33,8 +33,9 @@ summary: {'PASS': 9, 'FAIL': 0, 'SKIPPED-BY-DESIGN': 2, 'WARN': 0}
 
 and a report in `build/reproduction_report_quick.json`. The two skipped checks need inputs
 that are not distributed: the Complete Journey files and the stored learned-model responses.
-If `tectonic` is not installed or has no cached TeX bundle, the paper check is a third
-`SKIPPED-BY-DESIGN` entry, because reproduction never installs or downloads TeX.
+If `tectonic` is not installed or has no cached TeX bundle, the paper check is an additional
+`SKIPPED-BY-DESIGN` entry (here and in `--standard`), because reproduction never installs or
+downloads TeX.
 On a platform other than the original, the figure check may end in `WARN` (see Software).
 
 ## What the default run checks
@@ -141,7 +142,7 @@ moments of every simulated panel (`artifacts/known_truth_panels.json.gz`).
 
 Section 7 uses three hosted learned decision models, queried in October 2026 at pinned
 versions: `jev-1.13.0` and `jev-1.14.0` from TypeSafe, and `inception/mercury-decide-20260930`
-from Inception. The models were used as sources of out-of-family response functions, and every
+from Inception through OpenRouter. The models were used as sources of out-of-family response functions, and every
 query described a synthetic household. Hosted versions can change or be withdrawn, so the
 queries cannot be guaranteed to give the same answers again, and reproduction never repeats
 them.
@@ -188,18 +189,22 @@ Its name follows TypeSafe's term for decision models that return probabilities.
 
 ## Software
 
-- uv 0.13 or later. It installs Python 3.12 and the packages pinned in `uv.lock`. Without uv,
-  create a Python 3.12 environment, install the pinned packages and run `python reproduce.py`.
+- uv 0.13 or later. It installs Python 3.12 and the packages pinned in `uv.lock`, including
+  some (such as JupyterLab) that the checks do not use, so even `--help` needs the first
+  install. Without uv, create a Python 3.12 environment, install the versions listed in
+  `uv.lock` and run `python reproduce.py`.
 - Optional: [tectonic](https://tectonic-typesetting.github.io/) to compile the paper.
   Reproduction never downloads TeX resources, so tectonic needs its bundle in the local cache.
-  To fetch it once, compile a copy outside the repository, for example
-  `cp -R paper /tmp/paper-copy && tectonic /tmp/paper-copy/main.tex`. `pdfinfo` (poppler), if
-  present, is used to check the page count.
+  To fetch it once, copy `paper/` to a new folder outside the repository and run
+  `tectonic main.tex` there. `pdfinfo` (poppler), if present, is used to check the page count.
 - Tests: `uv run --frozen --extra dev pytest tests`.
 - Tested on macOS on Apple silicon, starting from a clean copy of the package. The code uses no
   macOS-specific features, but no other platform has been tested end to end. The figures are
-  byte-identical only on the original platform. Elsewhere the figure check reports `WARN` and
-  keeps the redrawn files in `build/figures/` for visual comparison.
+  byte-identical only on the original platform; elsewhere the figure check reports `WARN` and
+  keeps the redrawn files in `build/figures/` for visual comparison. Two other checks compare
+  bytes or digests and have been confirmed only on the original platform: the processed tables
+  in `--standard` and the result digests of `--learned-model-simulations`. A `FAIL` there on
+  another platform may reflect numerical differences rather than an error.
 
 ## Citation
 

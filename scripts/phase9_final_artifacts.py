@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 """Final Phase 9 publication artifact set (deterministic, identifier-free, hash-pinned).
 
-    cd ~/complete-journey && uv run python scripts/phase9_final_artifacts.py
+    uv run python scripts/phase9_final_artifacts.py            # from the repository root
+    uv run python scripts/phase9_final_artifacts.py --check    # rebuild and compare, no writes
 
 Rebuilt only from frozen inputs: the main local results (``963e65e9…``), the P9-007
 results (``a38d9790…``) and the Phase 8 RQ2 results (read-only). It writes to

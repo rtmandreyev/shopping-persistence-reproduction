@@ -212,3 +212,53 @@ def test_workers_must_be_positive(tmp_path):
     with pytest.raises(SystemExit) as e:
         reproduce.main(["--check", "--workers", "0", "--build-dir", str(tmp_path)])
     assert e.value.code == 2
+
+
+def _fake_archive(path: Path) -> Path:
+    for p in ("P-J13", "P-J14", "P-M"):
+        (path / "production" / p).mkdir(parents=True)
+    return path
+
+
+def test_learned_model_workspace_follows_the_options_given(tmp_path, monkeypatch):
+    import subprocess as sp
+
+    monkeypatch.setattr(M.subprocess, "run", lambda *a, **k: sp.CompletedProcess(a, 1, "", "stub"))
+    monkeypatch.setattr(M, "_git_init", lambda ws: None)
+    build, a1, a2 = tmp_path / "b", _fake_archive(tmp_path / "a1"), _fake_archive(tmp_path / "a2")
+    stores = tmp_path / "s"
+    for n in ("phase8_final/checkpoints", "phase8_stage1_p8005"):
+        (stores / n).mkdir(parents=True)
+    rep = Report("learned-model-simulations", build)
+    M.learned_model_simulations(rep, build, a1, 1, True)
+    assert [r.status for r in rep.results] == [FAIL, SKIP]  # direct run fails (stub); anchored needs stores
+    rep = Report("learned-model-simulations", build)
+    M.learned_model_simulations(rep, build, a1, 1, True, stores)  # stores added on a second run are used
+    assert [r.status for r in rep.results] == [FAIL, FAIL]
+    assert (build / "learned_model_workspace/outputs/diagnostics/phase8_final").resolve() == (stores / "phase8_final").resolve()
+    rep = Report("learned-model-simulations", build)
+    M.learned_model_simulations(rep, build, a2, 1, True)  # a different archive is refused, not ignored
+    assert [r.status for r in rep.results] == [FAIL] and "different --archive" in rep.results[0].detail
+
+
+def test_section7_rebuild_is_skipped_unless_both_full_runs_reproduce(tmp_path, monkeypatch):
+    import subprocess as sp
+
+    monkeypatch.setattr(M.subprocess, "run", lambda *a, **k: sp.CompletedProcess(a, 1, "", "stub"))
+    monkeypatch.setattr(M, "_git_init", lambda ws: None)
+    rep = Report("learned-model-simulations", tmp_path / "b")
+    M.learned_model_simulations(rep, tmp_path / "b", _fake_archive(tmp_path / "a"), 1, False)
+    assert rep.results[-1].check.startswith("Section 7 tables") and rep.results[-1].status == SKIP
+
+
+def test_expected_empirical_values_equal_the_frozen_fixed_effects_table():
+    import csv
+    import json
+
+    exp = json.loads((ROOT / "expected/empirical_values.json").read_text())
+    t4 = {r["model"]: r for r in csv.DictReader((ROOT / "outputs/tables/panel/final/t4_core_panel_results.csv").open())
+          if r["outcome"] == "retailer_purchase"}
+    for m in ("M0", "M1", "M2", "M3"):
+        assert abs(exp[f"panel.{m}_full"] - float(t4[m]["coefficient"])) < 1e-9
+    assert abs(exp["panel.M3_full_se_dk8"] - float(t4["M3"]["paper_facing_se"])) < 1e-9
+    assert abs(exp["panel.M3_full_se_twoway"] - float(t4["M3"]["original_two_way_se"])) < 1e-9

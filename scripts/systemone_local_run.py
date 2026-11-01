@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-"""Phase 9 local production run (executor). Started detached by
-``scripts/launch_systemone.py``; do not run it by hand for the production run.
+"""Phase 9 local production run (executor). Run from the repository root; the original
+production runs were started detached by a separate launcher.
 
   --execute       the frozen production design (N=2500, T=102, burn-in 26, R=200,
                   Q_pop=200, lambda in {0.5, 0.8, 0.95}, all three policies)

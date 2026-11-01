@@ -1,7 +1,7 @@
 # Provenance
 
-This note records what was fixed when, the departures from a fully prospective design that
-bear on interpretation, and the hashes that tie the shipped files to the frozen study. The
+This note records what was fixed when, the departures from a fully prospective design and the
+limitations that bear on interpretation, and the hashes that tie the shipped files to the frozen study. The
 paper discusses these points in Sections 5.4, 7.2, 7.5 and 8.1 and in Appendices D.4, D.7, E.6
 and G.
 
@@ -14,8 +14,10 @@ with the exceptions below. Many of these files are pinned by hash in the design 
 (`docs/phases/*/design_snapshot.json`, which also record the commit, in the unpublished
 development repository, at which each stage was fixed). Where verification depends on a file's
 hash, the file is preserved byte for byte, comments included, even when a comment is out of
-date; `scripts/launch_abm.py`, for example, is a development launcher kept only because the
-in-family design snapshot pins it. Comments in the code are working notes written during
+date. `scripts/launch_abm.py`, for example, is a development launcher kept only because the
+in-family design snapshot pins it, and the usage lines of `scripts/paper_publication_figures.py`,
+which the figure manifest pins, name the development checkout; run both from the repository
+root. Comments in the code are working notes written during
 development; in them, terms such as "approved" and "promoted" refer to entries in the study's
 decision records. The decision identifiers they cite are listed at the end of this note.
 
@@ -26,10 +28,17 @@ Code added or changed after the results were frozen, none of which changes a com
   `artifacts/known_truth_panels.json.gz`) and `src/complete_journey/reporting/binding.py`
   (reports no binding moment when κ\* = 0, as in Table D.1);
 - changed on 30 October 2026, after an independent audit: `scripts/phase9_final_artifacts.py`
-  (a non-writing `--check` mode), four modules in `src/complete_journey/choice/` (a portable
+  (a non-writing `--check` mode and, on 31 October, its usage line), four modules in `src/complete_journey/choice/` (a portable
   temporary-directory default in place of a machine-specific one) and
   `src/complete_journey/choice/final_contracts.py` (the hashes of those four modules and one
-  comment).
+  comment);
+- changed on 31 October 2026: the opening docstring of `scripts/systemone_local_run.py`, which
+  referred to a development launcher that is not part of this package.
+
+`expected/empirical_values.json`, against which `--standard` and the manuscript-number check
+compare the empirical results, was computed from the raw files by `repro/empirical.py` when this
+package was assembled (30 October 2026). Its fixed-effects coefficients and standard errors
+equal the frozen Table 4 records (`outputs/tables/panel/final/`), which a test confirms.
 
 ## Design commitments
 
@@ -46,7 +55,11 @@ Code added or changed after the results were frozen, none of which changes a com
   design and the stability screen were fixed before data collection began. The anchored design
   and its admissibility and degeneracy rules were fixed before any anchored truth was evaluated.
 
-## Departures relevant to interpretation
+## Departures and limitations relevant to interpretation
+
+Items 1, 2, 4 and 5 are the four departures from a fully prospective design that the paper's
+Appendix G lists. Item 6 is a post hoc analysis outside the recorded design (Appendices D.7 and
+G). Items 3 and 7 are limitations of the design itself.
 
 1. **Timing of the in-family design.** The rules were fixed after the real panel's values of
    the calibration target and the five moments had been examined, and the tolerances are built

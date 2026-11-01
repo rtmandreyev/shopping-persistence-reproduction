@@ -57,7 +57,7 @@ def numbers():
     res = N.check(ROOT)
     bad = [r for r in res if not r["pass"]]
     notes = [f"{r['id']}: {r['note']}" for r in res if r["note"]]
-    detail = f"{len(res) - len(bad)} of {len(res)} manuscript numbers match their canonical sources"
+    detail = f"{len(res) - len(bad)} of {len(res)} manuscript numbers match their sources"
     if bad:
         return FAIL, detail + "; mismatches: " + "; ".join(f"{r['id']} expected '{r['expected_phrase']}'" for r in bad[:5]), {"results": res}
     if notes:
@@ -180,7 +180,7 @@ def paper(build: Path):
 
 def quick(rep: Report, build: Path, workers: int, verify_only: bool = False, standard: bool = False):
     rep.run("checksums of shipped files", checksums)
-    rep.run("manuscript numbers vs canonical sources", numbers)
+    rep.run("manuscript numbers vs their sources", numbers)
     rep.run("known-truth verdicts recomputed from stored moments (Section 6)", known_truth_verdicts, workers)
     rep.run("real-panel comparison recomputed (Table D.1)", real_panel_comparison)
     rep.run("grid-resolution diagnostic recomputed (Appendix D.7)", grid_diagnostic, workers)
@@ -339,15 +339,22 @@ def learned_model_simulations(rep: Report, build: Path, archive: Path | None, wo
     if not ws.exists():  # an existing workspace is kept so that checkpoints resume
         shutil.copytree(ROOT, ws, ignore=_ignore)
         _git_init(ws)
-        (ws / "outputs/decision_logs").mkdir(parents=True, exist_ok=True)
-        (ws / "outputs/decision_logs/phase9").symlink_to(archive.resolve(), target_is_directory=True)
-        if stores is not None:
-            (ws / "outputs/diagnostics").mkdir(parents=True, exist_ok=True)
-            for name in ("phase8_final", "phase8_stage1_p8005"):
-                (ws / "outputs/diagnostics" / name).symlink_to((stores / name).resolve(), target_is_directory=True)
+    links = {ws / "outputs/decision_logs/phase9": archive}
+    if stores is not None:
+        links.update({ws / "outputs/diagnostics" / n: stores / n for n in ("phase8_final", "phase8_stage1_p8005")})
+    for link, target in links.items():
+        if link.is_symlink() and link.resolve() != target.resolve():
+            rep.add("learned-model simulations", FAIL,
+                    f"{ws} was created with a different {'--archive' if 'phase9' in link.name else '--checkpoint-stores'} "
+                    f"({link.resolve()}); delete that folder to start again with the new one")
+            return
+        if not link.is_symlink():
+            link.parent.mkdir(parents=True, exist_ok=True)
+            link.symlink_to(target.resolve(), target_is_directory=True)
     have_stores = (ws / "outputs/diagnostics/phase8_final/checkpoints").exists()
     env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
     scale = "small scale" if small else "full scale"
+    passed = 0
     for anchored, label in ((False, "phase9_local"), (True, "phase9_p9007")):
         name = f"{'anchored' if anchored else 'direct'} learned-model run ({scale})"
         if anchored and not have_stores:
@@ -367,10 +374,14 @@ def learned_model_simulations(rep: Report, build: Path, archive: Path | None, wo
         elif res["results_sha256"] == LEARNED_MODEL_PINS[label]:
             rep.add(name, PASS, f"results digest equals the frozen value {LEARNED_MODEL_PINS[label][:16]}",
                     time.time() - t)
+            passed += 1
         else:
             rep.add(name, FAIL, f"results digest {res['results_sha256'][:16]} differs from the frozen value",
                     time.time() - t)
-    if not small:
+    if not small and passed < 2:
+        rep.add("Section 7 tables rebuilt from the regenerated results", SKIP,
+                "needs both full-scale runs to reproduce the frozen results")
+    elif not small:
         r = subprocess.run([sys.executable, "scripts/phase9_final_artifacts.py", "--check"], cwd=ws,
                            capture_output=True, text=True, env=env)
         rep.add("Section 7 tables rebuilt from the regenerated results", PASS if r.returncode == 0 else FAIL,
@@ -379,10 +390,11 @@ def learned_model_simulations(rep: Report, build: Path, archive: Path | None, wo
 
 KNOWN_TRUTH_TEXT = """The in-family known-truth simulations (Section 6) are not rerun by this package.
 
-The original production run consisted of 3,948 jobs and took 37.4 hours of wall time on six worker
-processes (macOS on Apple silicon); the jobs used 199.7 hours of processor time in total. Its runner (scripts/final_run.py) checkpoints every job and draws from
-seeded streams, but it is bound to the frozen design snapshot and refuses to start a stage that
-has already been run. A new run would therefore be a new experiment.
+The original production run consisted of 3,948 jobs and took 37.4 hours of wall time on six
+worker processes (macOS on Apple silicon); the jobs used 199.7 hours of processor time in total.
+Its runner (scripts/final_run.py) checkpoints every job and draws from seeded streams, but it is
+bound to the frozen design snapshot and refuses to start a stage that has already been run. A
+new run would therefore be a new experiment.
 
 What is verified instead: --quick recomputes every verdict of Section 6 and Appendix D (53
 known truths of 200 panels each, and the real-panel comparison) from the stored per-panel
