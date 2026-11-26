@@ -2,6 +2,12 @@
 
 *Known-Truth Limits on Attributing Persistence in a Household Purchase Panel*
 
+| For | Start with |
+|---|---|
+| The decision and the recommended next step, in plain language | [Business brief: *Does Repeat Shopping Mean Loyalty?*](brief/business_brief.pdf) (8 pages) |
+| The full empirical and methodological argument | [Research paper](paper/main.pdf) (40 pages) |
+| Code, data instructions and verification | [Reproduce the paper](#reproduce-the-paper), below |
+
 Reproduction materials for: Artyom Andreyev (2026), "Heterogeneity, Latent State or Purchase
 History? Known-Truth Limits on Attributing Persistence in a Household Purchase Panel." Working
 paper, Arizona State University. The paper is [`paper/main.pdf`](paper/main.pdf), and its
@@ -174,6 +180,7 @@ resume after an interruption.
 | `src/complete_journey/`, `scripts/`, `sql/` | the study's code (`PROVENANCE.md` lists the few files added or changed after the results were frozen) |
 | `docs/phases/`, `outputs/tables/` | frozen aggregate results and design snapshots |
 | `paper/` | manuscript source, PDF and figures |
+| `brief/` | a business-facing companion to the paper (PDF and source); not part of the reproduction checks |
 | `data/` | instructions and the file manifest for the raw data (no data) |
 | `tests/` | tests of the reproduction checks |
 | `PROVENANCE.md` | when each part of the design was fixed, departures from a prospective design, and hashes |
